@@ -1,2 +1,8 @@
+matplotlib
+loguru
+pandas
+pdf2image
+pillow
+pydantic
 python-levenshtein==0.27.1
 tqdm
