@@ -6,13 +6,6 @@ import os
 import json
 
 
-'''
-ds = load_dataset("nanonets/key_information_extraction", split="test")
-
-for x in ds:
-    print(x.keys())
-'''
-
 def kie():
     output_path = os.path.join("data", "kie")
 
