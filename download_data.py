@@ -4,6 +4,7 @@ import argparse
 import io
 import os
 import json
+import inspect
 
 
 def kie():
@@ -45,3 +46,9 @@ if __name__ == "__main__":
     for task in args_dict.keys():
         if args_dict[task]:
             task_func[task]()
+
+    '''
+    functions = []
+    for name, obj in list(globals().items()):
+        print(name, obj)
+    '''
