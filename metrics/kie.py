@@ -3,7 +3,7 @@ from __future__ import annotations
 from Levenshtein import distance as edit_distance
 from tqdm import tqdm
 
-from datasets.ds import Prediction
+from dataset.ds import Prediction
 
 
 def get_kie_metrics(predictions: list[Prediction]):
