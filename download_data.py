@@ -37,5 +37,11 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
 
-    if args.kie:
-        kie()
+    task_func = {
+        "kie": kie
+    }
+
+    args_dict = args.__dict__
+    for task in args_dict.keys():
+        if args_dict[task]:
+            task_func[task]()
