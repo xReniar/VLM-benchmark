@@ -12,7 +12,7 @@ from pydantic import BaseModel
 from pydantic import ConfigDict
 from tqdm import tqdm
 
-from datasets.utils import convert_pdf2image
+from dataset.utils import convert_pdf2image
 
 
 class ExtractionType(Enum):
