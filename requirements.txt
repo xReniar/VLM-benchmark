@@ -1,9 +1,13 @@
+accelerate
 datasets
 matplotlib
+num2words
 loguru
 pandas
 pdf2image
 pillow
 pydantic
 python-levenshtein==0.27.1
+torch
 tqdm
+transformers
