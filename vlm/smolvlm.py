@@ -7,19 +7,10 @@ import json
 
 def inference(
     image: Image.Image,
+    model,
+    processor,
     prompt: str
 ):
-    model_id = "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
-
-    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
-    processor = AutoProcessor.from_pretrained(model_id)
-    model = AutoModelForImageTextToText.from_pretrained(
-        model_id,
-        torch_dtype=torch.bfloat16,
-        _attn_implementation="eager"
-    ).to(DEVICE)
-
     messages = [
         {"role": "user", "content": [
             {"type": "image", "image": image},
@@ -55,13 +46,24 @@ prompt = "Extract the following {fields} from the above document. If a field is 
         output_format = output_format
     )
 
-import time
+model_id = "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+processor = AutoProcessor.from_pretrained(model_id)
+model = AutoModelForImageTextToText.from_pretrained(
+    model_id,
+    torch_dtype=torch.bfloat16,
+    _attn_implementation="eager"
+).to(DEVICE)
 
 for (img_fn, _) in zip(images, labels):
     image = Image.open(f"../datasets/kie/images/{img_fn}")
 
     result: str = inference(
         image = image,
+        model = model,
+        processor = processor,
         prompt = prompt
     )
 
