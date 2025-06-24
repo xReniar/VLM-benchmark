@@ -1,0 +1,11 @@
+prompt: perform key information extraction
+
+
+models:
+    hugginface:
+        smolvlm:
+            model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+
+    ollama:
+        qwen2.5-vl:
+            model: qwen2.5vl:3b
