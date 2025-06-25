@@ -12,7 +12,7 @@ class HuggingFacePredictor(Predictor):
         super().__init__()
         self.model_name = model_name
 
-    def _init_model(self):
+    def _init_model(self) -> None:
         self.processor = AutoProcessor.from_pretrained(self.model_name)
         self.model = AutoModelForImageTextToText().from_pretrained(
             pretrained_model_name_or_path = self.model_name,
