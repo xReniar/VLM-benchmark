@@ -4,7 +4,7 @@ import os
 import json
 
 
-def inference(image_path, prompt, options, model='qwen2.5vl:7b'):
+def inference(image_path, prompt, options, model='qwen2.5vl:3b'):
     # Carica e codifica l'immagine in base64
     with open(image_path, 'rb') as img_file:
         image_base64 = base64.b64encode(img_file.read()).decode('utf-8')
@@ -54,6 +54,9 @@ for (img_fn, _) in zip(images, labels):
         options=options
     )
 
-    with open(f"../responses/kie/qwen2.5/{img_fn}.json") as f:
-        json.dump(response, f, indent=4)
+    response_str = response["response"]
+    s_clean = response_str.replace('```json', '').replace('```', '').strip()
+
+    with open(f"../responses/kie/qwen2.5/{img_fn}.json", "w") as f:
+        json.dump(json.loads(s_clean), f, indent=4)
 
