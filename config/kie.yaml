@@ -1,11 +1,15 @@
-prompt: perform key information extraction
+hugginface:
+    smolvlm:
+        model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+        temperature:
+        top_p:
+        top_k:
+        repetition_penalty:
+        max_new_tokens:
 
+    qwen2.5-vl:
+        model:
 
-models:
-    hugginface:
-        smolvlm:
-            model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
-
-    ollama:
-        qwen2.5-vl:
-            model: qwen2.5vl:3b
+ollama:
+    qwen2.5-vl:
+        model: qwen2.5vl:3b
