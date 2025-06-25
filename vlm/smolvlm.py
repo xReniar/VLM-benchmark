@@ -68,7 +68,11 @@ for (img_fn, _) in zip(images, labels):
     )
 
     json_str = result.split("Assistant: ")[1]
-    json_result = json.loads(json_str)
+    try:
+        json_result = json.loads(json_str)
+    except:
+        json_result = {}
 
-    with open(f"../responses/kie/smolvlm/{img_fn}.json") as f:
+
+    with open(f"../responses/kie/smolvlm/{img_fn}.json", "w") as f:
         json.dump(json_result, f, indent=4)
