@@ -46,17 +46,18 @@ options = {
 }
 
 for (img_fn, _) in zip(images, labels):
-    #image = Image.open(f"../datasets/kie/images/{img_fn}")
-    img_path = f"../datasets/kie/images/{img_fn}"
-    response = inference(
-        image_path=img_path,
-        prompt=prompt,
-        options=options
-    )
+    if not os.path.exists(f"../responses/kie/qwen2.5/{img_fn}.json"):
+        #image = Image.open(f"../datasets/kie/images/{img_fn}")
+        img_path = f"../datasets/kie/images/{img_fn}"
+        response = inference(
+            image_path=img_path,
+            prompt=prompt,
+            options=options
+        )
 
-    response_str = response["response"]
-    s_clean = response_str.replace('```json', '').replace('```', '').strip()
+        #response_str = response["response"]
+        #s_clean = response_str.replace('```json', '').replace('```', '').strip()
 
-    with open(f"../responses/kie/qwen2.5/{img_fn}.json", "w") as f:
-        json.dump(json.loads(s_clean), f, indent=4)
+        with open(f"../responses/kie/qwen2.5/{img_fn}.json", "w") as f:
+            json.dump(json.loads(response), f, indent=4)
 
