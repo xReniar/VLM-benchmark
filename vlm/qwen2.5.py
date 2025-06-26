@@ -59,5 +59,5 @@ for (img_fn, _) in zip(images, labels):
         #s_clean = response_str.replace('```json', '').replace('```', '').strip()
 
         with open(f"../responses/kie/qwen2.5/{img_fn}.json", "w") as f:
-            json.dump(json.loads(response), f, indent=4)
+            json.dump(response, f, indent=4)
 
