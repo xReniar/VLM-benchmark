@@ -26,7 +26,7 @@ def inference(
         return_tensors="pt",
     ).to(model.device, dtype=torch.bfloat16)
 
-    outputs = model.generate(**inputs, do_sample=True, temperature=0.1, top_p=0.9, top_k=0, repetition_penalty=1.3, max_new_tokens=1000)
+    outputs = model.generate(**inputs, do_sample=True, temperature=0.1, top_p=0.9, top_k=0, repetition_penalty=1.3, max_new_tokens=2000)
 
     return processor.decode(outputs[0], skip_special_tokens=True)
 
@@ -58,21 +58,24 @@ model = AutoModelForImageTextToText.from_pretrained(
 ).to(DEVICE)
 
 for (img_fn, _) in zip(images, labels):
-    image = Image.open(f"../datasets/kie/images/{img_fn}")
+    if not os.path.exists(f"../responses/kie/smolvlm/{img_fn}.json"):
+        image = Image.open(f"../datasets/kie/images/{img_fn}")
+        result: str = inference(
+            image = image,
+            model = model,
+            processor = processor,
+            prompt = prompt
+        )
 
-    result: str = inference(
-        image = image,
-        model = model,
-        processor = processor,
-        prompt = prompt
-    )
-
-    json_str = result.split("Assistant: ")[1]
-    try:
-        json_result = json.loads(json_str)
-    except:
-        json_result = {}
+        '''json_str = result.split("Assistant: ")[1]
+        try:
+            json_result = json.loads(json_str)
+        except:
+            json_result = {}'''
+        json_result = dict(
+            prediction = result
+        )
 
 
-    with open(f"../responses/kie/smolvlm/{img_fn}.json", "w") as f:
-        json.dump(json_result, f, indent=4)
+        with open(f"../responses/kie/smolvlm/{img_fn}.json", "w") as f:
+            json.dump(json_result, f, indent=4)
