@@ -26,7 +26,7 @@ def inference(
         return_tensors="pt",
     ).to(model.device, dtype=torch.bfloat16)
 
-    outputs = model.generate(
+    generated_ids = model.generate(
         **inputs,
         do_sample=True, 
         #temperature=0.1, 
@@ -36,7 +36,12 @@ def inference(
         max_new_tokens=1000
     )
 
-    return processor.decode(outputs[0], skip_special_tokens=True)
+    #return processor.decode(outputs[0], skip_special_tokens=True)
+    generated_texts = processor.batch_decode(
+        generated_ids,
+        skip_special_tokens=True,
+    )
+    return generated_texts[0]
 
 
 images = sorted(os.listdir("../datasets/kie/images"))
