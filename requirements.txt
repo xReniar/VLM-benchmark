@@ -9,5 +9,6 @@ pillow
 pydantic
 python-levenshtein==0.27.1
 torch
+torchvision
 tqdm
 transformers
