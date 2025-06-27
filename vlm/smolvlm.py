@@ -26,7 +26,15 @@ def inference(
         return_tensors="pt",
     ).to(model.device, dtype=torch.bfloat16)
 
-    outputs = model.generate(**inputs, do_sample=True, temperature=0.1, top_p=0.9, top_k=0, repetition_penalty=1.3, max_new_tokens=2000)
+    outputs = model.generate(
+        **inputs,
+        do_sample=True, 
+        #temperature=0.1, 
+        top_p=0.9, 
+        #top_k=0, 
+        repetition_penalty=1.3, 
+        max_new_tokens=1000
+    )
 
     return processor.decode(outputs[0], skip_special_tokens=True)
 
@@ -46,7 +54,8 @@ prompt = "Extract the following {fields} from the above document. If a field is 
         output_format = output_format
     )
 
-model_id = "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+#model_id = "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+model_id = "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
