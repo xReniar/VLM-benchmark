@@ -3,6 +3,7 @@ from transformers import AutoProcessor, AutoModelForImageTextToText, AutoModelFo
 from PIL import Image
 import os
 import json
+import time
 
 
 def inference(
@@ -26,6 +27,7 @@ def inference(
         return_tensors="pt",
     ).to(model.device, dtype=torch.bfloat16)
 
+    start = time.time()
     generated_ids = model.generate(
         **inputs,
         do_sample=True, 
@@ -35,13 +37,14 @@ def inference(
         repetition_penalty=1.3, 
         max_new_tokens=1000
     )
+    end = time.time()
 
     #return processor.decode(outputs[0], skip_special_tokens=True)
     generated_texts = processor.batch_decode(
         generated_ids,
         skip_special_tokens=True,
     )
-    return generated_texts[0]
+    return (end - start, generated_texts[0])
 
 
 images = sorted(os.listdir("../datasets/kie/images"))
@@ -74,7 +77,7 @@ model = AutoModelForImageTextToText.from_pretrained(
 for (img_fn, _) in zip(images, labels):
     if not os.path.exists(f"../responses/kie/smolvlm/{img_fn}.json"):
         image = Image.open(f"../datasets/kie/images/{img_fn}")
-        result: str = inference(
+        inference_time, result = inference(
             image = image,
             model = model,
             processor = processor,
@@ -87,7 +90,8 @@ for (img_fn, _) in zip(images, labels):
         except:
             json_result = {}'''
         json_result = dict(
-            prediction = result
+            prediction = result,
+            inference_time = inference_time
         )
 
 

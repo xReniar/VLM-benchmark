@@ -2,6 +2,7 @@ import base64
 import requests
 import os
 import json
+import time
 
 
 def inference(image_path, prompt, options, model='qwen2.5vl:3b'):
@@ -19,12 +20,14 @@ def inference(image_path, prompt, options, model='qwen2.5vl:3b'):
 
     }
 
+    start = time.time()
     response = requests.post('http://localhost:11434/api/generate', json=payload)
+    end = time.time()
 
     if response.status_code == 200:
-        return response.json()
+        return (end - start, response.json())
     else:
-        raise Exception(f"Errore: {response.status_code} - {response.text} - {image_path}")
+        return (-1, {})
     
 
 images = sorted(os.listdir("../datasets/kie/images"))
@@ -49,15 +52,20 @@ for (img_fn, _) in zip(images, labels):
     if not os.path.exists(f"../responses/kie/qwen2.5/{img_fn}.json"):
         #image = Image.open(f"../datasets/kie/images/{img_fn}")
         img_path = f"../datasets/kie/images/{img_fn}"
-        response = inference(
+        inference_time, response = inference(
             image_path=img_path,
             prompt=prompt,
             options=options
+        )
+
+        full_response = dict(
+            response = response,
+            inference_time = inference_time
         )
 
         #response_str = response["response"]
         #s_clean = response_str.replace('```json', '').replace('```', '').strip()
 
         with open(f"../responses/kie/qwen2.5/{img_fn}.json", "w") as f:
-            json.dump(response, f, indent=4)
+            json.dump(full_response, f, indent=4)
 
