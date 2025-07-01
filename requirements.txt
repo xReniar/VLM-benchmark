@@ -12,3 +12,6 @@ torch
 torchvision
 tqdm
 transformers
+decord
+sentencepiece
+moviepy
