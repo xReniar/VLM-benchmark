@@ -1,0 +1,15 @@
+benchmark:
+    tasks:
+        kie:
+            prompt:
+        vqa:
+            prompt:
+        ocr:
+            prompt:
+    tools:
+        AutoModelForVision2Seq:
+            - "HuggingFaceTB/SmolVLM-Instruct" 
+        AutoModelForImageTextToText:
+            - 
+        VisionEncoderDecoderModel:
+            -
