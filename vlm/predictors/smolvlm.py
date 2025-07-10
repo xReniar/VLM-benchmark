@@ -13,7 +13,7 @@ class SmolVLM(HFPredictor):
             torch_dtype=torch.bfloat16
         ).to(self.device)
 
-    def inference(self, prompt, img_path):
+    def inference(self, prompt: str, img_path: str):
         messages = [{
             "role": "user",
             "content": [ {"type": "image"}, {"type": "text", "text": prompt} ]
@@ -25,7 +25,7 @@ class SmolVLM(HFPredictor):
         inputs = self.processor(text=prompt, images=[img], return_tensors="pt").to(self.device)
 
         generated_ids = self.model.generate(**inputs, max_new_tokens=500)
-        generated_texts = self.sprocessor.batch_decode(
+        generated_texts = self.processor.batch_decode(
             generated_ids,
             skip_special_tokens=True,
         )
