@@ -25,5 +25,5 @@ class Predictor(ABC):
         pass
 
     @abstractmethod
-    def inference(self):
+    def inference(self, prompt: str, img_path: str):
         pass
