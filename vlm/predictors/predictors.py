@@ -14,9 +14,11 @@ class HFPredictor(ABC):
         )
 
         # predictor hyperparameters
+        '''
         self.top_p = float(args["top_p"])
         self.top_k = float(args["top_k"])
         self.max_tokens = int(args["max_tokens"])
+        '''
 
         # instantiate model
         self.processor = AutoProcessor.from_pretrained(self.model_name)
