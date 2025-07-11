@@ -16,7 +16,10 @@ class SmolVLM(HFPredictor):
     def inference(self, prompt: str, img_path: str):
         messages = [{
             "role": "user",
-            "content": [ {"type": "image"}, {"type": "text", "text": prompt} ]
+            "content": [
+                {"type": "image"},
+                {"type": "text", "text": prompt}
+            ]
         }]
 
         img = self.open_img(img_path)
