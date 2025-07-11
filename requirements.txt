@@ -15,3 +15,5 @@ transformers
 decord
 sentencepiece
 moviepy
+torchao
+bitsandbytes
