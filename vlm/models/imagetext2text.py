@@ -34,7 +34,7 @@ class ImageText2Text(VLMModelBase):
         ).to(self.device, dtype=torch.bfloat16)
 
         start = time.time()
-        generated_ids = self.model.generate(**inputs, do_sample=False, max_new_tokens=64)
+        generated_ids = self.model.generate(**inputs, **self.params, do_sample=False)
         generated_texts = self.processor.batch_decode(
             generated_ids,
             skip_special_tokens=True,
