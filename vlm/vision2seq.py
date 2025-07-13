@@ -1,6 +1,7 @@
 from .base import VLMModelBase
 from transformers import AutoModelForVision2Seq
 import torch
+import time
 
 
 @VLMModelBase.register_model("Vision2Seq")
@@ -15,7 +16,7 @@ class Vision2Seq(VLMModelBase):
             _attn_implementation="eager"
         ).to(self.device)
 
-    def predict(self, img_path: str, prompt: str) -> str:
+    def predict(self, img_path: str, prompt: str) -> dict:
         messages = [{
             "role": "user",
             "content": [
@@ -36,10 +37,15 @@ class Vision2Seq(VLMModelBase):
             return_tensors="pt"
         ).to(self.device)
 
+        start = time.time()
         generated_ids = self.model.generate(**inputs, max_new_tokens=500)
         generated_texts = self.processor.batch_decode(
             generated_ids,
             skip_special_tokens=True,
         )
+        end = time.time()
 
-        return generated_texts[0]
+        return dict(
+            response = generated_texts[0],
+            t = end - start
+        )

@@ -1,6 +1,7 @@
 from .base import VLMModelBase
 from transformers import AutoModelForImageTextToText
 import torch
+import time
 
 
 @VLMModelBase.register_model("ImageText2Text")
@@ -15,7 +16,7 @@ class ImageText2Text(VLMModelBase):
             _attn_implementation="eager"
         ).to(self.device)
 
-    def predict(self, img_path: str, prompt: str) -> str:
+    def predict(self, img_path: str, prompt: str) -> dict:
         messages = [{
             "role": "user",
             "content": [
@@ -32,10 +33,15 @@ class ImageText2Text(VLMModelBase):
             return_tensors="pt",
         ).to(self.device, dtype=torch.bfloat16)
 
+        start = time.time()
         generated_ids = self.model.generate(**inputs, do_sample=False, max_new_tokens=64)
         generated_texts = self.processor.batch_decode(
             generated_ids,
             skip_special_tokens=True,
         )
+        end = time.time()
         
-        return generated_texts[0]
+        return dict(
+            response = generated_texts[0],
+            t = end - start
+        )

@@ -2,6 +2,7 @@ from .base import VLMModelBase
 from transformers import Gemma3ForConditionalGeneration
 import base64
 import torch
+import time
 
 
 @VLMModelBase.register_model("Gemma3n")
@@ -16,7 +17,7 @@ class Gemma3n(VLMModelBase):
             device_map="auto"
         ).eval()
     
-    def predict(self, img_path: str, prompt: str) -> str:
+    def predict(self, img_path: str, prompt: str) -> dict:
         with open(img_path, "rb") as img_file:
             img =  base64.b64encode(img_file.read()).decode('utf-8')
 
@@ -37,9 +38,14 @@ class Gemma3n(VLMModelBase):
         ).to(self.device)
         input_len = inputs["input_ids"].shape[-1]
 
+        start = time.time()
         with torch.inference_mode():
             generation = self.model.generate(**inputs, max_new_tokens=100, do_sample=False)
             generation = generation[0][input_len:]
         decoded = self.processor.decode(generation, skip_special_tokens=True)
+        end = time.time()
 
-        return decoded
+        return dict(
+            response = decoded,
+            t = end - start
+        )
