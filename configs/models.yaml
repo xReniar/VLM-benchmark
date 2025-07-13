@@ -20,7 +20,7 @@ SmolVLM2:
 
 Qwen2.5-VL:
     model_id: Qwen/Qwen2.5-VL-3B-Instruct
-    type: Qwen2_5_VL
+    type: Qwen2.5-VL
     parameters:
         max_new_tokens:
         repetition_penalty:
@@ -29,14 +29,14 @@ Qwen2.5-VL:
         top_p:
 
 Gemma3n:
-    model_id: google/gemma-3n-e4b-it
+    model_id: unsloth/gemma-3n-E4B-it-GGUF
     type: Gemma3n
     parameters:
         max_new_tokens:
-        repetition_penalty:
+        repetition_penalty: 1.0
         temperature:
-        top_k:
-        top_p:
+        top_k: 64
+        top_p: 0.95
 
 Nanonets-OCR-s:
     model_id: nanonets/Nanonets-OCR-s
