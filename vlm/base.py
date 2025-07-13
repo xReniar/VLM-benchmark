@@ -9,14 +9,14 @@ class VLMModelBase(ABC):
 
     def __init__(self, config: dict):
         self.config = config
-        self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
-        self.model = self._init_model()
-
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else
             "mps" if torch.mps.is_available() else
             "cpu"
         )
+        
+        self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
+        self.model = self._init_model()
 
     def open_img(self, img_path: str) -> Image:
         return Image.open(img_path)
@@ -26,7 +26,7 @@ class VLMModelBase(ABC):
         pass
 
     @abstractmethod
-    def predict(self, img_path: str, prompt: str) -> str:
+    def predict(self, img_path: str, prompt: str) -> dict:
         pass
 
     @classmethod
