@@ -17,17 +17,21 @@ class VLMModelBase(ABC):
         
         # model base setup
         self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
-        self.params = self._init_params()
+        self.params = self._init_params(self.config.get("parameters"))
         self.model = self._init_model()
 
-    def _init_params(self) -> dict:
+    def _init_params(self, config_params: dict) -> dict:
         params = {}
+        
+        if config_params is not None:
+            params["max_new_tokens"] = config_params.get("max_new_tokens", 1000)
+            params["repetition_penalty"] = config_params.get("repetition_penalty")
+            params["temperature"] = config_params.get("temperature")
+            params["top_p"] = config_params.get("top_p")
+            params["top_k"] = config_params.get("top_k")
 
-        params["max_new_tokens"] = self.config.get("max_new_tokens", 3000)
-        params["repetition_penalty"] = self.config.get("repetition_penalty")
-        params["temperature"] = self.config.get("temperature")
-        params["top_p"] = self.config.get("top_p")
-        params["top_k"] = self.config.get("top_k")
+            params = {k: v for k, v in params.items() if v is not None}
+        
         return params
 
     def open_img(self, img_path: str) -> Image:
