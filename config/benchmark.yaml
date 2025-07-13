@@ -1,3 +1,11 @@
+tests:
+    dataset: ""
+    models: 
+        - SmolVLM
+        - Qwen2.5-VL
+        - Gemma3n
+
+
 kie:
     datasets:
         -
