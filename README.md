@@ -31,4 +31,5 @@ SmolVLM:
 ### benchmark
 The `benchmark.yaml` specifies 2 things:
 - `test`: specifies which `models` are going to be used for predictions using the `dataset` for the `task`
-- tasks: specifies the `tasks` and the system and user `prompt` to make for the models. It also specifies the dataset for that specific task.
+    - the `models` specified need to be present in the `models.yaml` file
+- `tasks`: specifies the `tasks` and the system and user `prompt` to make for the models. It also specifies the dataset for that specific task.
