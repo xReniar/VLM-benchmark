@@ -1,8 +1,5 @@
-from .base import VLMModelBase
-from . import gemma3n
-from . import imagetext2text
-from . import qwen2_5_vl
-from . import vision2seq
+from .models import VLMModelBase
+from .parsers import *
 import yaml
 
 
@@ -11,14 +8,10 @@ class VLM():
         self,
         model_name: str
     ) -> None:
-        self.config = yaml.safe_load(open("./configs/models.yaml", "r"))[model_name]
-        self._init_model()
+        config = yaml.safe_load(open("./configs/models.yaml", "r"))[model_name]
+        ModelClass = VLMModelBase.get_model_class(config["type"])
 
-    def _init_model(self):
-        model_type = self.config["type"]
-        ModelClass = VLMModelBase.get_model_class(model_type)
-
-        self.model: VLMModelBase = ModelClass(self.config)
+        self.model: VLMModelBase = ModelClass(config)
 
     def predict(
         self,
@@ -26,3 +19,7 @@ class VLM():
         prompt: str
     ) -> dict[str, float]:
         return self.model.predict(img_path, prompt)
+    
+__all__ = [
+    "VLM"
+]
