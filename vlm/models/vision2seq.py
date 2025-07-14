@@ -44,6 +44,7 @@ class Vision2Seq(VLMModelBase):
             skip_special_tokens=True,
         )
         end = time.time()
+        img.close()
 
         return dict(
             response = generated_texts[0],
