@@ -34,7 +34,7 @@ class VLMModelBase(ABC):
         
         return params
 
-    def open_img(self, img_path: str) -> Image:
+    def open_img(self, img_path: str) -> Image.Image:
         return Image.open(img_path)
 
     @abstractmethod
