@@ -1,6 +1,6 @@
 test:
-    task:
-    dataset:
+    task: kie
+    dataset: sroie
     models: 
         - SmolVLM
         - Qwen2.5-VL
