@@ -8,7 +8,7 @@ import inspect
 
 
 def kie():
-    output_path = os.path.join("datasets", "kie")
+    output_path = os.path.join("data", "kie")
     os.makedirs(os.path.join(output_path, "images"), exist_ok=True)
     os.makedirs(os.path.join(output_path, "labels"), exist_ok=True)
 
