@@ -4,7 +4,7 @@ from Levenshtein import distance as edit_distance
 import time
 
 
-gt_path = "datasets/kie/labels"
+gt_path = "data/kie/labels"
 gt_labels = sorted(os.listdir(gt_path))
 
 
