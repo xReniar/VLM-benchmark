@@ -41,7 +41,10 @@ class Dataset(BaseModel):
     split: str
     dir: str | None = None
 
-    def _convert_to_format(self, task: Task, item):
+    def _convert_to_format(self, task: Task, item) -> Field | VQA | Classification:
+        '''
+        This functions converts the `item` into "Field", "VQA" or "Classification" type based on the `task` parameter
+        '''
         processed = None
 
         if task == Task.CLS:
@@ -57,7 +60,7 @@ class Dataset(BaseModel):
             )
         elif task == Task.OCR:
             processed = Field(
-                label = None,
+                label = "text",
                 value = None,
                 bbox = BBox()
             )
@@ -68,7 +71,7 @@ class Dataset(BaseModel):
             )
         elif task == Task.OBJ:
             processed = Field(
-                label = None,
+                label = "object",
                 value = None,
                 bbox = BBox()
             )
