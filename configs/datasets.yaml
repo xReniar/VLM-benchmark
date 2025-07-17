@@ -1,0 +1,12 @@
+sroie:
+    link: https://www.kaggle.com/api/v1/datasets/download/urbikn/sroie-datasetv2 
+    tasks: 
+        - ocr
+        - kie
+
+docile:
+    tasks:
+        - ocr
+        - kie
+
+    
