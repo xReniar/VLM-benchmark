@@ -7,7 +7,7 @@ class Task(Enum):
     KIE = "kie"
     OCR = "ocr"
     VQA = "vqa"
-    OBJDE = "objde"
+    OBJ = "obj"
 
 class BBox(BaseModel):
     x1: int
@@ -52,7 +52,7 @@ class Dataset(BaseModel):
             pass
         elif task == Task.VQA:
             pass
-        elif task == Task.OBJDE:
+        elif task == Task.OBJ:
             pass
         else:
             raise Exception(f"Task {task} does not exist")
