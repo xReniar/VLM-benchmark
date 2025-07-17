@@ -9,15 +9,9 @@ test:
 
 tasks:
     kie:
-        datasets:
-            -
-            - 
         system_prompt:
         user_prompt:
 
     classification:
-        datasets:
-            - 
-            -
         system_prompt:
         user_prompt:
