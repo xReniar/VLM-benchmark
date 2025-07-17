@@ -35,3 +35,26 @@ class Data(BaseModel):
     objects: list[Field] | None
     vqa: list[VQA] | None
     cls: Classification | None
+
+class Dataset(BaseModel):
+    task: Task
+    split: str
+    dir: str | None = None
+
+    def _convert_to_format(self, task: Task, item):
+        processed = None
+
+        if task == Task.CLS:
+            pass
+        elif task == Task.KIE:
+            pass
+        elif task == Task.OCR:
+            pass
+        elif task == Task.VQA:
+            pass
+        elif task == Task.OBJDE:
+            pass
+        else:
+            raise Exception(f"Task {task} does not exist")
+
+        return processed
