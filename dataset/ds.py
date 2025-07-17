@@ -45,15 +45,33 @@ class Dataset(BaseModel):
         processed = None
 
         if task == Task.CLS:
-            pass
+            processed = Classification(
+                doc_type = None,
+                labels = []
+            )
         elif task == Task.KIE:
-            pass
+            processed = Field(
+                label = None,
+                value = None,
+                bbox = None
+            )
         elif task == Task.OCR:
-            pass
+            processed = Field(
+                label = None,
+                value = None,
+                bbox = BBox()
+            )
         elif task == Task.VQA:
-            pass
+            processed = VQA(
+                question = None,
+                answer = None
+            )
         elif task == Task.OBJ:
-            pass
+            processed = Field(
+                label = None,
+                value = None,
+                bbox = BBox()
+            )
         else:
             raise Exception(f"Task {task} does not exist")
 
