@@ -42,7 +42,6 @@ class Dataset(BaseModel):
     data: list[Data]
     task: Task
     split: str
-    dir: str | None = None
 
     def read_folder(self, path: str) -> list[str]:
         folder = os.listdir(path)
