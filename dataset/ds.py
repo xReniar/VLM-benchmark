@@ -2,11 +2,12 @@ from enum import Enum
 from pydantic import BaseModel
 
 
-class DataType(Enum):
+class Task(Enum):
     CLS = "cls"
     KIE = "kie"
     OCR = "ocr"
     VQA = "vqa"
+    OBJDE = "objde"
 
 class BBox(BaseModel):
     x1: int
@@ -30,7 +31,7 @@ class Classification(BaseModel):
 
 class Data(BaseModel):
     image_path: str
-    type: DataType
-    field: list[Field] | None
+    text: list[Field] | None
+    objects: list[Field] | None
     vqa: list[VQA] | None
     cls: Classification | None
