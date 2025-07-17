@@ -1,5 +1,6 @@
 from enum import Enum
 from pydantic import BaseModel
+import os
 
 
 class Task(Enum):
@@ -31,17 +32,24 @@ class Classification(BaseModel):
 
 class Data(BaseModel):
     image_path: str
-    text: list[Field] | None
+    fields: list[Field] | None
+    entities: list[Field] | None
     objects: list[Field] | None
     vqa: list[VQA] | None
     cls: Classification | None
 
 class Dataset(BaseModel):
+    data: list[Data]
     task: Task
     split: str
     dir: str | None = None
 
-    def _convert_to_format(self, task: Task, item) -> Field | VQA | Classification:
+    def read_folder(self, path: str) -> list[str]:
+        folder = os.listdir(path)
+        folder.sort()
+        return folder
+
+    def _convert_to_format(self, task: Task, item: dict) -> Field | VQA | Classification:
         '''
         This functions converts the `item` into "Field", "VQA" or "Classification" type based on the `task` parameter
         '''
@@ -49,25 +57,28 @@ class Dataset(BaseModel):
 
         if task == Task.CLS:
             processed = Classification(
-                doc_type = None,
-                labels = []
+                doc_type = item["doc_type"],
+                labels = item["labels"]
             )
         elif task == Task.KIE:
             processed = Field(
-                label = None,
-                value = None,
+                label = item["label"],
+                value = item["value"],
                 bbox = None
             )
         elif task == Task.OCR:
+            x1, y1, x2, y2 = tuple(item["bbox"])
             processed = Field(
                 label = "text",
-                value = None,
-                bbox = BBox()
+                value = item["text"],
+                bbox = BBox(
+                    x1, y1, x2, y2,
+                    item["normalized"])
             )
         elif task == Task.VQA:
             processed = VQA(
-                question = None,
-                answer = None
+                question = item["question"],
+                answer = item["answer"]
             )
         elif task == Task.OBJ:
             processed = Field(
