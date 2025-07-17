@@ -2,7 +2,7 @@ from enum import Enum
 from pydantic import BaseModel
 
 
-class DatasetType(Enum):
+class DataType(Enum):
     CLS = "cls"
     KIE = "kie"
     OCR = "ocr"
@@ -13,19 +13,24 @@ class BBox(BaseModel):
     y1: int
     x2: int
     y2: int
-
-class Text(BaseModel):
-    text: str
-    bbox: BBox | None = None
+    normalized: bool = False
 
 class Field(BaseModel):
     label: str
-    value: Text
+    value: str
+    bbox: BBox | None = None
 
 class VQA(BaseModel):
     question: str
     answer: str
 
-class CLS(BaseModel):
+class Classification(BaseModel):
     doc_type: str
     labels: list[str]
+
+class Data(BaseModel):
+    image_path: str
+    type: DataType
+    field: list[Field] | None
+    vqa: list[VQA] | None
+    cls: Classification | None
