@@ -14,38 +14,18 @@ class BBox(BaseModel):
     x2: int
     y2: int
 
-class Field(BaseModel):
-    label: str
-    value: str | list[str]
+class Text(BaseModel):
+    text: str
     bbox: BBox | None = None
 
-class Dataset(BaseModel):
-    image_path: list[str]
-
-class CLS(BaseModel):
-    image_path: str
-    category: str
-    text: str
-    bbox: BBox
-
-class KIE(BaseModel):
-    image_path: str
-    text: str
-    entity: str
-    bbox: BBox
-
-class OCR(BaseModel):
-    image_path: str
-    text: str
-    bbox: BBox
+class Field(BaseModel):
+    label: str
+    value: Text
 
 class VQA(BaseModel):
-    image_path: str
     question: str
-    answer: str | list[str]
-    bbox: BBox
+    answer: str
 
-class OCRDataset(BaseModel):
-    images_path: list[str]
-    
-
+class CLS(BaseModel):
+    doc_type: str
+    labels: list[str]
