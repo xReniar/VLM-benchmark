@@ -15,7 +15,6 @@ class BBox(BaseModel):
     y1: int
     x2: int
     y2: int
-    normalized: bool = False
 
 class Field(BaseModel):
     label: str
