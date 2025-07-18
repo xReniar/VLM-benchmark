@@ -3,6 +3,7 @@ from pdf2image import convert_from_path
 from PIL import Image
 import json
 import os
+import gc
 
 
 class DocILE(Dataset):
@@ -28,6 +29,7 @@ class DocILE(Dataset):
                 )
                 images[0].save(f"./data/docile/pdfs/{fn.strip('.pdf')}.jpg")
                 os.remove(f"./data/docile/pdfs/{fn}")
+        gc.collect()
 
     def _load_data(self) -> None:
         split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
