@@ -13,9 +13,8 @@ class SROIE(Dataset):
         self._load_data()
 
     def __extract_bbox_and_text(self, line: str) -> tuple[tuple[int], str]:
-        parts = line.split(',', 8)
-        coords = [int(x) for x in parts[:8]]
-        text = parts[8] if len(parts) > 8 else ""
+        coords = [int(x) for x in line[:8]]
+        text = line[8] if len(line) > 8 else ""
 
         coords = [coords[0], coords[1], coords[0], coords[1]]
         for i in range(0, len(coords), 2):
@@ -39,15 +38,17 @@ class SROIE(Dataset):
                     rows = f.readlines()
                     rows.sort()
                     for row in rows:
-                        coords, text = self.__extract_bbox_and_text(row)
+                        row = row.strip("\n").split(',', 8)
+                        if len(row) >= 8:
+                            coords, text = self.__extract_bbox_and_text(row)
 
-                        fields.append(self._convert_to_format(
-                            task = self.task,
-                            item = dict(
-                                bbox = coords,
-                                text = text
-                            )
-                        ))
+                            fields.append(self._convert_to_format(
+                                task = self.task,
+                                item = dict(
+                                    bbox = coords,
+                                    text = text
+                                )
+                            ))
 
                 self.data.append(Data(
                     image_path=f"./data/sroie/{self.split}/img/{image}",
