@@ -1,5 +1,7 @@
 from .ds import Dataset, Data, Task
+from pdf2image import convert_from_path
 import json
+import os
 
 
 class DocILE(Dataset):
@@ -9,6 +11,21 @@ class DocILE(Dataset):
         split: str
     ) -> None:
         super().__init__(task=task, split=split)
+        self._load_data()
 
-    def _load_data(self):
-        pass
+    def _convert_pdf_to_img(self):
+        split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
+
+        for fn in split_file: 
+            images = convert_from_path(
+                pdf_path=f"./data/docile/pdfs/{fn}.pdf",
+                dpi=200,
+                fmt="jpg"
+            )
+            images[0].save(f"./data/docile/pdfs/{fn}.jpg")
+            os.remove(f"./data/docile/pdfs/{fn}.pdf")
+
+    def _load_data(self) -> None:
+        split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
+
+        
