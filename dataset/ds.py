@@ -31,16 +31,16 @@ class Classification(BaseModel):
 
 class Data(BaseModel):
     image_path: str
-    fields: list[Field] | None
-    entities: list[Field] | None
-    objects: list[Field] | None
-    vqa: list[VQA] | None
-    cls: Classification | None
+    fields: list[Field] | None = None
+    entities: list[Field] | None = None
+    objects: list[Field] | None = None
+    vqa: list[VQA] | None = None
+    cls: Classification | None = None
 
 class Dataset(BaseModel):
-    data: list[Data]
     task: Task
     split: str
+    data: list[Data] = []
 
     def read_folder(self, path: str) -> list[str]:
         folder = os.listdir(path)
@@ -69,9 +69,7 @@ class Dataset(BaseModel):
             processed = Field(
                 label = "text",
                 value = item["text"],
-                bbox = BBox(
-                    x1, y1, x2, y2,
-                    item["normalized"])
+                bbox = BBox(x1=x1, y1=y1, x2=x2, y2=y2)
             )
         elif task == Task.VQA:
             processed = VQA(
