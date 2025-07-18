@@ -46,6 +46,9 @@ class Dataset(BaseModel):
         folder = os.listdir(path)
         folder.sort()
         return folder
+    
+    def __iter__(self):
+        return iter(self.data)
 
     def _convert_to_format(self, task: Task, item: dict) -> Field | VQA | Classification:
         '''
