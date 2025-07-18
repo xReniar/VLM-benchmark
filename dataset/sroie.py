@@ -10,8 +10,9 @@ class SROIE(Dataset):
         split: str
     ) -> None:
         super().__init__(task=task, split=split)
+        self._load_data()
 
-    def __extract_bbox_and_text(line) -> tuple[tuple[int], str]:
+    def __extract_bbox_and_text(self, line: str) -> tuple[tuple[int], str]:
         parts = line.split(',', 8)
         coords = [int(x) for x in parts[:8]]
         text = parts[8] if len(parts) > 8 else ""
@@ -44,7 +45,6 @@ class SROIE(Dataset):
                             task = self.task,
                             item = dict(
                                 bbox = coords,
-                                normalized = False,
                                 text = text
                             )
                         ))
@@ -59,7 +59,7 @@ class SROIE(Dataset):
                 entities = []
                 with open(f"./data/sroie/{self.split}/entities/{label}", "r") as f:
                     json_f: dict = json.load(f)
-                    for key, item in json_f.keys():
+                    for key, item in json_f.items():
                         entities.append(self._convert_to_format(
                             task = self.task,
                             item = dict(
