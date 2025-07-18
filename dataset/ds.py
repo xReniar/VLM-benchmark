@@ -48,7 +48,19 @@ class Dataset(BaseModel):
         return folder
     
     def __iter__(self):
-        return iter(self.data)
+        for item in self.data:
+            if self.task == Task.CLS:
+                yield {"image_path": item.image_path, "cls": item.cls}
+            elif self.task == Task.KIE:
+                yield {"image_path": item.image_path, "entities": item.entities}
+            elif self.task == Task.OCR:
+                yield {"image_path": item.image_path, "fields": item.fields}
+            elif self.task == Task.VQA:
+                yield {"image_path": item.image_path, "vqa": item.vqa}
+            elif self.task == Task.OBJ:
+                yield {"image_path": item.image_path, "objects": item.objects}
+            else:
+                raise ValueError(f"Task {self.task} not supported")
 
     def _convert_to_format(self, task: Task, item: dict) -> Field | VQA | Classification:
         '''
