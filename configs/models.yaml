@@ -19,7 +19,7 @@ SmolVLM2:
         top_p:
 
 Qwen2.5-VL:
-    model_id: Qwen/Qwen2.5-VL-3B-Instruct
+    model_id: unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit
     type: Qwen2.5-VL
     parameters:
         max_new_tokens:
