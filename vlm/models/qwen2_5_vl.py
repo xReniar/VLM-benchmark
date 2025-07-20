@@ -1,7 +1,6 @@
 from .base import VLMModelBase
 from transformers import Qwen2_5_VLForConditionalGeneration
 from qwen_vl_utils import process_vision_info
-import base64
 import time
 
 
@@ -18,13 +17,15 @@ class Qwen2_5_VL(VLMModelBase):
         )
     
     def predict(self, img_path: str, prompt: str) -> dict:
+        '''
         with open(img_path, "rb") as img_file:
             img =  base64.b64encode(img_file.read()).decode('utf-8')
+        '''
 
         messages = [{
             "role": "user",
             "content": [
-                { "type": "image", "image": img },
+                { "type": "image", "image": f"file://{img_path}" },
                 { "type": "text", "text": prompt }
             ]
         }]
