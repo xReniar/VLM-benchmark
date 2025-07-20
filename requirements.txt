@@ -1,4 +1,5 @@
 accelerate
+autoawq==0.1.8
 datasets
 matplotlib
 num2words
