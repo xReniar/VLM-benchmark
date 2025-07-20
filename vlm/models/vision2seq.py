@@ -1,5 +1,5 @@
 from .base import VLMModelBase
-from transformers import AutoModelForVision2Seq
+from transformers import AutoModelForVision2Seq, BitsAndBytesConfig
 import torch
 import time
 
@@ -10,10 +10,13 @@ class Vision2Seq(VLMModelBase):
         super().__init__(config)
 
     def _init_model(self):
+        #quant_config = BitsAndBytesConfig(load_in_4bit=True)
+
         return AutoModelForVision2Seq.from_pretrained(
             self.config["model_id"],
             torch_dtype=torch.bfloat16,
             _attn_implementation="eager"
+            #quantization_config = quant_config
         ).to(self.device)
 
     def predict(self, img_path: str, prompt: str) -> dict:
