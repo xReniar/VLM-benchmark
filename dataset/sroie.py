@@ -1,9 +1,11 @@
 from .ds import Dataset, Data, Task
+from typing import ClassVar
 import json
-import os
 
 
 class SROIE(Dataset):
+    TASKS: ClassVar[list[Task]] = [Task.OCR, Task.KIE]
+
     def __init__(
         self,
         task: Task,

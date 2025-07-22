@@ -1,4 +1,5 @@
 from .ds import Dataset, Data, Task
+from typing import ClassVar
 from pdf2image import convert_from_path
 from PIL import Image
 import json
@@ -6,6 +7,8 @@ import os
 
 
 class DocILE(Dataset):
+    TASKS: ClassVar[list[Task]] = [Task.OCR, Task.KIE]
+
     def __init__(
         self,
         task: Task,
