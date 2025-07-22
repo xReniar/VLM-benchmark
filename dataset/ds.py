@@ -31,6 +31,7 @@ class Classification(BaseModel):
 
 class Data(BaseModel):
     image_path: str
+    task: Task
     fields: list[Field] | None = None
     entities: list[Field] | None = None
     objects: list[Field] | None = None
