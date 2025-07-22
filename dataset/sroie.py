@@ -8,10 +8,10 @@ class SROIE(Dataset):
 
     def __init__(
         self,
-        task: Task,
+        tasks: list[Task],
         split: str
     ) -> None:
-        super().__init__(task=task, split=split)
+        super().__init__(tasks=tasks, split=split)
         self._load_data()
 
     def __extract_bbox_and_text(self, line: str) -> tuple[tuple[int], str]:
@@ -32,10 +32,10 @@ class SROIE(Dataset):
 
         for image in images:
             label = image.replace(".jpg", ".txt")
+            fields, entities = [], []
 
-            # OCR task
-            if self.task == Task.OCR:
-                fields = []
+            # For OCR task
+            if Task.OCR in self.tasks:
                 with open(f"./data/sroie/{self.split}/box/{label}", "r") as f:
                     rows = f.readlines()
                     rows.sort()
@@ -45,35 +45,28 @@ class SROIE(Dataset):
                             coords, text = self.__extract_bbox_and_text(row)
 
                             fields.append(self._convert_to_format(
-                                task = self.task,
+                                task=Task.OCR,
                                 item = dict(
                                     bbox = coords,
                                     text = text
                                 )
                             ))
 
-                self.data.append(Data(
-                    image_path=f"./data/sroie/{self.split}/img/{image}",
-                    task=self.task,
-                    fields = fields
-                ))
-
-            # KIE task
-            if self.task == Task.KIE:
-                entities = []
+            # For KIE task
+            if Task.KIE in self.tasks:
                 with open(f"./data/sroie/{self.split}/entities/{label}", "r") as f:
                     json_f: dict = json.load(f)
                     for key, item in json_f.items():
                         entities.append(self._convert_to_format(
-                            task = self.task,
+                            task=Task.KIE,
                             item = dict(
                                 label = key,
                                 value = item
                             )
                         ))
 
-                self.data.append(Data(
-                    image_path=f"./data/sroie/{self.split}/img/{image}",
-                    task=self.task,
-                    entities=entities
-                ))
+            self.data.append(Data(
+                image_path=f"./data/sroie/{self.split}/img/{image}",
+                fields=fields if fields else None,
+                entities=entities if entities else None
+            ))
