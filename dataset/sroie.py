@@ -52,6 +52,7 @@ class SROIE(Dataset):
 
                 self.data.append(Data(
                     image_path=f"./data/sroie/{self.split}/img/{image}",
+                    task=self.task,
                     fields = fields
                 ))
 
@@ -71,5 +72,6 @@ class SROIE(Dataset):
 
                 self.data.append(Data(
                     image_path=f"./data/sroie/{self.split}/img/{image}",
+                    task=self.task,
                     entities=entities
                 ))

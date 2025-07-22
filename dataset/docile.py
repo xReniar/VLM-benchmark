@@ -59,6 +59,7 @@ class DocILE(Dataset):
 
                     self.data.append(Data(
                         image_path=f"./data/docile/pdfs/{img_fn}.jpg",
+                        task=self.task,
                         fields=fields
                     ))
 
@@ -76,6 +77,7 @@ class DocILE(Dataset):
 
                 self.data.append(Data(
                     image_path=f"./data/docile/pdfs/{img_fn}.jpg",
+                    task=self.task,
                     entities=entities
                 ))
 
