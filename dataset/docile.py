@@ -68,8 +68,9 @@ class DocILE(Dataset):
                         )
                     ))
 
-            self.data.append(Data(
-                image_path=f"./data/sroie/{self.split}/img/{img_fn}",
-                fields=fields if fields else None,
-                entities=entities if entities else None
-            ))
+            if len(fields) > 0 or len(entities) > 0:
+                self.data.append(Data(
+                    image_path=f"./data/docile/pdfs/{img_fn}.jpg",
+                    fields=fields if fields else None,
+                    entities=entities if entities else None
+                ))
