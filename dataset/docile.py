@@ -11,10 +11,10 @@ class DocILE(Dataset):
 
     def __init__(
         self,
-        task: Task,
+        tasks: list[Task],
         split: str
     ) -> None:
-        super().__init__(task=task, split=split)
+        super().__init__(tasks=tasks, split=split)
         self._convert_pdf_to_img()
         self._load_data()
 
@@ -36,14 +36,11 @@ class DocILE(Dataset):
         split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
         split_file.sort()
 
-        folder_name = "ocr" if self.task == Task.OCR else "annotations"
-
         for img_fn in split_file:
-            label: dict = json.load(open(f"./data/docile/{folder_name}/{img_fn}.json", "r"))
+            fields, entities = [], []
 
-            if self.task == Task.OCR:
-                fields = []
-
+            if Task.OCR in self.tasks:
+                label: dict = json.load(open(f"./data/docile/ocr/{img_fn}.json", "r"))
                 if os.path.exists(f"./data/docile/pdfs/{img_fn}.jpg"):
                     img = Image.open(f"./data/docile/pdfs/{img_fn}.jpg")
                     for block in label["pages"][0]["blocks"]:
@@ -60,15 +57,8 @@ class DocILE(Dataset):
                                     )
                                 ))
 
-                    self.data.append(Data(
-                        image_path=f"./data/docile/pdfs/{img_fn}.jpg",
-                        task=self.task,
-                        fields=fields
-                    ))
-
-            if self.task == Task.KIE:
-                entities = []
-
+            if Task.KIE in self.tasks:
+                label: dict = json.load(open(f"./data/docile/annotations/{img_fn}.json", "r"))
                 for extraction in label["field_extractions"]:
                     entities.append(self._convert_to_format(
                         task = Task.KIE,
@@ -78,12 +68,8 @@ class DocILE(Dataset):
                         )
                     ))
 
-                self.data.append(Data(
-                    image_path=f"./data/docile/pdfs/{img_fn}.jpg",
-                    task=self.task,
-                    entities=entities
-                ))
-
-
-
-        
+            self.data.append(Data(
+                image_path=f"./data/sroie/{self.split}/img/{img_fn}",
+                fields=fields if fields else None,
+                entities=entities if entities else None
+            ))
