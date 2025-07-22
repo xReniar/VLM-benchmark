@@ -16,6 +16,9 @@ class BBox(BaseModel):
     x2: int
     y2: int
 
+    def get_coords(self) -> list[int]:
+        return [self.x1, self.y1, self.x2, self.y2]
+
 class Field(BaseModel):
     label: str
     value: str
