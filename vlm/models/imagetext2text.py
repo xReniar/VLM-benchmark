@@ -13,7 +13,8 @@ class ImageText2Text(VLMModelBase):
         return AutoModelForImageTextToText.from_pretrained(
             self.config["model_id"],
             torch_dtype=torch.bfloat16,
-            _attn_implementation="eager"
+            _attn_implementation="eager",
+            quantization_config = self.quantization
         ).to(self.device)
 
     def predict(self, img_path: str, prompt: str) -> dict:
