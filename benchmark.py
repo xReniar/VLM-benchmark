@@ -14,8 +14,6 @@ def inference(
     models: list[str]
 ):
     folder_path = "data/kie/images"
-    data_folder = sorted(os.listdir(folder_path))
-
     os.makedirs(f"responses/raw", exist_ok=True)
 
     field_names = ["date", "doc_no_receipt_no", "seller_address", "seller_gst_id", "seller_name", "seller_phone", "total_amount", "total_tax"]
@@ -32,14 +30,14 @@ def inference(
         output_dict = {}
         model = VLM(model_name)
 
-        for fn in data_folder:
+        for fn in sorted(os.listdir(folder_path)):
             output_dict[fn] = model.predict(
                 img_path=f"{folder_path}/{fn}",
                 prompt=prompt
             )
 
-        with open(f"responses/raw/{model_name}-{task}.json") as f:
-            json.dump(output_dict, f, indent=4)
+            with open(f"responses/raw/{model_name}-{task}.json", "w") as f:
+                json.dump(output_dict, f, indent=4)
 
         # clear memory
         torch.cuda.empty_cache()
