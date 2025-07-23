@@ -14,7 +14,7 @@ class Qwen2_5_VL(VLMModelBase):
             self.config["model_id"],
             torch_dtype="auto",
             device_map="auto"
-        )
+        ).to(self.device)
     
     def predict(self, img_path: str, prompt: str) -> dict:
         '''
@@ -41,8 +41,7 @@ class Qwen2_5_VL(VLMModelBase):
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        )
-        inputs = inputs.to("cuda")
+        ).to(self.device)
 
         start = time.time()
         generated_ids = self.model.generate(**inputs, **self.params, do_sample=True)
