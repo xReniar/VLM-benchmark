@@ -5,6 +5,7 @@ sroie:
         - kie
 
 docile:
+    link: null
     tasks:
         - ocr
         - kie
