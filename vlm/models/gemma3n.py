@@ -15,7 +15,7 @@ class Gemma3n(VLMModelBase):
             self.config["model_id"],
             torch_dtype="auto",
             device_map="auto"
-        ).eval()
+        ).eval().to(self.device)
     
     def predict(self, img_path: str, prompt: str) -> dict:
         with open(img_path, "rb") as img_file:
