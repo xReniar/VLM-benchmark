@@ -2,6 +2,7 @@ test:
     task: kie
     dataset: sroie
     models: 
+        - SmolVLM-500M
         - SmolVLM
         - Qwen2.5-VL
         - Gemma3n
