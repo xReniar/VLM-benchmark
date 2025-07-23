@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from transformers import AutoProcessor
+from transformers import AutoProcessor, BitsAndBytesConfig
 import torch
 from PIL import Image
 
@@ -18,6 +18,7 @@ class VLMModelBase(ABC):
         # model base setup
         self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
         self.params = self._init_params(self.config.get("parameters"))
+        self.quantization = self._init_quantization(self.config.get("quantization"))
         self.model = self._init_model()
 
     def _init_params(self, config_params: dict) -> dict:
@@ -33,6 +34,16 @@ class VLMModelBase(ABC):
             params = {k: v for k, v in params.items() if v is not None}
         
         return params
+    
+    def _init_quantization(self, config_quantization: dict) -> BitsAndBytesConfig | None:
+        quantization = None
+        
+        # solve THIS
+        if config_quantization is not None:
+            quantization = {k: v for k, v in config_quantization.items() if v is not None}
+            quantization = BitsAndBytesConfig(**quantization)
+        
+        return quantization
 
     def open_img(self, img_path: str) -> Image.Image:
         return Image.open(img_path)
