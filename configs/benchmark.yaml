@@ -12,6 +12,18 @@ tasks:
         system_prompt:
         user_prompt:
 
-    classification:
+    cls:
+        system_prompt:
+        user_prompt:
+
+    vqa:
+        system_prompt:
+        user_prompt:
+    
+    obj:
+        system_prompt:
+        user_prompt:
+
+    ocr:
         system_prompt:
         user_prompt:
