@@ -13,7 +13,8 @@ class Qwen2_5_VL(VLMModelBase):
         return Qwen2_5_VLForConditionalGeneration.from_pretrained(
             self.config["model_id"],
             torch_dtype="auto",
-            device_map="auto"
+            device_map="auto",
+            quantization_config = self.quantization
         ).to(self.device)
     
     def predict(self, img_path: str, prompt: str) -> dict:

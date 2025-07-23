@@ -14,7 +14,8 @@ class Gemma3n(VLMModelBase):
         return Gemma3ForConditionalGeneration.from_pretrained(
             self.config["model_id"],
             torch_dtype="auto",
-            device_map="auto"
+            device_map="auto",
+            quantization_config = self.quantization
         ).eval().to(self.device)
     
     def predict(self, img_path: str, prompt: str) -> dict:
