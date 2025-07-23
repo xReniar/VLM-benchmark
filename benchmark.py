@@ -13,18 +13,30 @@ def inference(
     dataset: str,
     models: list[str]
 ):
-    prompt = "extract "
     folder_path = "data/kie/images"
     data_folder = sorted(os.listdir(folder_path))
 
     os.makedirs(f"responses/raw", exist_ok=True)
+
+    field_names = ["date", "doc_no_receipt_no", "seller_address", "seller_gst_id", "seller_name", "seller_phone", "total_amount", "total_tax"]
+    output_format = {field: ".." for field in field_names}
+
+
+    prompt = "Extract the following {fields} from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {output_format}" \
+        .format(
+            fields = field_names,
+            output_format = output_format
+        )
     
     for model_name in models:
         output_dict = {}
         model = VLM(model_name)
 
         for fn in data_folder:
-            output_dict[fn] = model.predict(f"{folder_path}/{fn}", prompt)
+            output_dict[fn] = model.predict(
+                img_path=f"{folder_path}/{fn}",
+                prompt=prompt
+            )
 
         with open(f"responses/raw/{model_name}-{task}.json") as f:
             json.dump(output_dict, f, indent=4)
