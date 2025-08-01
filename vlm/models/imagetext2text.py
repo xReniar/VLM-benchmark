@@ -4,8 +4,8 @@ import torch
 import time
 
 
-@VLMModelBase.register_model("ImageText2Text")
-class ImageText2Text(VLMModelBase):
+@VLMModelBase.register_model("ImageTextToText")
+class ImageTextToText(VLMModelBase):
     def __init__(self, config: dict):
         super().__init__(config)
 
