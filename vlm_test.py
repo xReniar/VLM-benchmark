@@ -4,7 +4,7 @@ from PIL import Image
 
 vlm = LLM(
     model="Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
-    quantization="awq"
+    quantization="AWQ"
 )
 
 img = Image.open("data/kie/images/0.png")
