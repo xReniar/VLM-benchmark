@@ -36,6 +36,8 @@ Qwen2.5-VL-3B:
         temperature:
         top_k:
         top_p:
+    quantization:
+        load_in_8bit: True
 
 Qwen2.5-VL-7B:
     model_id: Qwen/Qwen2.5-VL-7B-Instruct
@@ -46,6 +48,8 @@ Qwen2.5-VL-7B:
         temperature:
         top_k:
         top_p:
+    quantization:
+        load_in_8bit: True
 
 Gemma3n:
     model_id: unsloth/gemma-3n-E4B-it-GGUF
