@@ -45,7 +45,7 @@ class Qwen2_5_VL(VLMModelBase):
         ).to(self.device)
 
         start = time.time()
-        generated_ids = self.model.generate(**inputs, **self.params, do_sample=True)
+        generated_ids = self.model.generate(**inputs, **self.params)
         generated_ids_trimmed = [
             out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
         ]
