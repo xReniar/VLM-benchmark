@@ -27,8 +27,18 @@ SmolVLM2:
         top_k: 10
         top_p: 0.9
 
-Qwen2.5-VL:
-    model_id: unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit
+Qwen2.5-VL-3B:
+    model_id: Qwen/Qwen2.5-VL-3B-Instruct
+    type: Qwen2.5-VL
+    parameters:
+        max_new_tokens: 1000
+        repetition_penalty:
+        temperature:
+        top_k:
+        top_p:
+
+Qwen2.5-VL-7B:
+    model_id: Qwen/Qwen2.5-VL-7B-Instruct
     type: Qwen2.5-VL
     parameters:
         max_new_tokens: 1000
