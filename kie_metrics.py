@@ -117,4 +117,13 @@ def qwen2_5_VL():
 #print(get_kie_metrics("smolvlm"))
 #print(get_kie_metrics("qwen2.5"))
 
-print(get_kie_metrics2("SmolVLM2"))
+models = [
+    "SmolVLM-500M",
+    "SmolVLM",
+    "SmolVLM2",
+    "Qwen2.5-VL-3B",
+    "Qwen2.5-VL-7B"
+]
+
+for model in models:
+    print(f"{model}: {get_kie_metrics2(model)}")
