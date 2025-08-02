@@ -39,7 +39,7 @@ class Vision2Seq(VLMModelBase):
         ).to(self.device)
 
         start = time.time()
-        generated_ids = self.model.generate(**inputs, **self.params, do_sample=True)
+        generated_ids = self.model.generate(**inputs, **self.params)
         generated_texts = self.processor.batch_decode(
             generated_ids,
             skip_special_tokens=True,

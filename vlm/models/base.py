@@ -32,6 +32,8 @@ class VLMModelBase(ABC):
             params["top_k"] = config_params.get("top_k")
 
             params = {k: v for k, v in params.items() if v is not None}
+
+        params["do_sample"] = True if params else False
         
         return params
     
