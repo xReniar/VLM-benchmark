@@ -2,7 +2,19 @@ from abc import ABC, abstractmethod
 from transformers import AutoProcessor, BitsAndBytesConfig
 import torch
 from PIL import Image
+import torch
 
+
+def get_torch_dtype(dtype: str) -> str:
+    dtypes = {
+        "int8": torch.int8,
+        "bfloat16": torch.bfloat16,
+        "float16": torch.float16,
+        "float32": torch.float32,
+        "auto": "auto"
+    }
+
+    return dtypes[dtype]    
 
 class VLMModelBase(ABC):
     _registry = {}
@@ -19,6 +31,8 @@ class VLMModelBase(ABC):
         self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
         self.params = self._init_params(self.config.get("parameters"))
         self.quantization = self._init_quantization(self.config.get("quantization"))
+        self.torch_dtype = get_torch_dtype(self.config.get("torch_dtype", "auto"))
+        self.attn_implementation = "eager"
         self.model = self._init_model()
 
     def _init_params(self, config_params: dict) -> dict:
