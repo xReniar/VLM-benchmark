@@ -1,0 +1,3 @@
+{
+    "prediction": "User:\n\n\n\n\nExtract the following ['date', 'doc_no_receipt_no', 'seller_address', 'seller_gst_id', 'seller_name', 'seller_phone', 'total_amount', 'total_tax'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'date': '..', 'doc_no_receipt_no': '..', 'seller_address': '..', 'seller_gst_id': '..', 'seller_name': '..', 'seller_phone': '..', 'total_amount': '..', 'total_tax': '..'}\nAssistant: {\n    \"date\": \"10/23\", \n    \"doc_no_receipt_no\": 497568, \n    \"seller_address\": \"AO3064\", \n    \"seller_gst_id\": \"\", \n    \"seller_name\": \"Tanah Desa Tebrau\", \n    \"seller_phone\": \"(0)2-8027328\", \n    \"total_amount\": \"49.70\", \n    \"total_tax\": \"49.70\"\n}"
+}
