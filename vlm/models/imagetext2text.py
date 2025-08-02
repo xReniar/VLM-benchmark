@@ -13,6 +13,7 @@ class ImageTextToText(VLMModelBase):
         return AutoModelForImageTextToText.from_pretrained(
             self.config["model_id"],
             torch_dtype=self.torch_dtype,
+            device_map="auto",
             _attn_implementation=self.attn_implementation,
             quantization_config = self.quantization
         ).to(self.device)
