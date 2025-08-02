@@ -12,8 +12,9 @@ class Qwen2_5_VL(VLMModelBase):
     def _init_model(self):
         return Qwen2_5_VLForConditionalGeneration.from_pretrained(
             self.config["model_id"],
-            torch_dtype="auto",
+            torch_dtype=self.torch_dtype,
             device_map="auto",
+            _attn_implementation=self.attn_implementation,
             quantization_config = self.quantization
         ).to(self.device)
     

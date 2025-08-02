@@ -12,8 +12,9 @@ class Vision2Seq(VLMModelBase):
     def _init_model(self):
         return AutoModelForVision2Seq.from_pretrained(
             self.config["model_id"],
-            torch_dtype=torch.bfloat16,
-            _attn_implementation="eager",
+            torch_dtype=self.torch_dtype,
+            device_map="auto",
+            _attn_implementation=self.attn_implementation,
             quantization_config = self.quantization
         ).to(self.device)
 

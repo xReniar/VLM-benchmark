@@ -13,7 +13,7 @@ class Gemma3n(VLMModelBase):
     def _init_model(self):
         return Gemma3ForConditionalGeneration.from_pretrained(
             self.config["model_id"],
-            torch_dtype="auto",
+            torch_dtype=self.torch_dtype,
             device_map="auto",
             quantization_config = self.quantization
         ).eval().to(self.device)
