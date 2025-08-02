@@ -33,6 +33,37 @@ def get_kie_metrics(
                 edit_distances.append(1 - (dist / max_len))
     return round(sum(edit_distances) / len(edit_distances), 3)
 
+def get_kie_metrics2(
+    vlm_name: str
+) -> float:
+    parsed_file_path = f"responses/parsed/{vlm_name}-kie.json"
+    predictions = json.load(open(parsed_file_path, "r"))
+
+    edit_distances = []
+
+    for img_fn in predictions.keys():
+        prediction: dict = predictions[img_fn]
+        response: dict = prediction["response"]
+
+        gt_fn: str = img_fn.split(".")[0]
+        gt_json: dict = json.load(open(os.path.join(gt_path, f"{gt_fn}.json"), "r"))
+        
+        for gt_field in gt_json.keys():
+            pred_value = response.get(gt_field, "")
+
+            pred_value = str(pred_value)
+            gt_value = str(gt_json[gt_field])
+
+            dist = edit_distance(pred_value, gt_value)
+            max_len = max(len(pred_value), len(gt_value))
+            if max_len == 0:
+                edit_distances.append(1.0)
+            else:
+                edit_distances.append(1 - (dist / max_len))
+
+    return round(sum(edit_distances) / len(edit_distances), 3)
+        
+
 '''
 def smolvlm():
     responses_path = "responses/parsed/kie/smolvlm"
@@ -83,5 +114,7 @@ def qwen2_5_VL():
 '''
 
 
-print(get_kie_metrics("smolvlm"))
-print(get_kie_metrics("qwen2.5"))
+#print(get_kie_metrics("smolvlm"))
+#print(get_kie_metrics("qwen2.5"))
+
+print(get_kie_metrics2("SmolVLM2"))
