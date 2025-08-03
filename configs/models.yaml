@@ -63,8 +63,9 @@ Qwen2.5-VL-7B:
         top_p:
 
 Gemma3n:
-    model_id: unsloth/gemma-3n-E4B-it-GGUF
+    model_id: google/gemma-3n-E2B-it
     type: Gemma3n
+    torch_dtype: bfloat16
     parameters:
         max_new_tokens: 1000
         repetition_penalty:
