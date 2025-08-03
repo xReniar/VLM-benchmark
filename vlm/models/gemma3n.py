@@ -1,5 +1,5 @@
 from .base import VLMModelBase
-from transformers import Gemma3ForConditionalGeneration
+from transformers import Gemma3nForConditionalGeneration
 import base64
 import torch
 import time
@@ -11,7 +11,7 @@ class Gemma3n(VLMModelBase):
         super().__init__(config)
 
     def _init_model(self):
-        return Gemma3ForConditionalGeneration.from_pretrained(
+        return Gemma3nForConditionalGeneration.from_pretrained(
             self.config["model_id"],
             torch_dtype=self.torch_dtype,
             device_map="auto",
