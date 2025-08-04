@@ -46,7 +46,7 @@ def parse_qwen2_5(file_name: str):
         prediction = predictions[img_fn]
 
         response: str = prediction["response"]
-        inference_time: float = prediction["inference_time"]
+        inference_time: float = prediction["t"]
 
         try:
             pred = response.replace('```json', '').replace('```', '').strip()
@@ -70,4 +70,4 @@ def parse_qwen2_5(file_name: str):
 #parse_smolvlm("SmolVLM-500M-kie")
 #parse_smolvlm("SmolVLM-kie")
 #parse_smolvlm("SmolVLM2-kie")
-parse_qwen2_5("qwen2.5-7b")
+parse_qwen2_5("Gemma3n-kie")
