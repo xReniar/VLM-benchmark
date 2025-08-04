@@ -122,7 +122,8 @@ models = [
     "SmolVLM",
     "SmolVLM2",
     "Qwen2.5-VL-3B",
-    "Qwen2.5-VL-7B"
+    "Qwen2.5-VL-7B",
+    "Gemma3n"
 ]
 
 for model in models:
