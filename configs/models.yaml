@@ -36,6 +36,7 @@ SmolVLM2-500M:
 SmolVLM2:
     model_id: HuggingFaceTB/SmolVLM2-2.2B-Instruct
     type: ImageTextToText
+    torch_dtype: bfloat16
     parameters:
         max_new_tokens: 1000
         repetition_penalty: 1.3
