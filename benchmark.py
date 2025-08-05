@@ -14,7 +14,9 @@ def inference(
     models: list[str]
 ):
     folder_path = "data/sroie/img"
-    os.makedirs(f"responses/raw", exist_ok=True)
+    dataset_name = "sroie"
+    output_dir = f"responses/raw/{dataset_name}"
+    os.makedirs(output_dir, exist_ok=True)
 
     #field_names = ["date", "doc_no_receipt_no", "seller_address", "seller_gst_id", "seller_name", "seller_phone", "total_amount", "total_tax"]
     field_names = ['address', 'company', 'date', 'total']
@@ -37,7 +39,7 @@ def inference(
                 prompt=prompt
             )
 
-            with open(f"responses/raw/{model_name}-{task}.json", "w") as f:
+            with open(f"{output_dir}/{model_name}-{task}.json", "w") as f:
                 json.dump(output_dict, f, indent=4)
 
         # clear memory
