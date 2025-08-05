@@ -21,6 +21,18 @@ SmolVLM:
         top_k: 10
         top_p: 0.9
 
+SmolVLM2-500M:
+    model_id: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+    type: ImageTextToText
+    torch_dtype: bfloat16
+    parameters:
+        max_new_tokens: 1000
+        repetition_penalty: 1.3
+        temperature: 0.5
+        top_k: 2
+        top_p: 0.9
+    quantization:
+
 SmolVLM2:
     model_id: HuggingFaceTB/SmolVLM2-2.2B-Instruct
     type: ImageTextToText
