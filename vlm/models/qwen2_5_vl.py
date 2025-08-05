@@ -56,6 +56,6 @@ class Qwen2_5_VL(VLMModelBase):
         end = time.time()
         
         return dict(
-            response = output_text,
+            response = output_text[0],
             t = end - start
         )
