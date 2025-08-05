@@ -33,7 +33,7 @@ class ImageTextToText(VLMModelBase):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
-        ).to(self.device, dtype=torch.bfloat16)
+        ).to(self.device, dtype=self.torch_dtype)
 
         start = time.time()
         generated_ids = self.model.generate(**inputs, **self.params)
