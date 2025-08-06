@@ -40,6 +40,14 @@ class Data(BaseModel):
     vqa: list[VQA] | None = None
     cls: Classification | None = None
 
+    def to_json(self, task: str):
+        json_result = {}
+        if task == "kie":
+            for entity in self.entities:
+                json_result[entity.label] = entity.value
+        
+        return json_result
+
 class Dataset(BaseModel):
     tasks: list[Task] = []
     split: str
