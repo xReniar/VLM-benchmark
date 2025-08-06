@@ -59,14 +59,15 @@ class DocILE(Dataset):
 
             if Task.KIE in self.tasks:
                 label: dict = json.load(open(f"./data/docile/annotations/{img_fn}.json", "r"))
-                for extraction in label["field_extractions"]:
-                    entities.append(self._convert_to_format(
-                        task = Task.KIE,
-                        item = dict(
-                            label = extraction["fieldtype"],
-                            value = extraction["text"]
-                        )
-                    ))
+                if os.path.exists(f"./data/docile/pdfs/{img_fn}.jpg"):
+                    for extraction in label["field_extractions"]:
+                        entities.append(self._convert_to_format(
+                            task = Task.KIE,
+                            item = dict(
+                                label = extraction["fieldtype"],
+                                value = extraction["text"]
+                            )
+                        ))
 
             if len(fields) > 0 or len(entities) > 0:
                 self.data.append(Data(
