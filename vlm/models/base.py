@@ -19,7 +19,7 @@ def get_torch_dtype(dtype: str) -> str:
 class VLMModelBase(ABC):
     _registry = {}
 
-    def __init__(self, config: dict):
+    def __init__(self, config: dict) -> None:
         self.config = config
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else
@@ -34,6 +34,7 @@ class VLMModelBase(ABC):
         self.torch_dtype = get_torch_dtype(self.config.get("torch_dtype", "auto"))
         self.attn_implementation = "eager"
         self.model = self._init_model()
+        self.model.to(self.device)
 
     def _init_params(self, config_params: dict) -> dict:
         params = {}
@@ -65,7 +66,7 @@ class VLMModelBase(ABC):
         return Image.open(img_path)
 
     @abstractmethod
-    def _init_model(self):
+    def _init_model(self) -> object:
         pass
 
     @abstractmethod
