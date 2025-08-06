@@ -10,13 +10,17 @@ class Vision2Seq(VLMModelBase):
         super().__init__(config)
 
     def _init_model(self):
+        '''
+        model.load_adapter("training/single_test/smolvlm-sroie/final")
+        To load Finetune model with LoRA
+        '''
         return AutoModelForVision2Seq.from_pretrained(
             self.config["model_id"],
             torch_dtype=self.torch_dtype,
             device_map="auto",
             _attn_implementation=self.attn_implementation,
             quantization_config = self.quantization
-        ).to(self.device)
+        )
 
     def predict(self, img_path: str, prompt: str) -> dict:
         messages = [{
