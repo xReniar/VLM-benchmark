@@ -16,7 +16,7 @@ class ImageTextToText(VLMModelBase):
             device_map="auto",
             _attn_implementation=self.attn_implementation,
             quantization_config = self.quantization
-        ).to(self.device)
+        )
 
     def predict(self, img_path: str, prompt: str) -> dict:
         messages = [{
