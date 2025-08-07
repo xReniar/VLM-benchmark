@@ -28,13 +28,16 @@ class VLMModelBase(ABC):
         )
         
         # model base setup
-        self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
         self.params = self._init_params(self.config.get("parameters"))
-        self.quantization = self._init_quantization(self.config.get("quantization"))
-        self.torch_dtype = get_torch_dtype(self.config.get("torch_dtype", "auto"))
-        self.attn_implementation = "eager"
-        self.model = self._init_model()
-        self.model.to(self.device)
+        if self.config["type"] == "ollama":
+            self.params.pop("do_sample")
+        else:
+            self.processor = AutoProcessor.from_pretrained(self.config["model_id"])
+            self.quantization = self._init_quantization(self.config.get("quantization"))
+            self.torch_dtype = get_torch_dtype(self.config.get("torch_dtype", "auto"))
+            self.attn_implementation = "eager"
+            self.model = self._init_model()
+            self.model.to(self.device)
 
     def _init_params(self, config_params: dict) -> dict:
         params = {}
@@ -55,14 +58,13 @@ class VLMModelBase(ABC):
     def _init_quantization(self, config_quantization: dict) -> BitsAndBytesConfig | None:
         quantization = None
         
-        # solve THIS
         if config_quantization is not None:
             quantization = {k: v for k, v in config_quantization.items() if v is not None}
             quantization = BitsAndBytesConfig(**quantization)
         
         return quantization
 
-    def open_img(self, img_path: str) -> Image.Image:
+    def open_img(self, img_path: str) -> Image.ImageFile:
         return Image.open(img_path)
 
     @abstractmethod
