@@ -64,7 +64,7 @@ class VLMModelBase(ABC):
         
         return quantization
 
-    def open_img(self, img_path: str) -> Image.ImageFile:
+    def open_img(self, img_path: str) -> Image:
         return Image.open(img_path)
 
     @abstractmethod
