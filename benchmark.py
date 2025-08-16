@@ -13,7 +13,7 @@ def inference(
     dataset: str,
     models: list[str]
 ):
-    folder_path = "data/sroie/img"
+    folder_path = "data/sroie/test/img"
     dataset_name = "sroie"
     output_dir = f"responses/raw/{dataset_name}"
     os.makedirs(output_dir, exist_ok=True)
