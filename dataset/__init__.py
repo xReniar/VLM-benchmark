@@ -1,7 +1,10 @@
 from .ds import Task, Data, Dataset
 from .docile import DocILE
 from .sroie import SROIE
+import os
 
+
+os.makedirs(os.path.join(os.path.dirname(__file__), "data"), exist_ok=True)
 
 class MultiDataset():
     def __init__(
