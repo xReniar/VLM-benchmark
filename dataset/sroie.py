@@ -26,6 +26,9 @@ class SROIE(Dataset):
             coords[3] = max(coords[3], coords[i + 1])
         
         return coords, text
+    
+    def _download(self) -> None:
+        pass
 
     def _load_data(self) -> None:
         images = self.read_folder(f"./data/sroie/{self.split}/img")
