@@ -4,7 +4,7 @@ import json
 
 
 class NNTS_KIE(Dataset):
-    TASKS: ClassVar[list[Task]] = [Task.OCR, Task.KIE]
+    TASKS: ClassVar[list[Task]] = [Task.KIE]
 
     def __init__(
         self,
