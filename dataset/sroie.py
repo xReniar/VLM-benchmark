@@ -31,7 +31,7 @@ class SROIE(Dataset):
         pass
 
     def _load_data(self) -> None:
-        images = self.read_folder(f"./data/sroie/{self.split}/img")
+        images = self.read_folder(f"{self.ROOT_DIR}/data/sroie/{self.split}/img")
 
         for image in images:
             label = image.replace(".jpg", ".txt")
@@ -39,7 +39,7 @@ class SROIE(Dataset):
 
             # For OCR task
             if Task.OCR in self.tasks:
-                with open(f"./data/sroie/{self.split}/box/{label}", "r") as f:
+                with open(f"{self.ROOT_DIR}/data/sroie/{self.split}/box/{label}", "r") as f:
                     rows = f.readlines()
                     rows.sort()
                     for row in rows:
@@ -57,7 +57,7 @@ class SROIE(Dataset):
 
             # For KIE task
             if Task.KIE in self.tasks:
-                with open(f"./data/sroie/{self.split}/entities/{label}", "r") as f:
+                with open(f"{self.ROOT_DIR}/data/sroie/{self.split}/entities/{label}", "r") as f:
                     json_f: dict = json.load(f)
                     for key, item in json_f.items():
                         entities.append(self._convert_to_format(
@@ -69,7 +69,7 @@ class SROIE(Dataset):
                         ))
 
             self.data.append(Data(
-                image_path=f"./data/sroie/{self.split}/img/{image}",
+                image_path=f"{self.ROOT_DIR}/data/sroie/{self.split}/img/{image}",
                 fields=fields if fields else None,
                 entities=entities if entities else None
             ))

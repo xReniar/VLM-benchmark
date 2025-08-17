@@ -21,15 +21,15 @@ class DocILE(Dataset):
         '''
         Converts pdfs into images
         '''
-        for fn in os.listdir(f"./data/docile/pdfs"): 
+        for fn in os.listdir(f"{self.ROOT_DIR}/data/docile/pdfs"): 
             if fn.endswith(".pdf"):
                 images = convert_from_path(
-                    pdf_path=f"./data/docile/pdfs/{fn}",
+                    pdf_path=f"{self.ROOT_DIR}/data/docile/pdfs/{fn}",
                     dpi=200,
                     fmt="jpg"
                 )
-                images[0].save(f"./data/docile/pdfs/{fn.strip('.pdf')}.jpg")
-                os.remove(f"./data/docile/pdfs/{fn}")
+                images[0].save(f"{self.ROOT_DIR}/data/docile/pdfs/{fn.strip('.pdf')}.jpg")
+                os.remove(f"{self.ROOT_DIR}/data/docile/pdfs/{fn}")
 
 
     def _download(self) -> None:
@@ -37,16 +37,16 @@ class DocILE(Dataset):
         self._convert_pdf_to_img()
 
     def _load_data(self) -> None:
-        split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
+        split_file: list[str] = json.load(open(f"{self.ROOT_DIR}/data/docile/{self.split}.json", "r"))
         split_file.sort()
 
         for img_fn in split_file:
             fields, entities = [], []
 
             if Task.OCR in self.tasks:
-                label: dict = json.load(open(f"./data/docile/ocr/{img_fn}.json", "r"))
-                if os.path.exists(f"./data/docile/pdfs/{img_fn}.jpg"):
-                    img = Image.open(f"./data/docile/pdfs/{img_fn}.jpg")
+                label: dict = json.load(open(f"{self.ROOT_DIR}/data/docile/ocr/{img_fn}.json", "r"))
+                if os.path.exists(f"{self.ROOT_DIR}/data/docile/pdfs/{img_fn}.jpg"):
+                    img = Image.open(f"{self.ROOT_DIR}/data/docile/pdfs/{img_fn}.jpg")
                     for block in label["pages"][0]["blocks"]:
                         for line in block["lines"]:
                             for word in line["words"]:
@@ -62,8 +62,8 @@ class DocILE(Dataset):
                                 ))
 
             if Task.KIE in self.tasks:
-                label: dict = json.load(open(f"./data/docile/annotations/{img_fn}.json", "r"))
-                if os.path.exists(f"./data/docile/pdfs/{img_fn}.jpg"):
+                label: dict = json.load(open(f"{self.ROOT_DIR}/data/docile/annotations/{img_fn}.json", "r"))
+                if os.path.exists(f"{self.ROOT_DIR}/data/docile/pdfs/{img_fn}.jpg"):
                     for extraction in label["field_extractions"]:
                         entities.append(self._convert_to_format(
                             task = Task.KIE,
@@ -75,7 +75,7 @@ class DocILE(Dataset):
 
             if len(fields) > 0 or len(entities) > 0:
                 self.data.append(Data(
-                    image_path=f"./data/docile/pdfs/{img_fn}.jpg",
+                    image_path=f"{self.ROOT_DIR}/data/docile/pdfs/{img_fn}.jpg",
                     fields=fields if fields else None,
                     entities=entities if entities else None
                 ))
