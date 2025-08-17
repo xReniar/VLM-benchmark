@@ -60,9 +60,7 @@ class Dataset(BaseModel, ABC):
         self._load_data()
 
     def read_folder(self, path: str) -> list[str]:
-        folder = os.listdir(path)
-        folder.sort()
-        return 
+        return sorted(os.listdir(path))
     
     def exists(self) -> bool:
         pass
