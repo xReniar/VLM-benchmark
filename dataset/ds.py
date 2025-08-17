@@ -50,6 +50,8 @@ class Data(BaseModel):
         return json_result
 
 class Dataset(BaseModel, ABC):
+    ROOT_DIR: str = os.path.join(os.path.dirname(__file__))
+
     tasks: list[Task] = []
     split: str
     data: list[Data] = []
