@@ -54,9 +54,7 @@ class Dataset(BaseModel):
     data: list[Data] = []
 
     def read_folder(self, path: str) -> list[str]:
-        folder = os.listdir(path)
-        folder.sort()
-        return folder
+        return sorted(os.listdir(path))
     
     def __iter__(self):
         return self.data.__iter__()
