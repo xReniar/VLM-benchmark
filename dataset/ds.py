@@ -1,5 +1,6 @@
 from enum import Enum
 from pydantic import BaseModel
+from abc import ABC, abstractmethod
 import os
 
 
@@ -48,15 +49,31 @@ class Data(BaseModel):
         
         return json_result
 
-class Dataset(BaseModel):
+class Dataset(BaseModel, ABC):
     tasks: list[Task] = []
     split: str
     data: list[Data] = []
 
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self._download()
+        self._load_data()
+
     def read_folder(self, path: str) -> list[str]:
         folder = os.listdir(path)
         folder.sort()
-        return folder
+        return 
+    
+    def exists(self) -> bool:
+        pass
+
+    @abstractmethod
+    def _download(self) -> None:
+        pass
+
+    @abstractmethod
+    def _load_data(self) -> None:
+        pass
     
     def __iter__(self):
         return self.data.__iter__()
