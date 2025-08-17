@@ -16,7 +16,6 @@ class DocILE(Dataset):
     ) -> None:
         super().__init__(tasks=tasks, split=split)
         self._convert_pdf_to_img()
-        self._load_data()
 
     def _convert_pdf_to_img(self):
         '''
@@ -31,6 +30,11 @@ class DocILE(Dataset):
                 )
                 images[0].save(f"./data/docile/pdfs/{fn.strip('.pdf')}.jpg")
                 os.remove(f"./data/docile/pdfs/{fn}")
+
+
+    def _download(self) -> None:
+        # add error if DocILE dataset is not present in local directory
+        self._convert_pdf_to_img()
 
     def _load_data(self) -> None:
         split_file: list[str] = json.load(open(f"./data/docile/{self.split}.json", "r"))
