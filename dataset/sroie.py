@@ -1,10 +1,12 @@
 from .ds import Dataset, Data, Task
 from typing import ClassVar
 import json
+import os
 
 
 class SROIE(Dataset):
     TASKS: ClassVar[list[Task]] = [Task.OCR, Task.KIE]
+    dataset_name: str = "sroie"
 
     def __init__(
         self,
@@ -12,7 +14,6 @@ class SROIE(Dataset):
         split: str
     ) -> None:
         super().__init__(tasks=tasks, split=split)
-        self._load_data()
 
     def __extract_bbox_and_text(self, line: str) -> tuple[tuple[int], str]:
         coords = [int(x) for x in line[:8]]
@@ -31,7 +32,7 @@ class SROIE(Dataset):
         pass
 
     def _load_data(self) -> None:
-        images = self.read_folder(f"{self.ROOT_DIR}/data/sroie/{self.split}/img")
+        images = self.read_folder(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/img")
 
         for image in images:
             label = image.replace(".jpg", ".txt")
@@ -39,7 +40,7 @@ class SROIE(Dataset):
 
             # For OCR task
             if Task.OCR in self.tasks:
-                with open(f"{self.ROOT_DIR}/data/sroie/{self.split}/box/{label}", "r") as f:
+                with open(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/box/{label}", "r") as f:
                     rows = f.readlines()
                     rows.sort()
                     for row in rows:
@@ -57,7 +58,7 @@ class SROIE(Dataset):
 
             # For KIE task
             if Task.KIE in self.tasks:
-                with open(f"{self.ROOT_DIR}/data/sroie/{self.split}/entities/{label}", "r") as f:
+                with open(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/entities/{label}", "r") as f:
                     json_f: dict = json.load(f)
                     for key, item in json_f.items():
                         entities.append(self._convert_to_format(
@@ -69,7 +70,7 @@ class SROIE(Dataset):
                         ))
 
             self.data.append(Data(
-                image_path=f"{self.ROOT_DIR}/data/sroie/{self.split}/img/{image}",
+                image_path=f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/img/{image}",
                 fields=fields if fields else None,
                 entities=entities if entities else None
             ))
