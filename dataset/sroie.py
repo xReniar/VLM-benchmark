@@ -2,6 +2,9 @@ from .ds import Dataset, Data, Task
 from typing import ClassVar
 import json
 import os
+import requests
+import zipfile
+import shutil
 
 
 class SROIE(Dataset):
@@ -29,10 +32,30 @@ class SROIE(Dataset):
         return coords, text
     
     def _download(self) -> None:
-        pass
+        url = "https://www.kaggle.com/api/v1/datasets/download/urbikn/sroie-datasetv2"
+        response = requests.get(url)
+        dir_path = f"{self.CACHE_DIR}/{self.dataset_name}"
+        os.makedirs(dir_path)
+
+        with open(f"{dir_path}/sroie.zip", "wb") as f:
+            f.write(response.content)
+
+        with zipfile.ZipFile(f"{dir_path}/sroie.zip", 'r') as zip_ref:
+            zip_ref.extractall(dir_path)
+
+        os.remove(f"{dir_path}/sroie.zip")
+        for split in ["train", "test"]:
+            shutil.move(
+                src = f"{dir_path}/SROIE2019/{split}",
+                dst = f"{dir_path}"
+            )
+        shutil.rmtree(f"{dir_path}/SROIE2019")
+        
+
 
     def _load_data(self) -> None:
-        images = self.read_folder(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/img")
+        dir_path = f"{self.CACHE_DIR}/{self.dataset_name}"
+        images = self.read_folder(f"{dir_path}/{self.split}/img")
 
         for image in images:
             label = image.replace(".jpg", ".txt")
@@ -40,7 +63,7 @@ class SROIE(Dataset):
 
             # For OCR task
             if Task.OCR in self.tasks:
-                with open(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/box/{label}", "r") as f:
+                with open(f"{dir_path}/{self.split}/box/{label}", "r") as f:
                     rows = f.readlines()
                     rows.sort()
                     for row in rows:
@@ -58,7 +81,7 @@ class SROIE(Dataset):
 
             # For KIE task
             if Task.KIE in self.tasks:
-                with open(f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/entities/{label}", "r") as f:
+                with open(f"{dir_path}/{self.split}/entities/{label}", "r") as f:
                     json_f: dict = json.load(f)
                     for key, item in json_f.items():
                         entities.append(self._convert_to_format(
@@ -70,7 +93,7 @@ class SROIE(Dataset):
                         ))
 
             self.data.append(Data(
-                image_path=f"{self.CACHE_DIR}/{self.dataset_name}/{self.split}/img/{image}",
-                fields=fields if fields else None,
-                entities=entities if entities else None
+                image_path=f"{dir_path}/{self.split}/img/{image}",
+                fields=fields,
+                entities=entities
             ))
