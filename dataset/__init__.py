@@ -1,6 +1,7 @@
 from .ds import Task, Data, Dataset
 from .docile import DocILE
 from .sroie import SROIE
+from .nnts_kie import NNTS_KIE
 import os
 
 
@@ -33,6 +34,7 @@ class MultiDataset():
 __all__ = [
     "Task",
     "DocILE",
+    "NNTS_KIE",
     "SROIE",
     "MultiDataset"
 ]
