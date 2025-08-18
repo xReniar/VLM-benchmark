@@ -62,5 +62,5 @@ class NNTS_KIE(Dataset):
 
             self.data.append(Data(
                 image_path=f"{dir_path}/{self.split}/images/{image}",
-                entities=entities if entities else None
+                entities=entities
             ))

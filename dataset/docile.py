@@ -79,6 +79,6 @@ class DocILE(Dataset):
             if len(fields) > 0 or len(entities) > 0:
                 self.data.append(Data(
                     image_path=f"{dir_path}/pdfs/{img_fn}.jpg",
-                    fields=fields if fields else None,
-                    entities=entities if entities else None
+                    fields=fields,
+                    entities=entities
                 ))
