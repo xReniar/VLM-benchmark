@@ -50,7 +50,7 @@ class Data(BaseModel):
         return json_result
 
 class Dataset(BaseModel, ABC):
-    ROOT_DIR: str = os.path.join(os.path.dirname(__file__))
+    CACHE_DIR: str = os.path.join(os.path.dirname(__file__), "data")
 
     tasks: list[Task] = []
     split: str
@@ -58,14 +58,12 @@ class Dataset(BaseModel, ABC):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._download()
+        if not os.path.isdir(os.path.join(self.CACHE_DIR, self.dataset_name)):
+            self._download()
         self._load_data()
 
     def read_folder(self, path: str) -> list[str]:
         return sorted(os.listdir(path))
-    
-    def exists(self) -> bool:
-        pass
 
     @abstractmethod
     def _download(self) -> None:
@@ -85,34 +83,16 @@ class Dataset(BaseModel, ABC):
         processed = None
 
         if task == Task.CLS:
-            processed = Classification(
-                doc_type = item["doc_type"],
-                labels = item["labels"]
-            )
+            processed = Classification(doc_type=item["doc_type"], labels=item["labels"])
         elif task == Task.KIE:
-            processed = Field(
-                label = item["label"],
-                value = item["value"],
-                bbox = None
-            )
+            processed = Field(label=item["label"], value=item["value"])
         elif task == Task.OCR:
             x1, y1, x2, y2 = tuple(item["bbox"])
-            processed = Field(
-                label = "text",
-                value = item["text"],
-                bbox = BBox(x1=x1, y1=y1, x2=x2, y2=y2)
-            )
+            processed = Field(label="text", value=item["text"], bbox=BBox(x1=x1, y1=y1, x2=x2, y2=y2))
         elif task == Task.VQA:
-            processed = VQA(
-                question = item["question"],
-                answer = item["answer"]
-            )
+            processed = VQA(question=item["question"], answer=item["answer"])
         elif task == Task.OBJ:
-            processed = Field(
-                label = "object",
-                value = None,
-                bbox = BBox()
-            )
+            processed = Field(label="object", value=None, bbox=BBox())
         else:
             raise Exception(f"Task {task} does not exist")
 
