@@ -1,0 +1,26 @@
+pil_image = None
+
+messages = {
+    'chosen': [{
+        'content': [{
+            'text': 'The image showcases a white mobile device with various buttons and a screen, positioned on a stand accompanied by two speakers.',
+            'type': 'text'}
+        ],
+        'role': 'assistant'
+    }],
+    'rejected': [{
+        'content': [{
+            'text': 'The image features a white Qool speaker dock with a silver phone, orange and black buttons, a clear glass case, and a round table in the background.',
+            'type': 'text'
+        }],
+        'role': 'assistant'
+    }],
+    'images': [pil_image],
+    'prompt': [{
+        'content': [
+            {'text': None,'type': 'image'},
+            {'text': 'Itemize the elements you identify in the image and describe them thoroughly.','type': 'text'}
+        ],
+        'role': 'user'
+    }]
+}
