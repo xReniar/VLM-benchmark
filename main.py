@@ -46,7 +46,7 @@ def inference(
 
             output_dict[fn] = model.predict(
                 img_path=data.image_path,
-                prompt=generate_prompt(data.to_json(task))
+                prompt=generate_prompt(task, data)
             )
 
             with open(f"{output_dir}/{model_name}-{task}.json", "w") as f:
@@ -66,9 +66,4 @@ if __name__ == "__main__":
     DATASET: str = test_config["dataset"]
     MODELS: list[str] = test_config["models"]
 
-    #inference(TASK, DATASET, MODELS)
-
-    for data in SROIE(tasks=[TASK], split="test"):
-        fn = data.image_path.split("/")[-1]
-
-        print(generate_prompt(TASK, data))
+    inference(TASK, DATASET, MODELS)
