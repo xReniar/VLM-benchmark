@@ -1,0 +1,1390 @@
+{
+    "X00016469670.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"OJC MARKETING SDN BHD\", \n    \"date\": \"15/01/2019 11:06 AM\", \n    \"address\": \"(JALAN BAYU4, JOHOR), TEL:\", \n    \"total\": 193\n}",
+        "t": 0.9473295211791992
+    },
+    "X00016469671.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"02/04/2019\",\n    \"address\": \"BANDAR SERI ALAAM JOHOR 81750\",\n    \"total\": \"170\"\n}",
+        "t": 0.6210231781005859
+    },
+    "X51005200931.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"09/02/13\",\n    \"address\": \"-68745-JALAN PEMASUK KUALA LUAR BANDAR BAHRI JOHORBAHRULUXE TELEP 03-620-4200\",\n    \"total\": \"\"\n}",
+        "t": 0.8165316581726074
+    },
+    "X51005230605.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PETRON BKT LANKAN SB\", \n    \"date\": \"1/02/2018\", \n    \"address\": \"- 6593 Km 457 Utara Batu, L / RAYA UTARA SELATAN, SG Buloh 47000 SUNGAI BULOH\"\n}",
+        "t": 0.773507833480835
+    },
+    "X51005230616.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Gerbang Alaf Restaurants Sdn Bhd\", \n    \"date\": \"190053-M4\", \n    \"address\": \"Level 6, Bangunan Th, Jalan SS21/JA No. 7, Petaling Uptown Kuala Lumpur\", \n    \"total\": \"$84\"\n}",
+        "t": 1.1161868572235107
+    },
+    "X51005230621.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"L\\u017eAN HAP SON SDN BHD\", \"date\":\"JAM APR 30 LU YA MA LA MATA KG BT GU TALINGKANG (HUNTER)\", \"address\":\"48-52 Jalan Kampung Selangor Kuala Lumpur 69000\", \"total\":\"\"}",
+        "t": 0.7867801189422607
+    },
+    "X51005230648.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"CROSS CHANNEL NETWORK SDN BHD\", \n    \"date\": \"29/01/2018\", \n    \"address\": \"[4300 Batang Kali] Selangor\", \n    \"total\": 6.57\n}",
+        "t": 0.9453635215759277
+    },
+    "X51005230657.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"CROSS CHANNEL NETWORK SDN BHD\", \n    \"date\": \"\", \n    \"address\": [\n        \"-4300 Batang Kali Selangan\", \n        \"Jalan Meranti 1 Sek.,\" ,\n        \"(BANDAR UTAMA BAHANG KALI),\"\n    ], \n    \"total\": \"\"\n}",
+        "t": 1.1418218612670898
+    },
+    "X51005230659.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SWC ENTERPRISE SDN BHD\", \n    \"date\": \"08/01/2018\", \n    \"address\": [\n        {\"no\": 5-7, \"street\": \"Jalan Mahagongi 7 / 1\", \"suburb\": \"Bandar Utama\", \"state\": \"43400\", \"postcode\": \"(11258)\"}, \n        {\"no\": Sekysen 4, \"street\": \"Batang Kali Selanjur.\", \"suburb\": \"\"}\n    ], \n    \"total\": {}\n}",
+        "t": 1.6583926677703857
+    },
+    "X51005268275.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"LIGHTROOM GALLERY SDN BHD\",\n    \"date\": \"20/11/2074\",\n    \"address\": \"(T) 65895 Fax (3)-3362-3695\",\n    \"total\": \"-\"\n}",
+        "t": 0.6652483940124512
+    },
+    "X51005268408.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"9 SPEED MART 5 B (S) E1937-X\", \n    \"date\": \"20-11-17\", \n    \"address\": [\n        \"-86 KUALA LUMPUR SELANGOR\", \n        \"-4150 KLANTONG TERUSAN\", \n        \"GST ID NO : C00013477712\"\n    ], \n    \"total\": \"RM 169.80\"\n}",
+        "t": 0.9879939556121826
+    },
+    "X51005288570.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SECURE PARKING CORPORATION S/B\", \n    \"date\": \"23.03.18\", \n    \"address\": \"Riverwalk Village Batu 3, Jalan Ipoh  51200 Kuala Lumpur GST No.: 696743800 TEL No: 130881698 RECEIPT C13 Receipt Number:\", \n    \"total\": \"$RM\" + \": 49.99\"}",
+        "t": 1.0350661277770996
+    },
+    "X51005301666.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"LIGHTROOM GALLERY SDN BHD\", \n    \"date\": \"20/11/2074\", \n    \"address\": \"JALAN ASTANA 5C, KULANTARA SIDANG MELAKAIKU TERASI INDONESIA\", \n    \"total\": \"-\"\n}",
+        "t": 0.7353863716125488
+    },
+    "X51005337867.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"OLD TOWN WHITE COFFEE\",\n    \"date\": \"20 Mar 18\",\n    \"address\": \"Sri Ram Ptn Bhd (71629X)\",\n    \"total\": \"30.24\"\n}",
+        "t": 0.5888476371765137
+    },
+    "X51005337877.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UROKO JAPANESE CUISINE SDN BHD\",\n    \"date\": \"20/3/2018 6:49:\",\n    \"address\": \"Jalan 7A, Petaling Jaya, Selangor\",\n    \"total\": \"53\"\n}",
+        "t": 0.7555849552154541
+    },
+    "X51005361906.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"- -\", \n    \"date\": \"- 27/01/2018\", \n    \"address\": \"- JALAN BERUANG BEBASTANAN\", \n    \"total\": \"$345\"\n}",
+        "t": 0.6036450862884521
+    },
+    "X51005361908.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"- ART LINE 70\", \n    \"date\": \"15/3/2018\", \n    \"address\": \"(O) 497-6288 EASTERN AVE.\", \n    \"total\": \"$\" + \".127.20\"\n}",
+        "t": 0.7124357223510742
+    },
+    "X51005361912.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"TEO HENG STATIONERY & BOOKS\", \n    \"date\": \"29/01/2018\", \n    \"address\": \"# 53 Jalan Besar Selangor Darul Ehsan Telp : 6-7488\", \n    \"total\": \"$\" + \"0.00\" \n}",
+        "t": 0.7454235553741455
+    },
+    "X51005361923.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"02/15/48\", \n    \"address\": \"Tanjong Pagar, Singapore 39716\", \n    \"total\": \"$24\"\n}",
+        "t": 0.577368974685669
+    },
+    "X51005365187.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"F&P PHARMACY\", \n    \"date\": \"02/03/2018\", \n    \"address\": \"[JALAN BNS 106 TAMAN BUKIT SERDANG SEKSyen 43 LANTAI KEMBENGAN Telp 03-9599 RUASN)\", \n    \"total\": \"GST Reg No TAX INVOICE\"\n}",
+        "t": 0.88775634765625
+    },
+    "X51005433518.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"2018-03-25\", \n    \"address\": \"UNISA INTERNATIONAL SDN BHD 7AMK JAJAR TANPA KUWA TAXI JOHOR BAHRI Johor Bahru\", \n    \"total\": \"$\" + \"- $96.40\"\n}",
+        "t": 0.8102798461914062
+    },
+    "X51005433543.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"13 Mar 2018\",\n    \"address\": \"Jalan Taman Jurong, #9-7/B Jaya One, Kuala Lumpur -56000\",\n    \"total\": \"$\" + \"10.46\"\n}",
+        "t": 0.7400479316711426
+    },
+    "X51005433548.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None,\n    \"date\": \"03/05\",\n    \"address\": \"-1872 Jalan Pertamina, 6th Floor, No 49, Level 5, Petronas Twin Towers, Kuala Lumpur 50601\"\n}",
+        "t": 0.7319974899291992
+    },
+    "X51005433556.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"10/02/98\",\n    \"address\": \"ST 57A, Second Floor, Tebao City, Aezon Desa, Tebet, Jakarta Barat, Indonesia\",\n    \"total\": \"\"\n}",
+        "t": 0.669367790222168
+    },
+    "X51005442322.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"2017-03-19\",\n    \"address\": \"TION ROMA\\u0645 TEBARAU CITY NO 81 JALAN DEA SABAH BAHRU\",\n    \"total\": \"269.40\"\n}",
+        "t": 0.7554957866668701
+    },
+    "X51005442334.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"26 Mar 18\",\n    \"address\": \"Jalan Tampak7/4 Kewasan Perindustrian Johor Bahru 35090\",\n    \"total\": \"$\" + (((((((\"GSTINOOROOOMODDIGSUSHIHMQ\")+\".$\"))+\"- $\"+((\"GSTNOOROOOTYFUHSIQUKZ\")))+((\"GSTNOORKRISWXVBULNHOEYT\")))+((\"GSTRATEOPPENOWALESHEURITAN\")))\n}",
+        "t": 1.2957606315612793
+    },
+    "X51005442343.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"13/09\",\n    \"address\": \"TAMBRA AIR BUDING 2875\",\n    \"total\": \"$6\"\n}",
+        "t": 0.544212818145752
+    },
+    "X51005442366.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Triple Six Point Enterprise\", \n    \"date\": \"23-06-18 04:57 PM\", \n    \"address\": \"- 41 Jalan Pemasukan Baru, Kuala Lumpur, Malaysia\"\n  }, \n   {\"company\": \"Tripod Point Enterprise\", \n\t\"date\": \"23-06-18 04:57 PM\", \n\t\"address\": \"- 41 Jalan Pemasukan Baru, Kuala Lumpur, Malaysia\"}",
+        "t": 1.6785757541656494
+    },
+    "X51005442375.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"JIUKKA INTERNATIONAL SDN BHD\",\n    \"date\": \"25 Mar 18:\",\n    \"address\": \"(9/F) TAMPAO TOMPALAN PERINDUSTRIAN TAXINTOBA HQBUS JAHORUA, JOHOR BAHRUPUT\",\n    \"total\": \"$300\"\n}",
+        "t": 1.2189950942993164
+    },
+    "X51005442382.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company':'UNIKHAKK International SDN BHD', 'date':'20 Mar 187546', 'address':'Jalan 9/18 Kuala Lumpur 30-50', 'total':''}",
+        "t": 0.8481783866882324
+    },
+    "X51005442388.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company':'CONTENTO 10325 A6987', 'date\":\"JUNE 4TH\",'address\":'Bubble N T YAM NO.','total':\"RM\\u00a3$21.60\"}",
+        "t": 0.7498481273651123
+    },
+    "X51005444040.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BENS INDEPENDENT GROCER\", \n    \"date\": \"(9134A-06)\", \n    \"address\": [\n        {\"street\": \"Lot 6 Jalan Batai\", \"unit\": \"- 50490\", \"state\": \"Kuala Lumpur\", \"countrycode\": \"MY\"}, \n        {\"city\": \"Plaza Batai\"}\n    ], \n    \"total\": \"$27.8\"\n}",
+        "t": 0.920172929763794
+    },
+    "X51005444041.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BIG\", \n    \"date\": \"08/03/18\", \n    \"address\": \"Lot 6 - Jalan Batai, Damansara Heights, Kuala Lumpur\", \n    \"total\": \"\"\n}",
+        "t": 0.5758709907531738
+    },
+    "X51005444044.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"10-03-18\",\n    \"address\": \"TAMAN PERTAMA KEMENTERIAN 59/677 JALAN ANGKA SUMBER MATA HIDUP RASYD (K) BUKIT MERDEka LOT P T.,2811,JLANGONORO SAMUELIBAKARMA DISTRICT,BURSANAN,KUALA LANGSARI,NTB NO.:SINGAPORE 41150 KLNG, SELANGEH KAB.\",\n    \"total\": \"- RM\" + \"5\" + \".35 -RM\" + \"6.\" + \".00 -RM\" + \"5\".35\n}",
+        "t": 1.5247244834899902
+    },
+    "X51005444046.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"STAR GROCER SDN BHD\", \n    \"date\": \"25/03/18\", \n    \"address\": \"No 4, Desa Pandan Off kampong Pandan, Kuala Lumpur (GST REG NO : 0097964)\", \n    \"total\": \"$\" + \"\\u{feb}\\ufffd\\ubbfc\" + \".00\"}",
+        "t": 0.8667774200439453
+    },
+    "X51005447841.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PASARAYA BORONG PINTAR SDN BHD\", \n    \"date\": \"09/03/2018 4:27 PM GST No.: 56-J-016-496845\", \n    \"address\": \"(124512) JALAN TASIK DAMAI 4, MEDANG NIA JAYA TAK SAH MUKIMATI 016-496845\", \n    \"total\": \"\"\n}",
+        "t": 1.0593950748443604
+    },
+    "X51005447842.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PASARAYA BORONG PINTAR SDN BHD\", \n    \"date\": \"14/03/2018 4:06:34 PM\", \n    \"address\": \"(JALAN TAHMAD UTAMA 4, MEDAN NIAGA TASIK DAMAI)\", \n    \"total\": \"\"\n}",
+        "t": 0.8194451332092285
+    },
+    "X51005447844.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"JIAAWE\", \n    \"date\": \"23/2/2018 4-5:08 PM\", \n    \"address\": [\n        {\"street\": \"Medan Naga Ismail Kuala Besi 57000\", \"postalcode\": \"-\"}, \n        {\"street\": \"Gajah Mada Jalan Medan Iskandar Dato' Salifuddin Abdul Razak Blvd No.\", \"suburb\": \"Sg Besar\"}\n    ], \n    \"total\": \"RM 110.00\"\n}",
+        "t": 1.121340036392212
+    },
+    "X51005447851.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PASARAYA BORONG PINTAR SDN BHD\",\n    \"date\": \"NO 19-G&I-2018 JALAN TAKSI UTAMA MEBAND SAHAM DI MAHAJAH\",\n    \"address\": \"(124525\u20137) BR No : (BR No. : (645/13), NO 19-G & I -2018 JALAN TAKSI UTAMA MEBAND SAHAM DI MAHAJAH)\",\n    \"total\": [\n        {\"amount\" : \"-RM 1.00\"},\n        {\"amount\" : \"-RM 1.70\"}\n    ]\n}",
+        "t": 2.0819640159606934
+    },
+    "X51005447859.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PASARAYA BORONG PINTAR SDN BHD\", \n    \"date\": \"14/02/2018 5:37 PM\", \n    \"address\": \"(JALAN TASIK UTAMA 4 MEADIAN NIAGA TASK DAMAI)\", \n    \"total\": \"6\"\n}",
+        "t": 0.9037051200866699
+    },
+    "X51005568855.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": [\n        \"POPULAR BOOK CO.\",\n        \"(M) SDN BHD\",\n        \"\",\n        013825-W\"\n    ],\n    \"date\": \"[7/9 16:48]\",\n    \"address\": [\n        \"- Desa Tun Razak, No 8, Jalan Kuala Lumpur, 56000 Malaysia\",\n        \"\"\n     ]\n  }",
+        "t": 0.8435158729553223
+    },
+    "X51005568866.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POPULAR BOOK CO (M) SDN BHD\", \n    \"date\": \"25 AUG - 3 SEP 2017\", \n    \"address\": [\n        \"-684-932-595\", \n        \"-014-2999200\"\n    ], \n    \"total\": \"${CURRENCY_FORMAT} 4.95\"\n}",
+        "t": 0.867077112197876
+    },
+    "X51005568885.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"EVERGREEN LIGHT SDN BHD\", \n    \"date\": \"(827)695-14U 03-06/09/19 10/07/19\", \n    \"address\": \"No 7-1, Jalan Puteri, Bandar Perdana Utama, Puchong, Selangor\", \n    \"total\": 56.00\n}",
+        "t": 0.8903894424438477
+    },
+    "X51005568887.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HON HWAA HARDWARE TRADING\", \n    \"date\": \"26/04/2017 11:38 AM\", \n    \"address\": \"No 5 Jalan Manis 7 Taman Segar, 6th Floor CLUBERAS, RUTALA LUMPUR GST Reg No.: 9-0112522035\"\n}",
+        "t": 0.9528427124023438
+    },
+    "X51005568889.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HON HWA\", \n    \"date\": 196027, \n    \"address\": \"JALAN MANIS TAMAR SEGAR LUMPUR CHERAS KUALA PURUM R.\", \n    \"total\": 3485.0\n}",
+        "t": 0.7013640403747559
+    },
+    "X51005568890.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HON HWA HARDWARE TRADING\", \n    \"date\": \"05/12/2017 4.39 PM\", \n    \"address\": \"#37 Jalan Manis 7 Taman Segar, Setia City Kuala Lumpur\"\n}",
+        "t": 0.7247505187988281
+    },
+    "X51005568892.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"EVERGREEN LIGHT SDN BHD\", \n    \"date\": \"07/11/2016\", \n    \"address\": \"47 58 Puchong Belangar\", \n    \"total\": 392580 \n   }",
+        "t": 0.6131129264831543
+    },
+    "X51005568894.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"VIVOPAC MARKETING SDN BHD (1070687-M)\", \n    \"date\": \"24/5/2017\", \n    \"address\": \"Jalan Manis 4 Taman Segar 56100 KL\", \n    \"total\": \"\"\n}",
+        "t": 0.6980915069580078
+    },
+    "X51005568895.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"VIVOPAC MARKETING SDN BHD (107687-M)\", \n    \"date\": \"13/9/2017 01:45 PM\", \n    \"address\": \"TAMAN SEGARA 56100 KL\", \n    \"total\": 52.45\n}",
+        "t": 0.7538228034973145
+    },
+    "X51005577191.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"FY EAGLE ENTERPRISE\",\n    \"date\": \"07/12/2017\",\n    \"address\": \"4300 BERHAMAT KEMBANGAN\",\n    \"total\": 9.58\n}",
+        "t": 0.60896897315979
+    },
+    "X51005582745.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MODERN DEPOT SIN BHD\", \n    \"date\": \"04/12/2016\", \n    \"address\": \"- JIJANG'S SELATAN KEPONG MALAKA 875\", \n    \"total\": \"93-84\"\n}",
+        "t": 0.6614706516265869
+    },
+    "X51005587261.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"CHOP YEW LIAH\", \n    \"date\": \"23/03/17 14:08\", \n    \"address\": \"- Per Lang, Sek. 27, 40000 Shah Alam, Selangor.\", \n    \"total\": {\"GST No\": \"00084965144A\"}}",
+        "t": 0.7921128273010254
+    },
+    "X51005605287.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"AEON CO. (M) BHD\", \n    \"date\": \"14/03/2018\", \n    \"address\": \"Jln Jejak TAMAN MALURI SC CHERAS 55100 KUALA LUMPUR GST 6DKT9759\", \n    \"total\": {\"sub-total\": \"12.25\", \"cashprice\": \"50.00\", \"changeamount\": \"37.75\"}\n}",
+        "t": 1.0947339534759521
+    },
+    "X51005605295.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"ECONSAVE CASH & CARRY (F) S/3\", \n    \"date\": \"20\\ufeff0318\", \n    \"address\": \"[Lot G0I, KL Festival City], No.\\n67 Jln Ibu Kota Tam Danau Kota, KL\", \n    \"total\": 549.5\n}",
+        "t": 0.7691740989685059
+    },
+    "X51005605332.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POPULAR BOOK CO.\", \n    \"date\": \"14/03/2018\", \n    \"address\": \"No 5, Jalan Kuala Lumpur, Malaysia\", \n    \"total\": \"-\"\n}",
+        "t": 0.5628666877746582
+    },
+    "X51005621482.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"20/03/2018\",\n    \"address\": \"Jalan SS 57 No 4750 Petaling Jaya Selangor\",\n    \"total\": \"\"\n}",
+        "t": 0.5405330657958984
+    },
+    "X51005663274.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"LIM SENG THO HARDWARE TRADING\", \n    \"date\": \"08/02/2018 12:45 AM\", \n    \"address\": [\n        \"-7, Simpang Off Batu Village, Jalan Ibpah Bangunan, Kuala Lumpur\"\n    ], \n    \"total\": {\"amount\": \"RM\\xa09.63\", \"tax_rate\": \"9%\"}\n}",
+        "t": 1.1534407138824463
+    },
+    "X51005663300.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"02/02/2018 10:06\",\n    \"address\": \"Jalan Ipoh Batu Kuala Lumpur MALAYSIA\",\n    \"total\": \"7.00\"\n}",
+        "t": 0.6821949481964111
+    },
+    "X51005663307.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"LA STATIONERY SDN BHD (640899-P)\", \"date\":\"02/18/2013\", \"address\":\"TAMAN SRI RAMPAI 5330 KUALA LUMPUR.\", \"total\":75}",
+        "t": 0.6300430297851562
+    },
+    "X51005663309.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KOH SENG HARDWARE\",\n    \"date\": \"01/02/2018\",\n    \"address\": \"-939, JALAN LIMA, KUALAPURMUHAMUD.\",\n    \"total\": 5746\n}",
+        "t": 0.6377096176147461
+    },
+    "X51005663310.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"LIM SENGTO HARDWARE TRADING\", \n    \"date\": \"09/12/2018 10:54 AM\", \n    \"address\": \"No 7 Simpang Off Batu Village Jalan Ippoh Barat 5 Kuala Lumpur\", \n    \"total\": \"RM 36\"\n}",
+        "t": 0.8348989486694336
+    },
+    "X51005663323.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KOH SENG HARDWARE\", \n    \"date\": 12/04/2017, \n    \"address\": \"51200 KUALA LUMPUR\"\n}",
+        "t": 0.5080485343933105
+    },
+    "X51005675099.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Super Terminal Sdn Bhd\", \n    \"date\": \"20/01/2018\", \n    \"address\": \"[Kuala Lumpur Kuching] No 49A Jalan Tunku Pertama, [Jalan Tun Haji Abdul Rahman], [Tanjung Besar], [Bukit Mampang]\", \n    \"total\": \"357.6\"\n}",
+        "t": 0.936302661895752
+    },
+    "X51005675103.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PERNAGAAN GIN KEE\", \n    \"date\": \"318 01/2019\", \n    \"address\": \"(No B59-A) JALAJI PANAS SATA PAPAK (53200), KLUALAMPUR TEL NO 6404210726\"\n}",
+        "t": 0.7969949245452881
+    },
+    "X51005675104.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(8119-A)\",\n    \"date\": \"25/07/2018\",\n    \"address\": \"No 324 Jalan Panas, Setiap Kuala Lumpur.\",\n    \"total\": \"6\"\n}",
+        "t": 0.6071054935455322
+    },
+    "X51005675914.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"10/7/2017\",\n    \"address\": \"(8) LOMBOK KUALA BARU 4356 Jalan\",\n    \"total\": \"$\" + \"\\u00a3\" + \"90.00\"\n}",
+        "t": 0.6608264446258545
+    },
+    "X51005676534.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PERNIAGA GIN KEE\", \n    \"date\": \"03/2018\", \n    \"address\": \"(B 79), JALAN AIR PANAS, SETARAKU, KUALA LIMPUR\", \n    \"total\": \"54.6\"\n}",
+        "t": 0.7061374187469482
+    },
+    "X51005676535.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PERNAGAAN GIN KEE\", \n    \"date\": \"31 07 2017\", \n    \"address\": \"(8119A SATAK AIR PANAS, SETAPAK PARK), 53200 KUALALUMPUR.\", \n    \"total\": \"GST ID : 000670673920 SIMPLIFIED TAX INVOICE\"\n}",
+        "t": 0.9429121017456055
+    },
+    "X51005676537.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PENIGAAN GIN KAEE\", \n    \"date\": \"03/01/2018\", \n    \"address\": \"(9-1), JALAWANG PANAS, SETAPAK KUPA LUMPUR.\", \n    \"total\": 5746.00 \n }",
+        "t": 0.7144958972930908
+    },
+    "X51005676542.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(81109-A),\",\n    \"date\": \"NO 290, JALAN PANAS,\\nSETARIA KUALUMPUR.,\\n53200,KULAM PAINAN.\",\n    \"address\": \"SIMPLIFIED TAX INVOICE GST NO :076540278\",\n    \"total\": \"\"\n}",
+        "t": 0.8389854431152344
+    },
+    "X51005676548.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PERNIAGA GIN KEE\", \n    \"date\": 15/01/2018, \n    \"address\": \"NO 290 JALAN PANAS, SETAPAK, 34200 KUALA LUMPUR.\", \n    \"total\": \"-\"\n}",
+        "t": 0.7285254001617432
+    },
+    "X51005677327.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT PERNINGAAN GIN KEE\", \n    \"date\": \"01/02/2018\", \n    \"address\": \"NO 290, JALANAIR PANAS, SETAPAK, 53200, KAJU ALA LUMUR.\", \n    \"total\": \"$\"\n}",
+        "t": 0.7583723068237305
+    },
+    "X51005677333.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None,\n    \"date\": \"31-01-2018\",\n    \"address\": \"(91) 40507673\",\n    \"total\": \"\"\n}",
+        "t": 0.4967341423034668
+    },
+    "X51005677336.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"\", \n  \"date\": \"27/01/2018\", \n  \"address\": \"JALAIN PANAS NO 5399 KUALAPUR\", \n  \"total\": \"$\"\n}",
+        "t": 0.5505611896514893
+    },
+    "X51005677337.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"SYARIKAT PERNIA GANA GIN KEE\", \n  \"date\": \"02/03/2018\", \n  \"address\": \"NO 290, JALAN AIR PANAS, SETAPAK, 53200, KAUPACU LUMPUR.\", \n  \"total\": \"SR\"\n}",
+        "t": 0.7966306209564209
+    },
+    "X510056849111.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"26-02-2018\", \n    \"address\": \"42 - 46 Jln Sultan Azlan Shah 51200 Kuala Lumpur\", \n    \"total\": \"RM7.42\"\n}",
+        "t": 0.6279945373535156
+    },
+    "X51005684949.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\":\"WESTERN EASTERN STATIONERY Sdn Bhd\",\"date\":2018-02-26,\"address\":\"42-46 Jln Sultan Azlan Shah 51200 Kuala Lumpur TAX INVOICE REG NO : GST ID : CLR P.S A4/A3 TOTAL ROUNDING CASH TAX INVOICE OF GST GOODS SOLID ARE NOT RETURNABLE\"}",
+        "t": 0.9344255924224854
+    },
+    "X51005705727.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"KEDAI BUKU NEW ACHIEVERS\", \"date\":\"28/12/2017\", \"address\":\"TAMAN ALAM MEGAH, SELANGOR D.E.\", \"total\":49}",
+        "t": 0.5578658580780029
+    },
+    "X51005705729.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"ASO ELECTRICAL TRADING SDN BHD\", \n    \"date\": \"13/092786543210\", \n    \"address\": \"NO 31G SECTION I GAMBIR INDUSTRIES AXIS 4040 SHALAWAN MULYAU ALAM SELANGOR.\", \n    \"total\": \"-\"\n}",
+        "t": 0.842750072479248
+    },
+    "X51005705784.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": [\n        \"EDAI BUKU NEW ACHIEVERS\",\n        \"(CO NO. 124 & 14 JALAN INJANG RT 27/56 TAMAN ALAM MEGAH SEKYTOR D:\",\n        \"4049 SHAH ALAM SK., LENGKONG D.\",\n        3,\n        \"-\"\n     ],\n    \"date\": \"15/09/2017\",\n    \"address\": \"[GSTNO : 001789572864 FULL TAXINVOICE]\",\n    \"total\": \"\"\n}",
+        "t": 1.2063992023468018
+    },
+    "X51005710963.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"TS TOOLS HARDWARE MACHINERY\", \n    \"date\": \"21/03/2018\", \n    \"address\": [\n        {\"street\": \"59 JALAN PANDAR SATU, PURCHASER PUSHONG SELANGOR 476160\", \"suburb\": null}, \n        {\"city\": \"PURCHASED CITY\" }\n    ], \n    \"total\": \"-RM - RM 7.00\"\n}",
+        "t": 0.989063024520874
+    },
+    "X51005711402.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WANG SENG\", \n    \"date\": \"19/02 0345787\", \n    \"address\": \"No.2, Jalan Temengong, Seksyen 6, Bandar Malaysia Chorazan, 33200 Selangor.\", \n    \"total\": 9.60\n}",
+        "t": 0.7732741832733154
+    },
+    "X51005711443.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"23-03-2018\",\n    \"address\": \"No 6 Jalan Temengong, Seksyen 9, Bandar Makkah Cheras, 452000 Kuala Lumpur\",\n    \"total\": \"\"\n}",
+        "t": 0.6665663719177246
+    },
+    "X51005711444.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WANG SHENG\", \n    \"date\": \"2018-03-25 14:47:59Z\", \n    \"address\": \"-Jalan Temengong No.2, Jalan Taman Cheras Danarudgusi, 43200 Cheras, Selangor GST REG NO : 001335767520\"\n}",
+        "t": 0.9759633541107178
+    },
+    "X51005711446.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WAN SHENG\", \n    \"date\": \"10-03-2018\", \n    \"address\": \"No. 2, Jalan Temenggung 19/B, Seksyen 9, Bandar Mahkota Cheras, 45678 GST REG NO: 01335787520\"\n}",
+        "t": 0.9129881858825684
+    },
+    "X51005711449.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WANG SHENG\", \n    \"date\": \"02/198756-43200 Cheras, Selangor\", \n    \"address\": \"- Seksyen 9 Bandar Makuta Cheras, No.2 Jalan Temengung 19 / 9 , GST REG NO : OOO335787520\"\n}",
+        "t": 0.9133412837982178
+    },
+    "X51005715007.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"-\",\n    \"address\": \"Lot No. L3-012, Level 3, Mytown Shopping Centre, No.6 Jalan Cochrane, Seksyen 90, Kuala Lampur.\",\n    \"total\": \"\"\n}",
+        "t": 0.6204907894134521
+    },
+    "X51005715455.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"26-03-18\",\n    \"address\": \"4159 Klang, Selangor\",\n    \"total\": \"\"\n}",
+        "t": 0.5212152004241943
+    },
+    "X51005719823.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SIMPLIFIED TAX INVOICE\", \n    \"date\": \"29/01/2018\", \n    \"address\": \"KEPONG 52100, KUALA LUMPUR\"\n}",
+        "t": 0.5664453506469727
+    },
+    "X51005719855.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"ROCKUYAKINIKU\", \n    \"date\": \"19/02/2018\", \n    \"address\": \"RAINFOREST, 47BORO PETALING JAWA\", \n    \"total\": \"365\"\n}",
+        "t": 0.6207132339477539
+    },
+    "X51005719857.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Salon Du Chocolat\", \n    \"date\": \"19-02-2018\", \n    \"address\": \"Level 3G, No Outram Park, Level 4, 56/C, Gajah Mada Road, Bukit Timah Singapore \\ufeffSingapore\\ufeff\", \n    \"total\": \"23.80\"\n}",
+        "t": 0.8208296298980713
+    },
+    "X51005719863.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SEN LEE HEONG RESTAURANT\", \n    \"date\": \"01-2018 21:53\", \n    \"address\": \"G - O - I M A V E N D S J LN 17364A\", \n    \"total\": \"RM\" + \"\\u00a3\" + \" 77.40\"\n}",
+        "t": 0.8211438655853271
+    },
+    "X51005719888.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POTTERS GARDEN SDN BHD\", \n    \"date\": \"04/01/2018\", \n    \"address\": \"Batu 11, Sg Buloh, 47000 Selangor.\", \n    \"total\": 39.60\n}",
+        "t": 0.6823716163635254
+    },
+    "X51005719889.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"01/28\",\n    \"address\": \"Jalan 36A No 57 Kuala Lumpur\",\n    \"total\": \"\"\n}",
+        "t": 0.4821913242340088
+    },
+    "X51005719895.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": 1/8/2018,\n    \"address\": \"GREEN LANE PHARMACY SDN BHD\",\n    \"total\": \"-453\"\n}",
+        "t": 0.5129520893096924
+    },
+    "X51005719898.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SDN BHD\",\n    \"date\": \"19-03-28\",\n    \"address\": \"- 6 Kuchai St., No. 5A/B, Jalan KBG 6, 43300 Seri Kendang Selangor\",\n    \"total\": \"$11.79\"\n}",
+        "t": 0.8042376041412354
+    },
+    "X51005719903.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Gerbagang Afl Restaurants Sdn Bhd\", \n    \"date\": \"12/03/2018\", \n    \"address\": [\n        {\"street\": \"#67 Jalan SS 49\", \"sub_area\": \"Uptown3 Level 5 BANGQIAN TH Damansara Uptown No.\", \"postal_code\": \"31390\"}, \n        {\"name\": \"<NAME>\", \"city\": \"Petaling Jaya\"}\n    ], \n    \"total\": \"${:.2f}\"\n}",
+        "t": 1.1487812995910645
+    },
+    "X51005719905.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\":\"SAINT HEART PASTRY\",\"date\":2018,\"address\":\"TMN SELAYANG JAYA 68100 BATU CAVES SELANGOR GST ID :003957483G\"}",
+        "t": 0.5903148651123047
+    },
+    "X51005724552.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDAI PAPAYEW CHUAN\", \n    \"date\": \"21/03/2018\", \n    \"address\": \"LOT 276 JALAIN BANTING, 43800 DENG KILANG SELANGOR\", \n    \"total\": \"Rp 59.85\"\n}",
+        "t": 0.7672383785247803
+    },
+    "X51005724611.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": 2013-06-28,\n    \"address\": \"Jalan Aman\",\n    \"total\": [\n        \"-\",\n        \"+\",\n        457.95\n    ]\n}",
+        "t": 0.5517945289611816
+    },
+    "X51005724622.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company': '', 'date': '07/3/2018', 'address': 'KEDAI PAPAN YEW CHUA LOT 69 JALAM BANTING KELAKI SELANGOR', 'total': ''}",
+        "t": 0.566624641418457
+    },
+    "X51005724623.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDA APANYEAH JAJIAN\", \n    \"date\": \"03/2018\", \n    \"address\": \"LOT 76 JALAN BANTENG SINGGUANG R.\", \n    \"total\": \"$\"\n}",
+        "t": 0.6054880619049072
+    },
+    "X51005724624.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDAI PAPAYE WYCHAN\", \n    \"date\": \"16/03/2018\", \n    \"address\": \"LOT 276 JALA BANTING\", \n    \"total\": \"-\"\n}",
+        "t": 0.5896105766296387
+    },
+    "X51005724625.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDAI PAPYEW CHUAN\", \n    \"date\": \"12/03/2018\", \n    \"address\": \"(00558) 4967 JALAIN BANTING LOT 276 DENGKKIL SELANGOR\", \n    \"total\": \"283.5\"\n}",
+        "t": 0.766749382019043
+    },
+    "X51005724626.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDAI PAPANYEW CHUANG\", \n    \"date\": \"4/5/2018\", \n    \"address\": \"(PO BOX 6397 KUALA LUMPUR MALAYSIA)\", \n    \"total\": \"-\"\n}",
+        "t": 0.643582820892334
+    },
+    "X51005724628.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": 10/03/2018, \n    \"address\": [\n        {\"street\": \"Jalan Banting\", \"no_house\": \"76 JALAN BANTING LOT 276 JANALAMBANG TEL:\", \"fax\": \"(0)5-943-86092 GST ID:\", \"postcode\": \"-\", \"country\": \"MY\"}}",
+        "t": 0.8973226547241211
+    },
+    "X51005741929.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MY DIN\",\n    \"date\": \"16/0327598\",\n    \"address\": \"NO 45 Jalan Besar Seksyen U, Subang Bestari Shah Ala Selangor Darul Ehsan\",\n    \"total\": \"-\"\n}",
+        "t": 0.6513330936431885
+    },
+    "X51005742110.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"06/01/2018\",\n    \"address\": \"9 Jalan Subang Jasa 3, 4050 Shah Alam, Selangor.\",\n    \"total\": \"$\" + \"{:.2f}\"\n}",
+        "t": 0.6859452724456787
+    },
+    "X51005745213.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MUN HENG ELECTRICAL &  HARDWARE\", \n    \"date\": \"01/02/2018\", \n    \"address\": \"(RCO No.: 039457261 ROWID: 2018-01-01 PIN: 264572) Bandar Pinggur Subang Tekel Telp:\", \n    \"total\": \"$\" + \"7.00\" \n   }",
+        "t": 0.9741590023040771
+    },
+    "X51005745244.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Subway\", \n    \"date\": \"1/420726983-5A 1400\", \n    \"address\": \"Jalan SS 5/5, Putrajaya Malaysia\", \n    \"total\": \"RM\\u00a3\"\n}",
+        "t": 0.6518032550811768
+    },
+    "X51005745298.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"31-03-2018\",\n    \"address\": \"JALAN ABNORMASA 570842\",\n    \"total\": \"-\"\n}",
+        "t": 0.5838291645050049
+    },
+    "X51005746203.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": [\n        \"SUPER SEVEN CASH & CARR\",\n        \"(59015A-7) PASARAYA BORONG SUPERY SENG UNDER NCT NO 1 Jalan Batu Tiga Sungei Bukit Alam 40150 http://www.super7.com/m/\",\n        \"TEL:\",\n        \"+60385092064\"\n      ],\n    \"date\": \"NOV 01, 2018\",\n    \"address\": [\"OFF JAJAN BATU TIGA SUNGEI BUIT ALAM 40150\", \"http://www.sungeibukitsalem.com\"],\n    \"total\": \"$209.53 - $12.57\"\n  }",
+        "t": 1.5447719097137451
+    },
+    "X51005746204.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"REMED (SP) BHD.\", \n    \"date\": \"03-14/27 MARCH 2018\", \n    \"address\": \"#49 Jalan Dar G U.G., Subang Pertama, 45600 Kuala Lumpur,\"\n}",
+        "t": 0.6750073432922363
+    },
+    "X51005746206.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PANA JAYA ENTERPRISE\",\n    \"date\": \"21-03-2018\",\n    \"address\": \"NO 4 G/D, GROUND FLOOR JALAN DINO PERDANA UB., TAMAN SUBANG PEDINAN SEKUENTR BATUKAN NO 56 LANTAI SELONGGER FAX 037987 2376\"\n}",
+        "t": 0.951101541519165
+    },
+    "X51005746207.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SUPER SEVEN CASH & CARRY SDN BHD\", \n    \"date\": \"(590150-A)\", \n    \"address\": \"No 1 Jalan Euro 1 Off Jalan Batu Tiga Sungai Buloh Seksyen U3 Shah Alam,40150\", \n    \"total\": \"-RM28\"\n}",
+        "t": 0.7983865737915039
+    },
+    "X51005746210.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(317041)-W\", \n    \"date\": \"Mar 9 2018\", \n    \"address\": \"- Sdn Bhd (), Shah Alam\", \n    \"total\": \"RM\"\n}",
+        "t": 0.5359723567962646
+    },
+    "X51005749904.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SWC ENTERPRISE SDN BHD\", \n    \"date\": \"06/03/2018\", \n    \"address\": \"Jalan Dinar A U3A/A, Tmn Subang Perdana, 40150 Shah Alam, Selangor.\", \n    \"total\": 9.00\n}",
+        "t": 0.8288164138793945
+    },
+    "X51005757233.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Guardian Health And Beauty Sdn B\", \n    \"date\": \"12/08/2016\", \n    \"address\": \"[31803016] Guardian Mall 4th Floor, 101 Mall Banjir Puchong Jaya Tel:\",\n    \"total\": {\"amount\" : \"$9.57\"}\n}",
+        "t": 0.7651412487030029
+    },
+    "X51005757282.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"12/09/2017\",\n    \"address\": \"47810 Petaling Jaya Selangor\",\n    \"total\": 35.69\n}",
+        "t": 0.5286984443664551
+    },
+    "X51005757292.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"M\", \n    \"date\": \"- 03-18\", \n    \"address\": \"LOT KAWASAN PERINDUSTRIIAN BALAKONG, SELANGOR (GST ID NO : 00006259)\", \n    \"total\": \"$\"\n}",
+        "t": 0.7252554893493652
+    },
+    "X51005757308.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"2013-03-18\", \n    \"address\": \"JALAN KPB 6, LOT 154 - B & C PERINDUSTRI TIRANABALONG SELANGOR (GST ID NO : OZ96DX037)\", \n    \"total\": \"\"\n}",
+        "t": 0.7590591907501221
+    },
+    "X51005757342.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"23-03-18\", \n    \"address\": \"SHO 7ZB6\", \n    \"total\": \"\"\n}",
+        "t": 0.4980127811431885
+    },
+    "X51005763958.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(590164) CASH & CARRY\", \n    \"date\": \"- 27/08/2018\", \n    \"address\": \"No.1 Jalan Batu Tiga Off Jalan Batu Sdn Bhd, 34th Floor, Suite B, 40150\", \n    \"total\": \"$\"\n}",
+        "t": 0.7743661403656006
+    },
+    "X51005763964.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"06/01/2018\",\n    \"address\": \"Jalan Subang Jaya 3, 45150 Shah Alam Selangor\",\n    \"total\": \"$\" + \"\\u00a3\" + \":$79.40\"\n}",
+        "t": 0.7655420303344727
+    },
+    "X51005763999.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Segi Cash & Carry Sdn Bhd (317041-W)\", \n    \"date\": \"20 Jan 2018\", \n    \"address\": \"# U9, Shah Alam\", \n    \"total\": \"-675\"\n}",
+        "t": 0.6056928634643555
+    },
+    "X51005764031.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SUPER SEVEN CASH & CARRY SON 3ND\", \n    \"date\": \"-1-2018\", \n    \"address\": \"(59)064701-A-0\", \n    \"total\": \"$\" + \"\\u00a3\" + \"19.65\"\n}",
+        "t": 0.7281322479248047
+    },
+    "X51005764154.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Disposable\", \n    \"date\": \"25-01-2018\", \n    \"address\": \"-U\\u00b7D GROUND FLOOR JALAN DINAR DINAN PERDANA SEK U3 40150 SHANGAM ALAM SELANGHUR TELE FAX NO INV No TAX RATE Invoice Total\"\n}",
+        "t": 0.8441872596740723
+    },
+    "X51005764161.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": \"28-01-16\",\n    \"address\": \"- 593 LEA & PERRINS SOS WORC RMKP BERKELEY SELANGOR KUALA LUMPUR MALAYSIA\",\n    \"total\": [\n        {\"amount\": \"RM47.89\"},\n        {\"amount\": \"RM12.00\"}\n    ]\n}",
+        "t": 1.109156847000122
+    },
+    "X51005806692.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"GREAT ZONE HOUSEHOLD CENTRE SDN BHD\", \"date\": \"18/02/2013 06:59 PM\", \"address\": \"(801049-U) 60 & 62 Jalan Cikar, Bukit Kepong, 8600 KLU GST Reg No.: OO1B33A08TZ8RSSP\", \"total\": \"367.30\"}",
+        "t": 1.0023889541625977
+    },
+    "X51005806695.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"28-Feb-2018\",\n    \"address\": [\"JL 3 G&G LOCATION SdN EHD WANGSA MAU (AEON BIG SHIPPING CENTER)\", \"(650) KUALPAI\"],\n    \"total\": [\n        {\"amount\": \"-4.10 SR\"},\n        {\"description\": \"MEASUREMENT TAPE\"}}}",
+        "t": 0.9503982067108154
+    },
+    "X51005806696.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"IMAGE PRINTEC (M) SDN BHD\", \n    \"date\": \"23/02/2018 7:44:16\", \n    \"address\": \"D'wanga Wangsa Maju, 5330 Kuala Lumpur\", \n    \"total\": \"7.2\"\n}",
+        "t": 0.8022170066833496
+    },
+    "X51005806718.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HUGO TRADING SDN BHD\", \n    \"date\": \"13/01/2018 11:45PM\", \n    \"address\": [\n        \"-97692-\", \n        \"+3338272\"\n    ], \n    \"total\": \"RM  51.00\"\n}",
+        "t": 0.7506618499755859
+    },
+    "X51005806719.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SATU KAMPUNG ENTERPRISES BHD\",\n    \"date\": 13/01/2014,\n    \"address\": \"No.42 Pasar Borong Selangor Jalan Putra Permai TELE:\",\n    \"total\": 69.57\n}",
+        "t": 0.7712342739105225
+    },
+    "X51005806720.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SATU KAMPINGUNG ENTERPRISE SDN BHD\",\n    \"date\": \"13/01/2014\",\n    \"address\": \"NO 42 PASAR BORONG SELANGOR JALAN PUTRA PERMAI SARIKEMAHAMBANGAN SEJAGA TELEP\",\n    \"total\": \"-\"\n}",
+        "t": 0.8976895809173584
+    },
+    "X51006008081.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PRINT EXPERT Sdn Bhd\", \n    \"date\": 19/03/2018, \n    \"address\": \"40000 SHALAH Jalan Alam Setiap Tanjong 2/6, 5-SQ 40000 SHALA HJ., Selangor\", \n    \"total\": \"-27\"\n}",
+        "t": 0.9057953357696533
+    },
+    "X51006008082.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(98)625-A\",\n    \"date\": 10/3/2017,\n    \"address\": \"40000 Shah Alam, Selangor\",\n    \"total\": 112.00\n}",
+        "t": 0.5960395336151123
+    },
+    "X51006008083.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PRINTEXPERT SDN BHD\",\n    \"date\": \"2/16\",\n    \"address\": \"40000 SHAH ALAM, SELANGOR\",\n    \"total\": 935870488\n}",
+        "t": 0.6615898609161377
+    },
+    "X51006008090.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POPULAR BOOK CO., M\", \n    \"date\": \"05/03/18 13:56 SIT No.: 29700400\", \n    \"address\": \"- 69 Jalan Kuala Lumpur, Malaysia - EMPIRE SHOPPING GALLERY Tel : 03-65193136\", \n    \"total\": \"RM\" + \"\\u00a3\\xa58490\"\n}",
+        "t": 1.0200073719024658
+    },
+    "X51006008092.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POPULAR SDN BHD\", \n    \"date\": \"08/02/18 15:49:\", \n    \"address\": \"(GST Reg No.: (0134929-W) No 6, Jalan 7/lB, Desa Tun Razak Kuala Lumpur, Malaysia)\", \n    \"total\": \"\"\n}",
+        "t": 0.8041205406188965
+    },
+    "X51006008093.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"POPULAR BOOK (M) SDN BHD\", \n    \"date\": \"06/03/18 18:42\", \n    \"address\": \"No 8 Jalan 7/1B85, Desa Tun Razak, 56000 Kuala Lumpur, Malaysia\", \n    \"total\": \"-\\ufeff(RM - RM)\"\n}",
+        "t": 0.8502931594848633
+    },
+    "X51006008105.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"A EON CO.(M) BHRD\", \"date\":\"21/03/2018 14:49\", \"address\":\"AEON DASO SHAH ALAM TEL - 3-566 AEON (2366)\", \"total\":\"71\"}",
+        "t": 0.6738276481628418
+    },
+    "X51006008166.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"FLORISM DE ART (94075-X)\", \n    \"date\": \"14/01/2018\", \n    \"address\": \"[LOT 2.70.00, LEVEL 2, AVILON KULA MURPIT] JALAN BUKITT BINTANG, 6510 KLANTONG, SELAYUN GASA MAHKAWIN, PERUM BANYAK TAMPANAN, KEC AMBALAN, TAJUGOMA HARAPAN, PACIANG DEMIAWATI, SINGLE CAMPUS RIDIMAU, PAULIKU ARIKAYA RAWA, PARADISE FREEDOM, SAHAYAT INDIAGRAFT, STATION ROBUSTE],\", \n    \"total\": \"Rp 750.00\"\n}",
+        "t": 1.7042512893676758
+    },
+    "X51006008206.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"2018/03/27\",\n    \"address\": \"Lot SATMZ 23, Mezzanine Level\",\n    \"total\": \"$63.9\"\n}",
+        "t": 0.6024665832519531
+    },
+    "X51006248253.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"20/03/2018\",\n    \"address\": \"L 047 LEVEL 2, VIVACITY MEGALAJAN WAIWALM AWILI, 9350 KUCHING\",\n    \"total\": \"RM\" + \"\\u00a315.00\"\n}",
+        "t": 0.8768775463104248
+    },
+    "X51006311714.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company':'GUARDIAN HEALTH AND BEAUTY SDN BHD', 'date':'NO 8 & 10 GF SOLARIS MOUNT KIARA', 'address\":\"SOLAR ISKANDARI MRT SQ No.\",'total':2349}",
+        "t": 0.6092374324798584
+    },
+    "X51006327953.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"MEI LET RESTAURANT\", \n  \"date\": \"NO2 JALAN BULU ALAM U5/BM US., NO10589763 TEL:\", \n  \"address\": \"4015S FX CHARLES MENOHING SESWAHIN US.\", \n  \"total\": \"TOTAL RM\"\n}",
+        "t": 0.8775458335876465
+    },
+    "X51006327960.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": \"02/17/16\",\n    \"address\": \"/S-B 37500-U (GKJ)\",\n    \"total\": [\n        \"4987\"\n    ]\n}",
+        "t": 0.636267900466919
+    },
+    "X51006328345.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"7/20\",\n    \"address\": \"KING'S CONFECTIONERY NO. 3A JALAN S69 / GELAKNA JAYA KULIAHJAYA, SELANGOR DISTRICT\",\n    \"total\": \"$185\"\n}",
+        "t": 0.7049720287322998
+    },
+    "X51006328937.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"LIVES N PHARMACY SDN BHD\", \n    \"date\": \"31/03/2017\", \n    \"address\": \"(5) Jalan Nova U6 No 498 KUCHING\", \n    \"total\": \"-\"\n}",
+        "t": 0.6293871402740479
+    },
+    "X51006328967.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"TANJONGMAS BOOKCENTRE (P) Sdn Bhd\", \n    \"date\": \"/17/03/2017 21:45:\", \n    \"address\": \"# F15 , GIANT BANDAR PUTERI Jalan Puteri / Bor Puterii 47800 PUCHONG SELANGOR\", \n    \"total\": \"-62.09\"\n}",
+        "t": 0.8901100158691406
+    },
+    "X51006329183.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Semboyan Texas Son Bldg\", \n    \"date\": \"06-05-2018\", \n    \"address\": [\n        \"-37496\", \n        \"-67469\"\n    ], \n    \"total\": 271.00\n}",
+        "t": 0.6442098617553711
+    },
+    "X51006329388.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": \"02/Jan/2017\", \n    \"address\": \"Gubang Perdana, 40-50 San Ali Atam Seligor VE.\", \n    \"total\": \"165\"\n}",
+        "t": 0.6623506546020508
+    },
+    "X51006332641.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(P)\", \n    \"date\": \"11/02/2017\", \n    \"address\": \"JALAN SUBANG JASA 3,456-987, TEL NO: 0111447931224\", \n    \"total\": \"-\"\n}",
+        "t": 0.7805888652801514
+    },
+    "X51006334139.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"05/12/17\", \n    \"address\": \"Jalan Setia Selangor 4398 Pjr., No. JALAN S GSM Bdg. Telp 603-7877 9712 (POSB), POSB Telpon Fax : +603-7877 9712(GST) No. ODD006I0435072\"\n}",
+        "t": 1.1014649868011475
+    },
+    "X51006334742.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"The Cut Steakhouse & Burgers\",\n    \"date\": \"01-07-2017\",\n    \"address\": [\n        \"- Lai 4 Star Avenue Mall\\u0e3fJalan Zuhal U/s Jelanang Komuserial Arena Bintang\",\n        50150 Shah Alam Selangor\n    ],\n    \"total\": 167.55\n}",
+        "t": 0.8906118869781494
+    },
+    "X51006334766.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"12/05/17\",\n    \"address\": \"- 405 Jalan Bukit Bintang Sdn Bhd, No 36-38, Jalan Kuala Lumpur\",\n    \"total\": \"$\" + \"\\u00a39.00\"\n}",
+        "t": 0.7290678024291992
+    },
+    "X51006334770.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None,\n    \"date\": \"09-Jan-2017\",\n    \"address\": [\n        {\"line1\": \"- SINGAPORE -\"},\n        {\"line2\": \"- 6435 #A\"},\n        {\"line3\": \"/ BUSINESS TOWER/\"}\n    ],\n    \"total\": [\"SALES INVOICE NO.: CS-0004350\"]\n}",
+        "t": 0.8674390316009521
+    },
+    "X51006334819.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None, \n    \"date\": \"20/Jan/2017\", \n    \"address\": \"40150 Shah Alam Selangor D.\"}",
+        "t": 0.44331884384155273
+    },
+    "X51006334927.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"CALTEX\", \n    \"date\": \"\", \n    \"address\": \"KELANA JAYA, 47301 PETALING SELANGOR DARUL EHSAN.\", \n    \"total\": \"\"\n}",
+        "t": 0.5997042655944824
+    },
+    "X51006335818.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"06 Feb 2017\",\n    \"address\": \"40150 SHALAM ALAM SELANGOR DARUL EHSAN GST Reg No : 003981645969\",\n    \"total\": \"RM\" + \"\\u00a327.00\"\n}",
+        "t": 0.7741949558258057
+    },
+    "X51006349081.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"C W KHOO HARDWARE SDN BHD\", \n    \"date\": \"26/04/18 15:37 PM\", \n    \"address\": \"No.9-10 Jalan PBS 14/11 PERINDUSTRIAN BUKIT SERDANG, KAWARASA\", \n    \"total\": \"-\"\n}",
+        "t": 0.8505620956420898
+    },
+    "X51006349083.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"CHA FOR TEA\", \n    \"date\": \"19/042016\", \n    \"address\": \"DATAPUR CENTRAL JAKARTA PJU5 3BKG\", \n    \"total\": \"RM 46.25\"\n}",
+        "t": 0.6364297866821289
+    },
+    "X51006349085.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"PLATINUM RACKING SDN BHD\", \"date\":\"22/04/2018\", \"address\":\"LALAR ACRES, JOHOR BAHRU 35609\", \"total\":\"733099\"}",
+        "t": 0.6125586032867432
+    },
+    "X51006350737.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"C W KHOO HARDWARE SDN BHD\",\n    \"date\": \"03-89410243 05/06/2017\",\n    \"address\": \"(4&#x00;S~M) CKWASAN PERINDUSTRIAN BUIT SERTANGGU KAWASAN TEL:\",\n    \"total\": \"$\" + \"-\" + \".00\"+\"$\"+\".00\"+\"$\"+\".00\"+\"$\"+\".00\"\n}",
+        "t": 1.1815011501312256
+    },
+    "X51006387660.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"02/18\",\n    \"address\": \"LOT 5F, GIANT BANDAR PUTERI JALAN PUJUK KUATUR DR.\",\n    \"total\": \"-\"\n}",
+        "t": 0.5678308010101318
+    },
+    "X51006387737.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BEMED (SP) SDN BHD\",\n    \"date\": \"01/Apr/2017 01:35:48\",\n    \"address\": \"-6JLan Alam, Subang Pardana, Kuala Lumpur\",\n    \"total\": \"RM195.00\"\n}",
+        "t": 0.8205552101135254
+    },
+    "X51006387931.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"AMANO MALAYSIA SDN BHD\", \n    \"date\": \"12 JUL 08/49\", \n    \"address\": \"TEMASYA INDUSTRIAL PARK\\n40150 SHAH ALAM SELANGOR\", \n    \"total\": \"- RM3.67\"\n}",
+        "t": 0.7360165119171143
+    },
+    "X51006387950.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"AMANO MALAYSIA SDN BHD (682288-V)\", \n    \"date\": \"10/4\", \n    \"address\": [\n        {\"street\": \"TELUK TAHU AYUNG 3 Jalan PENGARAH U1 / 4B\", \"number\": \"-5975\"}, \n        {\"name\": \"TEKMAS YSIA INDUSTRIAL PARK\", \"no\": \"40150 SHA HAI ALIM SELANGOR\"}\n    ], \n    \"total\": \"RM1.00\"\n}",
+        "t": 1.159712553024292
+    },
+    "X51006387973.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"McDonald's\",\n    \"date\": \"\",\n    \"address\": \"6535 - M-M-\",\n    \"total\": \"$0.00\"\n}",
+        "t": 0.45131969451904297
+    },
+    "X51006388068.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SeGI Cash & Currency Sdn Bhd\", \n    \"date\": \"11/05/27 10:36 am\", \n    \"address\": \"(P)\", \n    \"total\": \"-89\"\n}",
+        "t": 0.544257640838623
+    },
+    "X51006388081.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(P)\", \n    \"date\": \"21/05/17\", \n    \"address\": \"47301 Petaling Jaya Selangor D.E.\", \n    \"total\": 68900\n}",
+        "t": 0.5515685081481934
+    },
+    "X51006388089.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"YONG CEN ENTERPRISE\", \n    \"date\": \"21/05/2017\", \n    \"address\": \"4A 68 JALAN SUBANG JAASA 3, 4JL BUKIT RANDU, KOTA SELANGOR\", \n    \"total\": 1098\n}",
+        "t": 0.8273513317108154
+    },
+    "X51006389894.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KING'S CONFECTIONERY S/B 273500-U (J)\", \n    \"date\": \"10/10/17\", \n    \"address\": \"Gr. Floor Jn Theater, Noijang Utara 52100 K.L.\", \n    \"total\": \"-\"\n}",
+        "t": 0.7287425994873047
+    },
+    "X51006389898.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": \"29-09-2017\", \n    \"address\": \"No 2 Jalan Temengunjung 1/9, Seksyen 9, Bandar Mahkota Cheras, 43560 Cheras Selangor GST REG NO : OE83357R520\" , \n    \"total\": \"164.40\"\n}",
+        "t": 0.8981854915618896
+    },
+    "X51006392167.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Aneka Intertrade Marketing Sdn B.\",\n    \"date\": \"19/06/27\",\n    \"address\": \"54BJ 8M TUCI M Kg Baru Subang Jalan Alam 40150 Shah Alam Selangor Darul Ehsan Malaysia\",\n    \"total\": \"$38\"\n}",
+        "t": 0.8511781692504883
+    },
+    "X51006401845.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": 2017-04-03T06:59:08Z, \n    \"address\": [\n        {\"street\": \"No 6/A\", \"suburb\": \"KLANG\", \"state\": \"SELANGERH\"}, \n        {\"street\": \"Jalan KASUARI 1 / KS\", \"countrycode\": \"MY\", \"postalCode\": \"1KS\"}\n    ], \n    \"total\": 26.90\n}",
+        "t": 1.0792243480682373
+    },
+    "X51006401853.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"99 SPEED MART\", \n    \"date\": \"06-34PM 5/2/17\", \n    \"address\": \"JALAN BERKELEY, LOT P T., JALAN ANGSAA, Klang Selangor 1299 Subang Permai GST ID No : 000812747712\", \n    \"total\": \"RM 37.44\"\n}",
+        "t": 1.040065050125122
+    },
+    "X51006401977.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"19/04/2017\", \n    \"address\": \"B& B RESTAURANT ( 001610235-P ) GST NO : 00180083918\", \n    \"total\": \"$\" + \"14.85\"\n}",
+        "t": 0.821660041809082
+    },
+    "X51006414425.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": 05/Apr/2189,\n    \"address\": \"Jalan Tamppi No /7\",\n    \"total\": -6.43\n}",
+        "t": 0.5464537143707275
+    },
+    "X51006414427.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"2018-04-19\", \n    \"address\": \"Tanjong Perak 37/88 Jalan Taman Tun Abdul Razak Kuala Lumpur\", \n    \"total\": \"$65\" \n   }",
+        "t": 0.6943042278289795
+    },
+    "X51006414433.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UNIHAKK\", \n    \"date\": \"06 Apr 18:\", \n    \"address\": \"(BTM2534)\", \n    \"total\": \"$7.9\"\n}",
+        "t": 0.54508376121521
+    },
+    "X51006414512.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BHP Petrol Permajaya 2\",\n    \"date\": \"03-04-2018\",\n    \"address\": \"- Jalan Pemasukan / Jalan Perdana / Jalan Johor\",\n    \"total\": 59675.0\n}",
+        "t": 0.7329263687133789
+    },
+    "X51006414532.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"The GeoVenture\", \n    \"date\": \"6/4/2018 21:39:57\", \n    \"address\": \"(Freedom Sdn Bhd)\", \n    \"total\": \"-RM\"\n}",
+        "t": 0.6159052848815918
+    },
+    "X51006414593.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"14 Apr 2018\",\n    \"address\": \"(673988-U)\",\n    \"total\": \"$\" + \".850\"\n}",
+        "t": 0.5610527992248535
+    },
+    "X51006414600.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"10/4/6\",\n    \"address\": \"AECO CO., M (M) EAM 3RD FLR FOM AEN JAJAKA TAMANALI CHEHARS CHERAS, 551 KULA LALUM PUTRAKAN GST ID : OC2071984G SHOPPING HOURS\"\n}",
+        "t": 0.9375836849212646
+    },
+    "X51006414702.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"04-03/2016\", \n    \"address\": \"Jalan 8/9 No 5 &6 Kuala Lumpur\", \n    \"total\": \"$17\"\n}",
+        "t": 0.6158468723297119
+    },
+    "X51006414708.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN HWU MU\", \n    \"date\": \"29/04/18\", \n    \"address\": \"5/4 TAMAN SUTERA TANAJUNG JOHORE 31300 SKUKULIANG JOHORE\", \n    \"total\": [\n        {\"amount\": 67}, \n        {\"amount\": -5}\n    ]\n}.",
+        "t": 0.8980233669281006
+    },
+    "X51006414715.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SECRET RESTAURANT\", \n    \"date\": \"2015/4/8 9:36AM\", \n    \"address\": \"(Company No SEP 9208-M) Lot G16, Pemas Jaya Ju\u00e7o\", \n    \"total\": \"RM41.87\"\n}",
+        "t": 0.7927305698394775
+    },
+    "X51006414717.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": 12/04/2018, \n    \"address\": [\n        {\"name\": \"Jln Jeja\", \"number\": \"55109\"}, \n        {\"name\": \"Mandalamanal\", \"street\": \"Chakravati\", \"unit_no\": \"-3\"}\n    ], \n    \"amount\": -[67, 45]\n}",
+        "t": 0.9102141857147217
+    },
+    "X51006414728.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"OREE\", \n    \"date\": \"29-Apr-18 04:35 PM\", \n    \"address\": \"(6)AED No., Lgtd., AEOD 171/Lgtd.\", \n    \"total\": \"$\" + \"-\" + \"\\u20ac\"\n}",
+        "t": 0.7546300888061523
+    },
+    "X51006438346.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HIGH FIVE ENTERPRISE\", \n    \"date\": \"05/418 27369\", \n    \"address\": \"Jalan Bidara, Batu Caves Selangor\", \n    \"total\": \"RM  95\"\n   }",
+        "t": 0.6853678226470947
+    },
+    "X51006466070.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"WESTERN EASTERN STATIONERY SDN BHD\", \n    \"date\": \"26-04-2018 14:59:37\", \n    \"address\": \"-SHAH KUALA LUMPUR TAX INVOICE TEL:\",\n    \"total\": \"\"\n}",
+        "t": 0.703193187713623
+    },
+    "X51006502534.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company': '', 'date': '10/04/2018 18:31', 'address': '#0004 Gateway@KLIA (L-1)', 'total': ''}",
+        "t": 0.49640822410583496
+    },
+    "X51006502540.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"DUPLICATE\", \n    \"date\": \"(65351)M\", \n    \"address\": \"Level 6, Bangunan TH, Damansara Uptown No.03 Jalan SS21/39,47400 Petaling Jaya (GST ID No : O0S04664604)\", \n    \"total\": \"TOTAL\"\n}",
+        "t": 0.8646047115325928
+    },
+    "X51006554841.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"NSK TRADE CITY-SELAYANG\", \n    \"date\": \"27 KINGDOM STREET 138A/F BHN A65049B LOCATION 400\", \n    \"address\": \"- JALAN IPOH ROYAL - 06049 (E), MANSION BUILDINGS - TERUSMART - SCHOTTESBERG - WEST GARDEN HILL - NEW JAYS PARLOR\", \n    \"total\": \"RM 5,104\"\n}",
+        "t": 1.1332895755767822
+    },
+    "X51006555819.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"23/07/2017\", \n    \"address\": \"40/599 Jalan Alam Selangor\" \n}",
+        "t": 0.661515474319458
+    },
+    "X51006555833.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"3/08/2017\", \n    \"address\": \"40309 Jalan Shah Alam Selangor.\", \n    \"total\": 152\n}",
+        "t": 0.8631601333618164
+    },
+    "X51006555835.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENLA BAKERIES\", \n    \"date\": \"29/08/2017\", \n    \"address\": \"(39)386 x Kuala Lumpur 5D, (40)300 Shah Alam Selangor\"\n}",
+        "t": 0.655735969543457
+    },
+    "X51006556610.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"PINGHWAI TRADING SDN BHD\", \n    \"date\": \"20/08/2017\", \n    \"address\": \"(121)36-9 W., NO 2 JALAN METRO PERDANA TIMUR 11 KEPONG ENTERPRENUERS PARK OFF JALA KUPANG\", \n    \"total\": \"393\"\n}",
+        "t": 0.8749017715454102
+    },
+    "X51006556648.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES(KL) SDN BHD\", \n    \"date\": \"20/08/2017\", \n    \"address\": \"(39386 X)\", \n    \"total\": 55.14\n}",
+        "t": 0.6761300563812256
+    },
+    "X51006556654.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL SDN BHD)\", \n    \"date\": \"13/08/2017\", \n    \"address\": \"(403) 596 Jalan Alam Selangor\", \n    \"total\": \"-\"\n}",
+        "t": 0.7080478668212891
+    },
+    "X51006556657.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\",\n    \"date\": \"16/08/2017\",\n    \"address\": \"4039 Shah Alam Stangor 5B\",\n    \"total\": \"59.31\"\n}",
+        "t": 0.7470483779907227
+    },
+    "X51006556658.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (kl) SDN BHD\", \n    \"date\": \"15/08/2017\", \n    \"address\": \"403 60 Shah Alam St., Jalan Pelanduk, 139386 X\", \n    \"total\": \"32.1\"\n}",
+        "t": 0.8178410530090332
+    },
+    "X51006556723.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES ( KL ) SDN BHD\", \n    \"date\": \"03/08/2017 16:45:\", \n    \"address\": \"Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor.\", \n    \"total\": \"-RM5\"\n}",
+        "t": 0.8809013366699219
+    },
+    "X51006556728.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES\", \n    \"date\": \"07/08/2017\", \n    \"address\": \"4030 Shah Alam St., Jalan Pelabur Sdn Bhd (19386 X), Tel : 03-55432228, Fax: 03 -55432213, GST ID: 000-838-1399044\", \n    \"total\": \"7807F716\"\n}",
+        "t": 1.2015697956085205
+    },
+    "X51006556734.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES( KL) SDN BHD (13986 X)\", \n    \"date\": \"04/07/2017\", \n    \"address\": \"Jalan Selangor, 4030 Shah Alam, Kuala Lumpur.\", \n    \"total\": \"-\"\n}",
+        "t": 0.8101167678833008
+    },
+    "X51006556740.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (L) SDN BHD\",\n    \"date\": \"01/08/2017 12:05\",\n    \"address\": [\n        {\"street\": \"- Jalan SS 63 / 4B\", \"suburb\": \"JALAN SSS\", \"state\": \"SELANGOR\"},\n        {\"street\": \"- Subang Jaya & Selangan Bahru\"}\n    ],\n    \"total\": 23.35\n}",
+        "t": 1.0036673545837402
+    },
+    "X51006556806.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"23/09/17\", \n    \"address\": \"(148), Jalan Pelabur 2A, 56100 Kuala Lumpur\"\n}",
+        "t": 0.7326788902282715
+    },
+    "X51006556808.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"20/09/2017\", \n    \"address\": \"43030 Shah Alam St., Pelaburan 3/8, Fax No.: 5-65423213\", \n    \"total\": \"Total Payable\"\n}",
+        "t": 0.8116812705993652
+    },
+    "X51006556809.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"/09/28/\", \n    \"address\": \"(139386 X)\", \n    \"total\": 457100\n}",
+        "t": 0.6554079055786133
+    },
+    "X51006556810.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"\", \n  \"date\": \"20/09/2017\", \n  \"address\": \"GARDENIA BAKERIES (K) SDN.BHD.(3485), LOT 3, JALAN PELABUR HARJA-HARI KUANG, 6TH FLOOR, Jalan SS 15 / 463, Subang Jaya, SELANGOR.\", \n  \"total\": \"\"\n}",
+        "t": 1.0465483665466309
+    },
+    "X51006556812.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"14/09/2017\", \n    \"address\": \"Jalan Pelabur 23 / Blk 56, Jalan Alam Shah, Setiau-Ulu Krian, 40309 Sdn Bhd\"\n}",
+        "t": 0.866386890411377
+    },
+    "X51006556821.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (Sdn Bhd)\",\n    \"date\": \"06/12/2017\",\n    \"address\": \"Jalan Alam Shah, Subang Jaya, Selangor 43895\"\n}",
+        "t": 0.6863954067230225
+    },
+    "X51006556826.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"27/09/2017\", \n    \"address\": \"(139386 X)\", \n    \"total\": 54990.00 \n }",
+        "t": 0.7098283767700195
+    },
+    "X51006556827.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\",\n    \"date\": \"20/09/2017\",\n    \"address\": \"4309 Shah Alam Stn Selangor 658296\",\n    \"total\": 53.96\n}",
+        "t": 0.7805616855621338
+    },
+    "X51006556829.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN Bhd\", \n    \"date\": \"24/09/2017\", \n    \"address\": [\n        \"-365 8th Ave.\", \n        \"Jalan Pekanbaru 2nd\"\n    ], \n    \"total\": 38.55\n}",
+        "t": 0.8193986415863037
+    },
+    "X51006556851.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\":\"GARDENIA BAKERIES (KLSDN BJH)\",\"date\":12/09/2017,\"address\":{\"street\":\"4300 Shah Alam St., Selangor\"},\"total\":84.7}",
+        "t": 0.5848386287689209
+    },
+    "X51006556865.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"6/09/2017\",\n    \"address\": \"(348) 5-0532\",\n    \"total\": \"-\"\n}",
+        "t": 0.48041582107543945
+    },
+    "X51006557115.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"07/10/2017\", \n    \"address\": \"[4309 SHARON STREET 5TH FLOOR JALAN SS 6 & SEVEN, KUALA LUMPUR] MALAWI,\"}",
+        "t": 0.8492975234985352
+    },
+    "X51006557169.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company': 'GARDENIA BAKERIES (KL) SDN BHD(139386X)', 'date':'04/2017- 10:51 AM', 'address' : \"Tanjong Kelang\", 'total': '-\u00a328.99' }",
+        "t": 0.7496168613433838
+    },
+    "X51006557173.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"28/10/2017\", \n    \"address\": \"4390 Shah Alam St., 2Jr Ldg.\", \n    \"total\": \"32.6\"\n}",
+        "t": 0.7559053897857666
+    },
+    "X51006557187.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\",\n    \"date\": \"16/07/2017\",\n    \"address\": \"- 43090 Shah Alam St., Lantai 1, Jalan Pekan Baru 587-B, Kuala Lumpur\",\n    \"total\": \"RM 25.96\"\n}",
+        "t": 0.9437408447265625
+    },
+    "X51006557194.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": 13/07/2017, \n    \"address\": \"4039 Shah Alam St., Jalan Pelabur, Selangor.\", \n    \"total\": 39.77\n}",
+        "t": 0.7718842029571533
+    },
+    "X51006557196.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"1/09/2017\", \n    \"address\": \"4030 Shah Alam Street 28 / F., Jalan Perdana 6, Kuala Lumpur\", \n    \"total\": \"27.10\"\n}",
+        "t": 0.8503563404083252
+    },
+    "X51006557208.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"07/10/2017\", \n    \"address\": [\n        {\"street\": \"Jalan SS 4 & 6\", \"number\": \"NO.\", \"unit_no\": \"5A/B\"}, \n        {\"name\": \"MAKKASAR FRESH MARKET Sdn Bhd\"}\n    ], \n    \"total\": \"398\"\n}",
+        "t": 1.0313658714294434
+    },
+    "X51006557209.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (KL) SDN BHD\", \n    \"date\": \"06/10/2017\", \n    \"address\": \"4039 Shah Alam St 8/5, Jalan Pelabur 2nd Flr, 4039 Shah Alam St 8/5, Jalan Pelabur 2nd Flr, 4039 Shah Alam St 8/5, Jalan Pelabur 2nd Floor, 4039 Shah Alam St 8/5, Jalan Pelabur 2nd Floor, 4039 Shah Alam Street 8 / F5, Kuala Lumpur\"\n}",
+        "t": 1.4736135005950928
+    },
+    "X51006557507.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GARDENIA BAKERIES (PKL) SDN BHD\", \n    \"date\": \"27/10/2017\", \n    \"address\": \"40 3rd Floor, Jalan Kelabu 5D1H (139386 X), Telp: 03-5423228 Fax : 03-5423213\"\n}",
+        "t": 0.9750666618347168
+    },
+    "X51006619328.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"YIN MA (M) SDN BHD\",\n    \"date\": \"15/02/2016 18:39PM\",\n    \"address\": \"NO 4A JALAN UDANG STAR SRI UNGU TAMAN GARUMBUT, KUALA LUMPUR\",\n    \"total\": \"RM\" + \":+\"\n}",
+        "t": 0.8180074691772461
+    },
+    "X51006619338.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"31-01-26\",\n    \"address\": \"Jalan Kapar 7th Floor No.98 Batu Cina Tmrw\",\n    \"total\": \"RM254\"\n}",
+        "t": 0.638063907623291
+    },
+    "X51006619346.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"\",\n    \"address\": \"[LOT 185-A & LOTS JALAN KPR G6, KAWAR SIRKAM PELANGGARAN SELONGOR] (STALL NO. 3),\",\n    \"total\": \"$924.70\"\n}",
+        "t": 0.702643871307373
+    },
+    "X51006619503.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": 2016-12-31T22:57:49Z,\n    \"address\": \"No.8Jalan Kuning, Pusat SDN BHD\",\n    \"total\": \"-28\"\n}",
+        "t": 0.677210807800293
+    },
+    "X51006619506.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": 28/04/1997,\n    \"address\": \"No B563-B3\",\n    \"total\": -2143\n}",
+        "t": 0.49964451789855957
+    },
+    "X51006619507.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Golden Arches Restaurants Sdn Bhd\", \n    \"date\": \"03/12/2016\", \n    \"address\": [\n        \"- GST No.: 58-479854 (GST)\", \n        \"- Address : Level 6, Bangunan TH, Damansara Uptown 3, No.3, Jalan SS21/T3N, Petaling Jaya, Selangor\"\n    ], \n    \"total\": \"RM 0.83\"\n}",
+        "t": 1.1122074127197266
+    },
+    "X51006619509.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"menu\": [\n        {\n            \"nm\": \"PEANUT C\",\n            \"num\": 1234567890\n        },\n        {\n            \"nm\": \"TABO C\",\n            \"num\": 1234567890\n        }\n    ],\n    \"sub_total\": {\n        \"discountedprice\": \"-RM 4.00\"\n    },\n    \"taxes\": [\n        {\"name\": \"GST TAX AMT\", \"value\": \"RM  4.99\"}\n    ]\n}",
+        "t": 1.149686336517334
+    },
+    "X51006619564.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"06-12-15\",\n    \"address\": \"98 SPEED MART 3B (E)S/N5737X TAMAN BERKELAY GST ID No : OOOI14TG127RFLM\",\n    \"total\": \"$\" + \".00\"\n}",
+        "t": 0.8001806735992432
+    },
+    "X51006619567.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"02/04/16\",\n    \"address\": \"KEPONG LANGUAR KUALA LUMPUR 573-981\",\n    \"total\": \"87\"\n}",
+        "t": 0.6381001472473145
+    },
+    "X51006619569.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"02-16\", \n    \"address\": \"KUALA LUMPUR 57439W Sdn Bhd, Co-Reg : (G) KHAI\\u00c8L \\ufeffCo- Reg : 750411- W, Lot  1851 A & B; 1851 C - JALAN BAHARI, KPB G6, KAHASIAN PERUM BANGUN TIMETION, BELAKONG, 4330 SERIKEMBALING SELARNGOR, (GST ID No.: 0004473792512)\", \n    \"total\": \"\"\n}",
+        "t": 1.4217634201049805
+    },
+    "X51006619570.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": 21-02-16,\n    \"address\": \"-5937\",\n    \"total\": \"\"\n}",
+        "t": 0.4133131504058838
+    },
+    "X51006619700.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"D.I.Y (KUCHAT)\", \n    \"date\": \"18-5\", \n    \"address\": \"- 46 KRABALIKONG\", \n    \"total\": \"RM0\"\n}",
+        "t": 0.5290586948394775
+    },
+    "X51006619703.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MR. D.I.Y (KUCHAT) SON BHD\", \n    \"date\": \"1985-02 4\", \n    \"address\": \"PERINDUSTRIAN BAHALOKONG, KAWASAN PERINDSURIAN SELANGOR, 330 SERIKEMBALANGAN, LELANGGAR\", \n    \"total\": \"7\"\n}",
+        "t": 0.8523485660552979
+    },
+    "X51006619704.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"1-01-20\",\n    \"address\": \"LOT 1851 A & B - JALAN KPB G., KAWARISAN PERINDUKIRA ANJANG SELONGOR 4330 SERI KEMRINGAN, SE LANDONG\",\n    \"total\": \"\"\n}",
+        "t": 0.7743608951568604
+    },
+    "X51006619757.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"99 SPEED MART\", \n    \"date\": \"13-01-26\", \n    \"address\": [\n        {\"street\": \"LOT P. T.\", \"number\": 51957}, \n        {\"name\": \"<NAME>\", \"unit_no\": 4}\n    ], \n    \"total\": \"-RM\\u00a8\"\n}",
+        "t": 0.7909495830535889
+    },
+    "X51006619760.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"KEDAI UAT & RUNCIT HONG SDN BHD\", \n    \"date\": \"NO 8 JALAN LANG KUNING, SEPOLAYA KUALIA MULUMBILUAR, PUSPAHMATA SELAMBANANG, KOTAPRAWOH, D16309\", \n    \"address\": \"(7) TELE (245-995), NO 3 ROOM A/F CENTRAL OFFICE BUILDINGS PERDANAS AIR TIMUR, 21 STREET SOUTHERN LANGAWARINI, GOTHIC AVENUE AND COFFEE HOUSE, MARG MAHAZAH, NEWSPAPER EXCHANGE, MERDEKA BOULEVARD, KAMPENG, WEST INDONESIAN REPUBLIC OF GUJARATH,\"}",
+        "t": 1.7312705516815186
+    },
+    "X51006619764.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MR. D. I. Y.(KUCHAI) SDN BHD\",\n    \"date\": \"05-01-2643\",\n    \"address\": \"LOT 1851-A & LISTRIAN BANAL KEMPEN SELANGOR PERINDUSTRAJIAN SEPERTI TELUK PAHAT MALING JASA - TAX INVOICE (SENT BY)\",\n    \"total\": \"RM\\u00a3\"\n}",
+        "t": 1.0226590633392334
+    },
+    "X51006619766.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"10-01-26\", \n    \"address\": \"JALAN KPB 6,KAWASNAN PERIUNDIARI BALAKONG,3450 SERIMUK LANGUAR\", \n    \"total\": \"RM97.80\"\n}",
+        "t": 0.7060396671295166
+    },
+    "X51006619779.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"2016-07-31\",\n    \"address\": \"Yam Fresh Jalan Rimbunan Raja 1, Kuala Lumpur, Tel:\",\n    \"total\": \"\"\n}",
+        "t": 0.6242423057556152
+    },
+    "X51006619784.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"7/6/2018\",\n    \"address\": \"Lot TC 007 & 008, 3rd Floor, Sg Wang Plaza\",\n    \"total\": \"\"\n}",
+        "t": 0.5539236068725586
+    },
+    "X51006619790.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"YIN MA (M) SDN BHD\",\n    \"date\": \"2016-07-31T 05:49PM+8\",\n    \"address\": \"- TAMAN UDANG SIRI 3, JALAN SUDARMO KUALA LUMPUR\",\n    \"total\": \"RM 15.50\"\n}",
+        "t": 0.8153061866760254
+    },
+    "X51006619842.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"YIN MA (SM) SDN. BHD.\", \n    \"date\": 03 Jun 2016, \n    \"address\": \"- NO.\\n2., JALAN UDANG SIAR 2\\u00b4\", \n    \"total\": 578090.0\n}",
+        "t": 0.7659173011779785
+    },
+    "X51006619863.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"08-06-16\",\n    \"address\": \"JALAN KAPAR NUKIM KAWAR 42100 KLANG SELANGOR GST NO : 00018747712 INVOICE NO : 1793/KTG PAND DATE TIME CNP NUMBER LOT T. NO.:5 SPEED MART S/B (S51957X) -(Lot. P. T.) Jalan Kapar Nukim Kawar 42100 Klang Selangor Total Sales Inclusive Gst RM 2.11 Rounding Adjustment RM .01 CASHRM 2.20 CHANGE RM .10 Amount (RM): 1.99 Tax (RM).12\"\n}",
+        "t": 1.676732063293457
+    },
+    "X51006619869.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Home's Harmony\", \n    \"date\": \"12/06/2016- 13:30:10 - Utama Shopping Centre -- Phase 2\", \n    \"address\": [\n        {\"street\": \"Lot S319A, Second Floor\", \"suburb\": \"Utama Shopping Centre\"}, \n        {\"citystatecountrycode\": \"-UTAMA Jaya Malaysia\"}\n    ], \n    \"total\": \"50.00\"\n}",
+        "t": 0.9467177391052246
+    },
+    "X51006620175.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": 2016-05-17T19:48:31Z,\n    \"address\": [\n        {\"street\": \"Jalan\", \"number\": \"KPB 6\", \"suburb\": \"- BALIKANGSARA\"},\n        {\"statecode\": \"BNG\", \"countrycode\": \"MUR\", \"postalcode\": \"31000\"}\n    ],\n    \"total\": 146.99\n}",
+        "t": 1.0084202289581299
+    },
+    "X51006620182.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\":\"PACIFIC ASIAN FOOD DELAYS S/B\",\"date\":109507,\"address\":\"Jln Metro Perdana Barat 2 TAMAN USHAPANG KEPONG 53486 KL TEH LEI 03-6242 TL ETA INVOICE VERIFYING\"}}",
+        "t": 0.7471833229064941
+    },
+    "X51006620192.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HOSME'S HARMONY @ 1 UTAMA SHOPPING CENTRE\", \n    \"date\": \"05/2016-13:19:16 - 07NORBAIZURA BT-101\", \n    \"address\": [\"Utama Shopping Centre Phase 2 Persiaran Bandar Utam, 47800 Petaling Jaya Malaysia\"], \n    \"total\": [\n        {\"description\": \"#00000-0<CASHIER>\", \n        \"amount\": \"$8.82\"}, \n        {\"description\":\"Rounding Adjustment <$0.02>\"}\n    ]\n}",
+        "t": 1.2877798080444336
+    },
+    "X51006620437.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"99 SPEED MART\", \n    \"date\": \"20-08-14\", \n    \"address\": \"- P T 331957 BATU GALANG KAPAR LOT T., JALANIK APPAR MUKIM CAR PAR\", \n    \"total\": \"RM 619.9\"\n}",
+        "t": 0.8352510929107666
+    },
+    "X51006647933.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"28/05/2018 MON\",\n    \"address\": \"Jalan RAWANG 6B100 B. CAVES GST LND NO : OOOO193470 TAX INVOICE# \",\n    \"total\": \"\"\n}",
+        "t": 0.7566854953765869
+    },
+    "X51006647984.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": \"15/05/18\",\n    \"address\": \"63&67-P1, The Suite, Jaya One, No 92A, Jalan Universiti, Petaling Jaya, Selangor.\",\n    \"total\": \"64.50\"\n}",
+        "t": 0.7044327259063721
+    },
+    "X51006733495.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"19-10-20\",\n    \"address\": \"JALAN KAPAR, MUKIM KAWAR 4\",\n    \"total\": \"$\" + \"578613716$\"\n}",
+        "t": 0.6621325016021729
+    },
+    "X51006828199.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"(894015P)\",\n    \"date\": \"12/10\",\n    \"address\": \"Lingkaran 7 Sunway Velocity Mclu, 55100 Kuala Lumpur\",\n    \"total\": \"RM36.96\"\n}",
+        "t": 0.6728639602661133
+    },
+    "X51006828200.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"15/12/2017\",\n    \"address\": \"YM Mid Valley T-015b Level 3, Mid Valley City, Jalan Serdang Putra, Kuala Lumpur Malaysia.,\",\n    \"total\": \"TOTAL M'R\"\n}",
+        "t": 0.7117733955383301
+    },
+    "X51006828201.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": \"15/12/2017\", \n    \"address\": \"Mid Valley Megamall, 5920 Kuala Lumpur Putrajaya\", \n    \"total\": \"$34.68\"\n}",
+        "t": 0.7665650844573975
+    },
+    "X51006856982.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\":\"Guardian Health And Beauty Sdn Bhd\",\"date\":\"03-76284 5/1989\", \"address\":[\"Lot B-005-006., Basement Level 1 The Starling Mall Jalan SS21/60, Damansara Utama\"], \"total\":{\"GST Total\":[\".108.21\"],\"CashTotal\":[\"$108.00\"]}}",
+        "t": 0.9236884117126465
+    },
+    "X51006857126.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SKL DANGSARA ENTERPRISE\", \n    \"date\": \"28/07/17 9:46AM\", \n    \"address\": \"JALANATA, SELANGOR\", \n    \"total\": \"-\"\n}",
+        "t": 0.6527509689331055
+    },
+    "X51006857132.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"AEON CO. (M) BHD (126928-H)\", \n    \"date\": \"07/03/2017\", \n    \"address\": \"(JLN JE JAKA TAMAN MAURI CHERAS 5510 KUALLA LUMPU GST ID : DCO02T047394G68\", \n    \"total\": \"23.60\"\n}",
+        "t": 0.9400284290313721
+    },
+    "X51006857137.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"99 SPEED MART 5/B (S19537-X)\", \n    \"date\": \"04-08-2017\", \n    \"address\": [\n        {\"street\": \"LANTUAN ROAD\", \"unit_number\": \"-\"}, \n        {\"road\": \"PELAYANG DRIVE - LANDING LANE\", \"suburb\": \"JALAN ANGORA\"}], \n    \"total\": 3644.90\n}",
+        "t": 1.0708224773406982
+    },
+    "X51006857540.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BECON STATIONER\", \n    \"date\": \"13-11-2017\", \n    \"address\": \"-4G/JN SsAraa Utama Outlet, 605UTaraUtama Pj., Selangor.\", \n    \"total\": \"$298.15\"\n}",
+        "t": 0.7283596992492676
+    },
+    "X51006912959.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None, \n    \"date\": \"09/05/2018\", \n    \"address\": \"Taman Sutera Utama Skudai Johor Malaysia 316447\", \n    \"total\": \"10\"\n}",
+        "t": 0.6409420967102051
+    },
+    "X51006912976.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"19/05/2018\", \n    \"address\": \"BANDAR BARU PERUMBAHAN UTARA 67-3 Kuala Lumpur\", \n    \"total\": \"100\"\n}",
+        "t": 0.6764075756072998
+    },
+    "X51006912998.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BHPetrol Perum Jaya 2\", \n    \"date\": \"08-5-2018 OCTOBER 6\", \n    \"address\": \"LOT PTD PTM 1010541 Jalan Permasai, Johor 31750 Masajah\", \n    \"total\": \"RM 50\"\n}",
+        "t": 0.8557384014129639
+    },
+    "X51006913018.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Aeon Co. (M) Bhd\", \n    \"date\": \"3RD FLR FLR TAMAN MALAKU LIMBU SUN-TUE: 1000 HRS - 2400Hrs SAT:-1800 hrs VALID CUSTOMER:\", \n    \"address\": \"JLN JEJOMA, TANAMAN MALUKU, CHERRAS, GST JOHOR,\"+\n     \"GST ID :0029751634001\"+\"SHOPPING HOURS:FRI.-  1000 HRS - 2400 HRS WEDDY:- 2100 HRS - 2300 HRS\", \n    \"total\": \"125000076700\"\n}",
+        "t": 1.6767504215240479
+    },
+    "X51006913032.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"10 May 2018\", \n    \"address\": \"Tampa, Florida 34695-7103 USA\", \n    \"total\": \"$12.2\" \n   }",
+        "t": 0.6138641834259033
+    },
+    "X51006913060.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"21 May 2018\",\n    \"address\": \"Jalan Tampoq 7/4 Pusat Industri\",\n    \"total\": \"$\" + \"->\" + \"5.90\"\n}",
+        "t": 0.6457085609436035
+    },
+    "X51006913061.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UNIKAKA INTERNATIONAL SDN BHD\", \n    \"date\": \"23 MAY 2018\", \n    \"address\": \"Jalan Pemilihan No 4-6 JOHOR BAHRU Industrial Estate\", \n    \"total\": \"$9.57\"\n}",
+        "t": 0.7320542335510254
+    },
+    "X51007103597.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GOLDEN KEY MAKER\",\n    \"date\": \"10 Apr-2018 3:14 PM\",\n    \"address\": [\n        {\"street\": \"No 5, Jalan Kenari 2.\", \"city\": \"Bandar Puchong Jaya, Selangor\"},\n        {\"state\": \"-\"}\n    ],\n    \"total\": {\n        \"sub_total\": 96750000,\n        \"discountedprice\": null,\n        \"cashreceived\": 96750000,\n        \"changepaid\": 0,\n        \"etc\": \"\"\n    }\n}",
+        "t": 1.2862718105316162
+    },
+    "X51007103610.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SDN BHD\", \n    \"date\": \"-2-8-1965\", \n    \"address\": \"[CO REG : 083671 - D] LOT 1851 A & 1851B, JALAN KPGB Pusat, KANASAK PLANT PERDINDRIAN BAHARU, RASMI SURABAYA, 43300 SERI KEMBANGAN, SELAYANG (GST ID NO.: 00030602035)\", \n    \"total\": \"$\" + \"S\" + \": $5.00\"}",
+        "t": 1.3412072658538818
+    },
+    "X51007103649.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"21-04-18\",\n    \"address\": \"JL SHIO 3 ZB6 KUALA LUMPUR MALAKAMBAH SUNGAI PANITO BANGKOK JOHOR BAHRU\",\n    \"total\": \"RM59\"\n}",
+        "t": 0.7865912914276123
+    },
+    "X51007103668.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"M&D IY (M) SDN BHD\", \n    \"date\": 31804045, \n    \"address\": [\n        {\"street\": \"KAWASAN PERINDUSTRIIAN BAJA KALAKONG, SELANGOR\", \"number\": \"(GST)\"}, \n        {\"citystatecountrycode\": \"-69\", \"postalcode\": \"43300 SEREHIEMBANANG\"}}",
+        "t": 0.9974832534790039
+    },
+    "X51007103687.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"7-04-18\",\n    \"address\": \"LOT 1851 x & 19th B, JALAN KAWASANKA PERINDUSTRIIAN BAKONG, KANASAUNGER LATITUD :6.2386., LONGTUDE:-6.3367.\",\n    \"total\": \"RM\"\n}",
+        "t": 0.9217185974121094
+    },
+    "X51007225406.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UNIPHARM PHARMACY\", \n    \"date\": \"05/Apr 2018 12:49 PM\", \n    \"address\": \"Jalan SS 15 / 4D, Subang Jaya, 63-67 B12, Kuala Lumpur\", \n    \"total\": \"$\" + \"-{number}\"+ \".41\"\n}",
+        "t": 0.9132106304168701
+    },
+    "X51007231274.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"06 May 2018\",\n    \"address\": \"Tampak Jalan Tambang Johor Perumahan PJOHJ\",\n    \"total\": \"$75\"\n}",
+        "t": 0.5912911891937256
+    },
+    "X51007231275.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Uniakka International Sdn Bhd\", \n    \"date\": \"12 Aug 859\", \n    \"address\": \"Jalan Tampo, No 643-704 Kuala Lumpur\", \n    \"total\": \"$6.0\" \n   }",
+        "t": 0.7165277004241943
+    },
+    "X51007231276.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"02 May 18\",\n    \"address\": \"(6)TAMPOI 7/4,WASAWAN Perdurian\",\n    \"total\": \"$\" + ((((((5+3)/2)+(9-5))*1)*4)+(2+($R[0]))}",
+        "t": 0.78727126121521
+    },
+    "X51007231331.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UNIKA INTERNATIONAL SDN BHD\", \n    \"date\": 10 May 2018, \n    \"address\": \"-67388-U (Tampal 4/Kawasan Perindustrian), Tampo, Ipoh -191028 Johor Bahru\", \n    \"total\": \"Total Amount = RM 5\"\n}",
+        "t": 0.8882880210876465
+    },
+    "X51007231341.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"UNAMKA INTERNATIONAL SDN BHD\",\n    \"date\": \"03 May 2018 18:27\",\n    \"address\": \"[6/9A Jalan Taman Tepi Johor Perindustrian] Tampoipati 7/4, Kawasan Perindustrijn\"\n}",
+        "t": 0.8336033821105957
+    },
+    "X51007231343.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"05 May 2018\",\n    \"address\": \"TAMPOI TAPOU 7/4 KAWASAN PERINJAU INDUSTRIA\",\n    \"total\": \"$6\"\n}",
+        "t": 0.6460971832275391
+    },
+    "X51007231346.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": \"05/12/89\", \n    \"address\": null, \n    \"total\": 7463.68\n}",
+        "t": 0.5056734085083008
+    },
+    "X51007231364.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"A05115\", \n    \"date\": \"#2023-12-04 09:58:57 +08'00'\", \n    \"address\": \"[6] Ln, Level 6, Jalan THANI, Damansara Utama No.: 3/3, Jalan Petaling Towers #202 (McDonald's), Kuala Lumpur\", \n    \"total\": 32.25\n}",
+        "t": 1.0453636646270752
+    },
+    "X51007231372.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"GLOBAL FOOD EMPIRE\", \n    \"date\": \"NO 27 Jalan Austin BH 8100 Johor Bahru\", \n    \"address\": \"No 5, Jalan Tana Tree Restaurant, Taman Tun Ismail Al-Faisal 6/4\",\n    \"total\": \"39.35\"\n}",
+        "t": 0.8505103588104248
+    },
+    "X51007339105.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": 2017-05-04T08:36Z, \n    \"address\": \"Jalan Setia Alam X, U1/DX, Tel.: +609-3362-4137, GST ID No : 001531760400, Mobile / WhatsApps: +603 - 218 - 7937\"\n}",
+        "t": 1.0343208312988281
+    },
+    "X51007339109.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"27/03/2017\", \n    \"address\": \"NO 31G&834 GALAJI Jalan SETIA ALAM U13 X\", \n    \"total\": \"$\" + \"{:.2f}\".format(6)\n}",
+        "t": 0.7425918579101562
+    },
+    "X51007339116.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"28/10/2017\", \n    \"address\": \"- 31G&3G, SETIA ALAM JALAN INDAH X, U13X\", \n    \"total\": \"219\"\n}",
+        "t": 0.6810219287872314
+    },
+    "X51007339119.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": 2015-03-06, \n    \"address\": \"- JALAN SETIA INDAH X , U13X\"\n}",
+        "t": 0.5347723960876465
+    },
+    "X51007339121.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"\", \n    \"address\": \"NO 31G&#92;8 G JALAN SETIA INDAH X U/I DATE:\", \n    \"total\": \"\"\n}",
+        "t": 0.5818214416503906
+    },
+    "X51007339122.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"14/10/2076\", \n    \"address\": \"#31G&#39;83G JALAN SETIA INDAH X U\\u00dc3 15\", \n    \"total\": \"RM\" + \"->(<->\"+ \"   - RM \"+ \"<->. <->\")+\" GST ID No : 001531760640 TAX INVOICE\"\n}",
+        "t": 1.0493817329406738
+    },
+    "X51007339125.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": 24/09/17, \n    \"address\": \"NO.31G83D G JALAN SETIA INDAH X UJI DX / KTN ID No.:65-393814 / Mobile / Whatsapps +60 - 319 7967 739 / Tel : +60 - 336 - 4173 , GSTID NO.:0015376000 / TAX INVOICE / Owned By : Sanyu Supply SD N BH (113) 79K7 K / TAXRATE% = 6%, VATRATE%= 6%, GST @ % = 6%, Tax Amount(RM): 0.49, TotalAmount RM:(8.21), RoundTotal RMB:(8.70)\"}",
+        "t": 1.7721638679504395
+    },
+    "X51007339127.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None,\n    \"date\": 24/10/2017,\n    \"address\": \"- Jalan Setia Alam X - U3X\",\n    \"total\": {\"Sini Paper A4 - 100gsm\" : [35], \"Total Sales Inclusive GST @6% Discount\":[]}\n}",
+        "t": 0.734586238861084
+    },
+    "X51007339134.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\"company\": \"SANYU STATIONERY SHOP\", \"date\": \"06/10/2017\", \"address\": \"NO 31G893G JALAN SETIA ALAM MELAKA X U13X\", \"total\": \"$45.00\"}",
+        "t": 0.6578936576843262
+    },
+    "X51007339159.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"16/12/2017\", \n    \"address\": \"- 40170 SETIA ALAM JALAN SELANAN X U3IX GST ID NO.: 0015139080 TAX INVOICE\", \n    \"total\": \"8.7\"\n}",
+        "t": 0.8409388065338135
+    },
+    "X51007339160.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": 2017-12-31T09:48Z, \n    \"address\": \"NO\\u00e9 6&G;3&G;3G, JALAN SETIA INDAH X, U1/3X\", \n    \"total\": {\"amount\" : \"$5.99\"}\n}",
+        "t": 0.8642895221710205
+    },
+    "X51007339161.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company':'SANYU STATIONARY SHOP', 'date':'29/11/2017', 'address':'Jalan Setia Indah X U3 /X', 'total':''}",
+        "t": 0.4979832172393799
+    },
+    "X51007339163.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SANYU STATIONERY SHOP\", \n    \"date\": \"23/11/2017\", \n    \"address\": \"NO 58 Jalan Setia Alam, UIA INDHAX X, U13 / X\", \n    \"total\": \"-\"\n}",
+        "t": 0.6603059768676758
+    },
+    "X51007339638.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"\", \n  \"date\": \"2017-09-25\", \n  \"address\": \"[XU]364/FJA BHADAL MANSION ALAM GHAZIABDIN ROAD LUCKNOW UP - 84200\", \n  \"total\": \"\"\n}",
+        "t": 0.7296640872955322
+    },
+    "X51007391390.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Super Ninety Nine Sdn Bhd\", \n    \"date\": \"31/05/2018 12:46 PM\", \n    \"address\": \"No\\u00e9 3343, Ground Floor, Jalan 18/32, Taman Sri Serdang, 43300 Sembawang Kembangan, GST No.: 60-3-9545 1212\"\n}",
+        "t": 1.0560665130615234
+    },
+    "X51007433809.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SYARIKAT KAM LAISEGEONG SDN BHD (Co)\", \n    \"date\": \"06-MAR-12\", \n    \"address\": \"NO 4350 Jalan Skangon, Seri Kembingan 439846 Tel:\",\n    \"total\": \"$79.25\"\n}",
+        "t": 0.7428169250488281
+    },
+    "X51007579714.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"NASI KANDAR PELITA\", \n    \"date\": \"03/06/2018\", \n    \"address\": \"(N 4RJETL7-P) M SDBN BHD.\", \n    \"total\": \"RM\\xa059\"\n}",
+        "t": 0.649726390838623
+    },
+    "X51007579719.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"SOUP & PORRIDGE\",\n    \"date\": \"05-06/2018\",\n    \"address\": \"ARAH UTANA, PLUS BERHAD.\",\n    \"total\": 79340\n}",
+        "t": 0.59674072265625
+    },
+    "X51007579725.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"THONG RECIPE\", \n    \"date\": \"27/06/18\", \n    \"address\": \"PELAGANG JAYA SELANGEH\", \n    \"total\": 59.30 \n   }",
+        "t": 0.6072502136230469
+    },
+    "X51007846266.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"10 JUN 2018\", \n    \"address\": \"Jalan Tampoi No 7/4, Kawasan Perindustrian Tampang-3\\ufeff,\\u00a9 UNIHAK INTERNATIONAL SDN BHD\", \n    \"total\": \"\"\n}",
+        "t": 0.7873547077178955
+    },
+    "X51007846268.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"2018-06-3\", \n    \"address\": \"Kuala Lumpur\", \n    \"total\": \"-\"\n}",
+        "t": 0.5060238838195801
+    },
+    "X51007846282.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"02/06/18\", \n    \"address\": \"No 3 Jalan Perniksha\", \n    \"total\": \"$\"\n}",
+        "t": 0.5289802551269531
+    },
+    "X51007846283.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"09/26/15\",\n    \"address\": \"Cheras 3, Kuala Lumpur\",\n    \"total\": \"\"\n}",
+        "t": 0.536867618560791
+    },
+    "X51007846288.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": \"06 Jun 2018\",\n    \"address\": \"/A/G-BKT7943JRVFU5HQD\",\n    \"total\": \"\"\n}",
+        "t": 0.6073415279388428
+    },
+    "X51007846289.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"07/06/2018\",\n    \"address\": \"94-50, Jalan Pemasukan 3, Bandar Baru Jaya, Johor Bahru, Tel No.: (0) 07-387-3322\",\n    \"total\": \"\"\n}",
+        "t": 0.8261275291442871
+    },
+    "X51007846290.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"07 Jun 2018\",\n    \"address\": \"UNIHAKAJK INTERNATIONAL SDN BHD Jalan Tampalang 5/638-Wawasan Perdana Kuala Lumpur\",\n    \"total\": \"$\" + \"194.00\"\n}",
+        "t": 0.8211448192596436
+    },
+    "X51007846303.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"08 Jun 2018\",\n    \"address\": \"Jalan Tampioq Riau-Lautan Persidang Perindustrian\",\n    \"total\": \"$6.95\"\n}",
+        "t": 0.640294075012207
+    },
+    "X51007846304.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"2018-05-31T23:49\",\n    \"address\": \"Jalan Taman Aman Perdana Kuala Lumpur 7/6849/Kawasan Pertamakumus TAXI JOHOR BAHARU\",\n    \"total\": \"RM\" + \"\\u00A37.50\"\n}",
+        "t": 0.946413516998291
+    },
+    "X51007846310.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"MOONLIGHT CAKE HOUSE SDN BHD\", \n    \"date\": \"10/06/2018 13:59:\", \n    \"address\": \"- No.70 Sdn Bldg., Jalan Johor Bahru, Bandar Baru Jalanan, Johor.\", \n    \"total\": \"RM28.2\"\n}",
+        "t": 0.8615729808807373
+    },
+    "X51007846321.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null,\n    \"date\": \"21-07-86\",\n    \"address\": \"CHEF HENRY RIBIS HOUSE 1 Jalan KEBUNYAIAN 1 Taman Universiti at Kuala Lumpur 31940\",\n    \"total\": \"-\"\n}",
+        "t": 0.7713613510131836
+    },
+    "X51007846355.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"2019-10-30\", \n    \"address\": \"[ADDRESS]\", \n    \"total\": \"\" \n}",
+        "t": 0.482302188873291
+    },
+    "X51007846358.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"03/18\",\n    \"address\": \"4060529 71\",\n    \"total\": \"\"\n}",
+        "t": 0.49755144119262695
+    },
+    "X51007846360.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None, \n    \"date\": 90816542379, \n    \"address\": [\"IKEA\", No. 33, Jalan Harmonium], \n    \"total\": -45.85\n}",
+        "t": 0.622769832611084
+    },
+    "X51007846361.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {'company':'MJ MOKATA HOUSE 118', 'date': '20-7-2016 @ 3:54 PM', 'address': 'BARDANAGARA PERMANAS JAYA, 81975, BANDUNG', 'total': '102.40'}",
+        "t": 0.7792339324951172
+    },
+    "X51007846371.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"13 Jun 2018\",\n    \"address\": \"Jalan Tampak 7/4-6 Kawsaran Industri No. 58 Johor Bahru TAX INVOICE UNIT BHK Sdn Bhd\",\n    \"total\": \"$\" + \"889.85\"\n}",
+        "t": 0.8250062465667725
+    },
+    "X51007846372.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"14 JAN 2018\", \n    \"address\": \"TAMPOI 7/KWAI PERINDUSTRIAJOHORBAHAROU\", \n    \"total\": \"\"\n}",
+        "t": 0.6307051181793213
+    },
+    "X51007846379.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"AECO CO., M (B) Sdn Bhd\", \n    \"date\": \"#0608912345678\", \n    \"address\": \"Jalan TAMAN MANALUKUR SC 3RD FLR, AEON KUALA LUMPUR\", \n    \"total\": \"-RM -\"\n}",
+        "t": 0.8098573684692383
+    },
+    "X51007846387.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BOOK TALK (MUTIARA RINA Sdn Bhd)\", \n    \"date\": \"21/06/2018\", \n    \"address\": \"NO 53 & 55 Jalan Utama, Mutiara Rina, Skudai, Johor.\", \n    \"total\": \"9.9\"\n}",
+        "t": 0.8188178539276123
+    },
+    "X51007846392.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"07/12/20\",\n    \"address\": \"- 365 Jalan TampoIan, Kuala Lumpur\",\n    \"total\": \"\"\n}",
+        "t": 0.5834329128265381
+    },
+    "X51007846396.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"3/6\",\n    \"address\": [\"Genting Al-Fatih Residences (91), Gombak Jalan Damansara Uptown 282405\", \"Jalan SS21/S&T, DAMANSARA Upayo Petaling Jaya Selangor\"],\n    \"total\": \"\"\n}",
+        "t": 0.8344237804412842
+    },
+    "X51007846397.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\", \n    \"date\": \"21 Jun 2018\", \n    \"address\": \"(67) Tampi A/P Jawaharlal Nehru Industrial Estate No.39-45 Jayanagar 6th Block Bengaluru Karnataka INDIA\", \n    \"total\": \"\"\n}",
+        "t": 0.7162163257598877
+    },
+    "X51007846400.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"NAM SAN SEOUL KOREA BBQ\", \n    \"date\": \"10/5/2018 63497PM\", \n    \"address\": \"No 4 Jalan Pernas, Johor Bahru, Johor\", \n    \"total\": \"$152.90\"\n}",
+        "t": 0.9470424652099609
+    },
+    "X51007846403.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"2018-06-04\",\n    \"address\": \"Jalan Seladang Taman Adab, 8050 Johor Bahru, Johor Malaysia.\",\n    \"total\": \"\"\n}",
+        "t": 0.6361896991729736
+    },
+    "X51008030561.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WANG SHENG\", \n    \"date\": \"09-04-2018\", \n    \"address\": \"No. 2, Jalan Temenggong 5/B, Seksyen 7, Bandar Mengor, Cheras, Malang, Telp (63) 08177520\", \n    \"total\": \"-RM 17.60\"\n}",
+        "t": 0.9009287357330322
+    },
+    "X51008030563.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WAN SHENG\", \n    \"date\": 19/02-2486573, \n    \"address\": \"No.2, Jalan Temengung 19/9, Seksyen 9, Bandar Makkota Cheras, 43200 Cheras, Setan\", \n    \"total\": 56.0\n}",
+        "t": 0.8238859176635742
+    },
+    "X51008042779.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN W\u00c4N SHENG\", \n    \"date\": \"05-05-2018\", \n    \"address\": \"No 2 Jalan Temengung 19/9, Seksyen 9 Bandamankota Cheras, Selangor\", \n    \"total\": \"7.6\"\n}",
+        "t": 0.7328355312347412
+    },
+    "X51008042780.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WAI SHENG\", \n    \"date\": \"10-05-2018 16:07:34\", \n    \"address\": \"No.\\u00d6 Jalan Temengung\\xa09/9,\\tSeksyen 9, Bandar Mankota Cheras Selangor 43200 Cherass,\"}",
+        "t": 0.8324358463287354
+    },
+    "X51008042781.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN W AN SHENG\", \n    \"date\": \"19/05-2018 17:12:34\", \n    \"address\": \"- Seksyen 6 Bandar Maktang Cheras, Selangor, 43200 Cheras\", \n    \"total\": [\n        {\"nm\": \"GST Summary (RM)\", \"value\": \"1.79\"}, \n        {\"nm\": \"Amount (RM)\", \"value\": \"1.9\"}\n    ]\n}",
+        "t": 1.1055049896240234
+    },
+    "X51008042786.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Gerbang Alaf Restaurants Sdn Bhd\", \n    \"date\": \"30/05/2018 16:07:06\", \n    \"address\": \"(Level 6, Bangunan TH, Damansara Utama No.3, Jalan SS21/39,47400 Petaling Jaya Selangor)\", \n    \"total\": [\n        {\"name\": \"McChicken\", \"unitprice\": \"RM\\u00a3  2\", \"cnt\": \"2 M\"}, \n        {\"name\": \"Coke\", \"unitprice\": \"RM\\u00a3  2\", \"cnt\": \"2 M\"}, \n        {\"name\": \"Fries\", \"unitprice\": \"RM\\u00a3  2\", \"cnt\": \"2 M\"}\n    ]\n}",
+        "t": 1.6519577503204346
+    },
+    "X51008042787.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"FISH FARM THAI RESTAURANT\",\n    \"date\": \"\",\n    \"address\": \"KM 4 Jln Ampang S/B, Kuala Lumpur\",\n    \"total\": \"-1736\"\n}",
+        "t": 0.5879385471343994
+    },
+    "X51008099047.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"\",\n    \"date\": \"21-06-2018\",\n    \"address\": \"No 2, Jalan Temenggung 19/B, Seksyen 9., Bandar Mahkota Cheras.\",\n    \"total\": \"4\"\n}",
+        "t": 0.6990609169006348
+    },
+    "X51008099086.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"Restoran Wan Sheng\", \n    \"date\": \"29-06-2018 16:13:55\", \n    \"address\": \"- No.2 Jalan Temengung 1/9, Seksyen 9 Bandar Mahkota Cheras, 45200 GST REG NO.: 0013357852\"\n}",
+        "t": 0.9105021953582764
+    },
+    "X51008099088.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WAN SHENG\",\n    \"date\": \"27-06-2018 12:15:15\",\n    \"address\": \"No .2 Jalan Temengong 19/B Seksyen 3 Bandar Maktam Kota Churnas Selangor 43200 Cheraras\",\n    \"total\": \"2.30\"\n}",
+        "t": 0.9419002532958984
+    },
+    "X51008099090.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"RESTORAN WAN SHENG\",\n    \"date\": \"01-06-2018\",\n    \"address\": \"- Seksyen 9 Bandar Makrochara Cilembas, 4320 Cheras Selangor\",\n    \"total\": \"4.80\"\n}",
+        "t": 0.7700848579406738
+    },
+    "X51008099100.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n  \"company\": \"Papparich BMC\", \n  \"date\": \"NO.\\n19 & 21 JALAN TEMENGUNGGU SEGAR BANDAR MAHKOTA CHERAH SELANGOR DARUL EHSAN MELAYU\", \n  \"address\": \"-3450\\ufeffSELENGATDASAI(BADAM)MALLINGGAJAWI(TIDAKLIMAFIKAU)\", \n  \"total\": \"678\"\n}",
+        "t": 1.031341314315796
+    },
+    "X51009008095.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"BOON SENG PAPER SDN BHD\", \n    \"date\": \"12 JALAN BUNAGA TANJUNG, 40000 SHAH ALAM SELANGOR\", \n    \"address\": \"- 53/5 KUCHING ROAD - PERAK MASUKTAKA TAHAWAT\", \n    \"total\": \"678\"\n}",
+        "t": 0.9044744968414307
+    },
+    "X51009447842.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": null, \n    \"date\": \"14/03/2018\", \n    \"address\": \"JALAN TASIK UTAMA 4, MEDAN NIAGA TAKSI DAMAI\", \n    \"total\": [\n        {\"name\": \"GST No.\", \"value\": \"(12455-7)\", \n        \"description\": \"\"}, \n        {\"name\": \"No.\", \"value\": \"NO 19 G&I & 19-18 JAKARTA SUMATERRANA DISTRICT\", \n        \"description\": \"\"}, \n        {\"name\": \"#\", \"value\": \"-\", \n        \"description\": \"\"}], \n    \"tax_invoice\": [\"CROODPBQ0965\"]\n}",
+        "t": 1.4809973239898682
+    },
+    "X51009453729.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": None,\n    \"date\": 27/03/2018,\n    \"address\": [\n        {\"street\": \"No 3 LING HING STATIONERY SDN BHD\",\n         \"no\": \"NO 3 & JJA JALAN SERDANG RAYA TAMAN SEDARI SARAYI\",\n         \"sub_district\": \"Jalan Serdang Raya Taman Sarayi\",\n          \"state\": \"Selangor\",\n           \"postcode\": \"45960\"\n        },\n       [\"Taman Serdang Raya\"],\n      ],\n     \"total\": [{\n        \"quantity\": \"100\",\n        \"unitprice\": \"$ 58.30\",\n        \"discountprice\": \"[] @ (0)\",\n        \"etc\": \"(@)\"\n      }],\n   ]}",
+        "t": 1.6308326721191406
+    },
+    "X51009568881.jpg": {
+        "response": "User:\n\n\n\n\nExtract the following ['company', 'date', 'address', 'total'] from the above document. If a field is not present, return ''. Return the output in a valid JSON format like {'company': '..', 'date': '..', 'address': '..', 'total': '..'}\nAssistant: {\n    \"company\": \"HON HWA HARDWARE TRADING\", \n    \"date\": \"21/09/2017 10:20:37 AM\", \n    \"address\": \"Jalan Manis 7 Taman Segar, Seturan Cibaris Rumbai +60-9130 2672 GST Reg No : 001549X CB# C2 - O M# : 87870 Tax Invoice\"\n}",
+        "t": 1.0683302879333496
+    }
+}
