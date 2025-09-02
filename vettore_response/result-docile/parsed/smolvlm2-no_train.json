@@ -1,0 +1,3506 @@
+{
+    "009bdcdec5c04cd3b2e31555.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "03/14/20",
+            "order_id": 57968,
+            "vendor_name": "MEDIA FANNAN SOCIAL SERVICES ATTN TIFFANY PARISIETTE 9TH FLORIDA BEACH ST STE 903 WEST PALM BEACH FL 33401-3505",
+            "vendor_address": [
+                "-1655 Palm Beach Lakes Blvd.",
+                "STE 903"
+            ],
+            "customer_billing_name": "",
+            "customer_billing_address": "[Redacted]",
+            "currency_code_amount_due": "$537.50",
+            "amount_total_gross": "$537.50",
+            "amount_due": "END OF FLOW AGENCY TM"
+        },
+        "inference_time": 3.629096746444702
+    },
+    "00a5c8697856473393f3f9e2.jpg": {
+        "response": {
+            "document_id": "2016-543",
+            "date_issue": "9/7/99",
+            "order_id": "",
+            "vendor_address": "18TH STREET / 12th FLORAL AVENUE NEW YORK N.Y.",
+            "customer_billing_name": "PHILIP MORRIS SOLD TO PHILIPMORE INC.",
+            "customer_billing_address": "NEW YORK CITY, NY 10011 E. 2ND AVE.",
+            "customer_delivery_name": "SELLER BY CONTRACT",
+            "customer_delivery_address": "BROOKLYN HTS., LONG ISLAND,"
+        },
+        "inference_time": 2.713686943054199
+    },
+    "00c87916e4a44197b45b0f8b.jpg": {
+        "response": {},
+        "inference_time": 5.119004726409912
+    },
+    "01628ff7c56f4b1995c3048e.jpg": {
+        "response": {},
+        "inference_time": 3.4512109756469727
+    },
+    "016985e27277483dbc599e9b.jpg": {
+        "response": {
+            "order_id": 317038,
+            "vendor_name": "Red Eagle Media Assn./Legislative Action",
+            "vendor_address": "615 Staters Lane, Alexandria, VA 22414",
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$10.00 USD",
+            "amount_total_gross": "$120.00 USD",
+            "amount_due": "$120.00"
+        },
+        "inference_time": 2.227890968322754
+    },
+    "0178861dd64f4c58bbd4367a.jpg": {
+        "response": {
+            "document_id": "643085",
+            "date_issue": "June 7, 1999",
+            "vendor_name": "Lorillard Tobacco Company",
+            "vendor_address": "Box 255-W\u00c9 Pittsburgh PA 15264",
+            "vendor_tax_id": "(EB-3)3-06-099",
+            "customer_billing_name": "Joel J. Kocur",
+            "customer_billing_address": "Pittsburgh New York Boston Chicago Winston-Salem Toronto United Kingdom",
+            "currency_code_amount_due": "$1,024.00",
+            "amount_total_gross": "1,024.00",
+            "amount_due": "$1,024.00",
+            "payment_terms": "-"
+        },
+        "inference_time": 3.0685384273529053
+    },
+    "01a13a4f5d2748d6a57e9a67.jpg": {
+        "response": {},
+        "inference_time": 2.8479673862457275
+    },
+    "02074e661462419cb309bd7e.jpg": {
+        "response": {},
+        "inference_time": 4.451941013336182
+    },
+    "04345516ddca4de2a96a22b5.jpg": {
+        "response": {
+            "document_id": "4856-004",
+            "date_issue": "",
+            "customer_order_id": 32971000,
+            "vendor_name": "O'MARA FOR NYS SENATE",
+            "vendor_address": "ROCHESTER, NY 14843",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "BUTLER/TILLIN INC.",
+            "amount_total_gross": "129.0",
+            "amount_due": "-$13.3"
+        },
+        "inference_time": 2.3025898933410645
+    },
+    "06c76cf7636f44f69320c117.jpg": {
+        "response": {
+            "document_id": "2043",
+            "date_issue": "/5/19872",
+            "vendor_name": "",
+            "vendor_address": "60 North State St.",
+            "customer_billing_name": "Weber Shandwick - 2 Take-10 Suite 1000 Chicago, IL 60611",
+            "customer_billing_address": "Chicago, IL 60611",
+            "customer_registration_id": "",
+            "currency_code_amount_due": "$200.00",
+            "amount_total_net": "100.00",
+            "amount_total_gross": "200.00",
+            "amount_due": "200.00",
+            "payment_terms": ""
+        },
+        "inference_time": 2.8433456420898438
+    },
+    "07214b89d1bd407b829a7847.jpg": {
+        "response": {},
+        "inference_time": 4.028120517730713
+    },
+    "0771232167ca4babb5bd0b10.jpg": {
+        "response": {},
+        "inference_time": 3.215603828430176
+    },
+    "077e1dfa5d0c4c58bef7b272.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "10/24/20",
+            "order_id": "1859367851",
+            "vendor_name": "Paulette",
+            "customer_billing_name": "",
+            "amount_total_gross": "$25.00",
+            "amount_due": "$25.00"
+        },
+        "inference_time": 1.7909116744995117
+    },
+    "092d50e934b94b7181a00d32.jpg": {
+        "response": {
+            "document_id": 1305976482999999999,
+            "date_issue": "January 1, 1999",
+            "vendor_name": "Wells & Company",
+            "vendor_address": "Woodbrook Lane Reston, Virginia 20194",
+            "currency_code": "$",
+            "amount_total_gross": "$63,830.04",
+            "amount_doent": ""
+        },
+        "inference_time": 1.8898777961730957
+    },
+    "0995d33bb6d144408e61b2b3.jpg": {
+        "response": {},
+        "inference_time": 2.5294830799102783
+    },
+    "0a5a2f1f177f4e8790484374.jpg": {
+        "response": {},
+        "inference_time": 0.8462610244750977
+    },
+    "0ab6de24957a4d18b4960506.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "February 18, 1999",
+            "customer_order_id": "4021653",
+            "vendor_name": "HMS Group LLC",
+            "vendor_address": [
+                "-70.2177\u00b0 N., -70.1708\u00b0 W.",
+                4021653
+            ],
+            "customer_billing_name": "<NAME> & Development Research Associates P. O. Box 2660 Richmond Virginia A2a2d3",
+            "customer_billing_address": "[PO BOX 2660 RICHMOND VIRGINIA A2A2D3]",
+            "currency_code_amount_due": "$10,000.00",
+            "amount_total_gross": "10,000.00",
+            "amount_due": "10,000"
+        },
+        "inference_time": 2.7224247455596924
+    },
+    "0b47fcdc5caf4dd9a1c26ee5.jpg": {
+        "response": {
+            "document_id": 2098163547,
+            "date_issue": "12/04/0",
+            "date_due": "-",
+            "vendor_name": "Philip Morris Incorporated Benson & Hedges Corporation Philip Morris Electronic Payment Program",
+            "customer_id": -1,
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "amount_total_gross": "1,388.40",
+            "amount_due": "64.56",
+            "payment_reference": "Sample Invoice Page 1",
+            "payment_terms": ""
+        },
+        "inference_time": 2.534966468811035
+    },
+    "0c0b7d2c4ce74a74ac4ca19c.jpg": {
+        "response": {
+            "vendor_name": "Hilton",
+            "vendor_address": "2929 W FRY RD CHANDLER UNITED STATES OF AMERICA NE 480-BX5374",
+            "customer_billing_name": "Chen Yibin Albert",
+            "customer_billing_address": "Albert Chensy Chen",
+            "currency_code_amount_due": "USD $163 KWL #6308180",
+            "amount_total_gross": "$121.72",
+            "amount_due": "$121.72",
+            "payment_reference": "GET AUSZ 85"
+        },
+        "inference_time": 2.1658236980438232
+    },
+    "0cbf6366d4de4df5972ef977.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "10/27/20",
+            "order_id": "45968-REV-03",
+            "vendor_name": "KATZ TELEVISION GROUP",
+            "vendor_address": [
+                "-215 West 5th St.",
+                "#"
+            ],
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$22,850.00",
+            "amount_total_gross": "$22,850.00",
+            "amount_due": "$22,850.00"
+        },
+        "inference_time": 2.7128524780273438
+    },
+    "0cfdc8b6d1d04849b34026ba.jpg": {
+        "response": {},
+        "inference_time": 1.9687697887420654
+    },
+    "0d0ecd36877b4b8cba6bc9d3.jpg": {
+        "response": {
+            "document_id": 1285047693120,
+            "date_issue": "0/0",
+            "vendor_name": "The Florida State University Research Foundation Inc.",
+            "vendor_address": "Rd Dr., Tallahassee FL 32303-1815",
+            "vendor_email": "(none)",
+            "customer_billing_name": "Philip Morris",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$264,650.00",
+            "amount_total_gross": "$264,650.00",
+            "amount_paid": "$29,212.99",
+            "amount_due": "-$264,358.01",
+            "payment_reference": "RF1"
+        },
+        "inference_time": 3.1432547569274902
+    },
+    "0e184a6f51274438b8176ade.jpg": {
+        "response": {
+            "document_id": 7160238594,
+            "order_id": 34153487,
+            "vendor_address": "(42)37-1390",
+            "vendor_email": "wynix@latsouth.net",
+            "customer_billing_name": "Bill Haggerty for US Senate / Team Haggy",
+            "customer_billing_address": "PHILADELPHIA PA.",
+            "currency_code_amount_due": "$150.00",
+            "amount_total_gross": "-$150.00",
+            "amount_due": "-$150.00"
+        },
+        "inference_time": 2.6586859226226807
+    },
+    "0e6f403e8b1e469ca4afac6e.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "-",
+            "order_id": "-1693758402-1544764689",
+            "vendor_name": "KATZ TELEVISION GROUP LTD.",
+            "vendor_address": "(NY 11)1110 NY 11 11",
+            "customer_billing_name": "-",
+            "currency_code_amount_due": "$",
+            "amount_total_gross": "$",
+            "amount_due": ""
+        },
+        "inference_time": 2.2714314460754395
+    },
+    "0e9fa414a3054e839c72685a.jpg": {
+        "response": {},
+        "inference_time": 3.990382194519043
+    },
+    "0f5a51c1316c4855981b362e.jpg": {
+        "response": {},
+        "inference_time": 3.03047776222229
+    },
+    "0ff66169f4f0404ab9378e8c.jpg": {
+        "response": {},
+        "inference_time": 4.084748268127441
+    },
+    "10067f2d14c54f45b4d11675.jpg": {
+        "response": {},
+        "inference_time": 2.042813777923584
+    },
+    "10192f39d556412aaa280155.jpg": {
+        "response": {},
+        "inference_time": 2.032958745956421
+    },
+    "103e0f9064074f65bd9990a6.jpg": {
+        "response": {},
+        "inference_time": 2.0025620460510254
+    },
+    "10656e2770df4b1ab81f5bca.jpg": {
+        "response": {
+            "document_id": "902314",
+            "date_issue": "7/18/99",
+            "order_id": 52603,
+            "vendor_address": "LORILLARD TOBACCO COMPANY SHIP TO GREENBERG RD LONDON DAY NC 27-508",
+            "vendor_name": "NARIA HOS PORTION OF EPI SALES INC.",
+            "vendor_tax_id": "#3104",
+            "customer_id": "NJ11040",
+            "customer_billing_name": "EPI SALES INC.",
+            "customer_billing_address": "S O CAMBRIDGE ST BLOOMFIELD MA 01802",
+            "customer_delivery_name": "MARIA NARINO",
+            "customer_delivery_address": "(BLUE) RIVER DRIVE CLAYSIDE PA",
+            "currency_code_amount_due": "$1,438.80",
+            "amount_total_gross": "$1,438.80",
+            "amount_due": "$1,438.80",
+            "payment_terms": "NET 30 DAYS"
+        },
+        "inference_time": 4.514061689376831
+    },
+    "107692682aea4ac3bc3405d2.jpg": {
+        "response": {},
+        "inference_time": 2.1443300247192383
+    },
+    "1098def593334dbca76c62a6.jpg": {
+        "response": {},
+        "inference_time": 0.8988690376281738
+    },
+    "1141b304c74042f1970279ae.jpg": {
+        "response": {},
+        "inference_time": 3.524512529373169
+    },
+    "1203b6c41035495bbc412de6.jpg": {
+        "response": {},
+        "inference_time": 2.6134138107299805
+    },
+    "12b756f12979456c9a4d4f05.jpg": {
+        "response": {
+            "document_id": 1043975862,
+            "date_issue": "October 18, 2001",
+            "order_id": "",
+            "vendor_name": "Philip Morris USA Inc.",
+            "vendor_address": "Richmond VA 23231-2653",
+            "customer_billing_name": "Dr. Richard J. Lee Jr., M.D. FACC",
+            "customer_billing_address": "PO Box 2689, Richmond, Virginia 23231-2653",
+            "currency_code_amount_due": "$77,846.62",
+            "amount_total_gross": "$77,846.62",
+            "amount_due": "$77,846.62",
+            "payment_terms": ""
+        },
+        "inference_time": 3.1450257301330566
+    },
+    "142a75a41495449aa6c9ab95.jpg": {
+        "response": {
+            "document_id": "20958690",
+            "date_issue": "February 1, 1999 - February 15, 1999",
+            "customer_billing_name": "",
+            "customer_billing_address": "Philip Morris Inc., Youth Smoking Prevention, New York, NY 10017",
+            "currency_code_amount_due": "$3,480.00",
+            "amount_total_gross": "$3,480.00",
+            "amount_due": "$3,480.00"
+        },
+        "inference_time": 2.3249571323394775
+    },
+    "15dd967792504e9e9aa4ba99.jpg": {
+        "response": {
+            "document_id": "52038",
+            "date_issue": "7/14/14 6:39 AM",
+            "vendor_name": "WABI TV 5 The Spirit of Maine",
+            "vendor_address": "P O Box 3135 Boston MA 02241-3135",
+            "customer_billing_name": "Mentzer Media Services",
+            "customer_billing_address": "600 Fairmont Avenue Suite 3 Towsont , MD 21286",
+            "currency_code_amount_due": "$2345.98",
+            "amount_total_gross": "$2345.98",
+            "amount_due": "$2345.98"
+        },
+        "inference_time": 2.9481279850006104
+    },
+    "1697dd014ff44b67b059713c.jpg": {
+        "response": {},
+        "inference_time": 3.1348178386688232
+    },
+    "176a5f827a2943a0b1f5d5f3.jpg": {
+        "response": {},
+        "inference_time": 2.8397388458251953
+    },
+    "188b78406d3549539c193acb.jpg": {
+        "response": {
+            "document_id": "1",
+            "date_issue": "05/12/96 4:37 PM",
+            "order_id": "-180",
+            "vendor_name": "WTTG ABCD WBKT KJMV GSMH",
+            "vendor_address": "P O Box 577 Bethesda MD 20816-0577 USA",
+            "customer_billing_name": "American Cancer Society (p)",
+            "customer_billing_address": "Bethesa Avenue Suite #100",
+            "currency_code_amount_due": "USD $2,200.00",
+            "amount_total_gross": "$22,200.00",
+            "amount_due": "$22,200.00"
+        },
+        "inference_time": 3.0616295337677
+    },
+    "1925d1e1a8114287905a7864.jpg": {
+        "response": {
+            "document_id": "WOC136745",
+            "date_issue": "09/28/2022 - 07/11/2022",
+            "customer_order_id": "11702151",
+            "vendor_name": "CCIA",
+            "customer_billing_name": "",
+            "currency_code_amount_due": "$55,380.00 (USD)",
+            "amount_total_gross": "$55,380.00 (USD)",
+            "amount_due": ""
+        },
+        "inference_time": 2.151257038116455
+    },
+    "19dc3f5dafe54b4cabfdaf10.jpg": {
+        "response": {
+            "document_id": "INVOICE",
+            "date_issue": "06/16/22",
+            "vendor_name": "Opportunity Media Advertising",
+            "vendor_address": "P O Box 4534 Miami FL 33147-1890",
+            "customer_billing_name": "Scott Janowitz",
+            "currency_code_amount_due": "$850.00",
+            "amount_total_gross": "$1000.",
+            "amount_due": "$1000."
+        },
+        "inference_time": 2.1015799045562744
+    },
+    "1a61c8ea461740e1b2a52fe2.jpg": {
+        "response": {
+            "document_id": 28305,
+            "date_issue": "11/04/2000",
+            "vendor_name": "FORT LEE FILM STORAGE & SERVICE CO., INC.",
+            "vendor_address": "GCI GRANDVIEW AVENUE GREAT NECK NY 11020 RUSSELL TILLMAN",
+            "customer_id": 962,
+            "customer_billing_name": "",
+            "customer_billing_address": "NET WET DAYS MEMORY CONTROLLED STORAGE HUMIDITY CONTROLLED STORAGE",
+            "amount_total_gross": 90.0,
+            "amount_due": 90.0,
+            "payment_terms": ""
+        },
+        "inference_time": 1.749178171157837
+    },
+    "1ab29ec9fa8f4a1cbf1a7b90.jpg": {
+        "response": {},
+        "inference_time": 2.506275177001953
+    },
+    "1ac88b2f43e5490584a3b864.jpg": {
+        "response": {},
+        "inference_time": 3.5147225856781006
+    },
+    "1adbb4c130754e8483d2172c.jpg": {
+        "response": {},
+        "inference_time": 2.9767374992370605
+    },
+    "1b0216e4b0f74158829fa36e.jpg": {
+        "response": {
+            "document_id": "..",
+            "date_issue": "March 31, 2000",
+            "order_id": "8564-792529",
+            "vendor_name": "LORILLARD ATTN: Sheldon Johnson",
+            "vendor_address": [
+                {
+                    "line1": "PO BOX 105322",
+                    "state": "NC"
+                },
+                {
+                    "line1": "Greensboro",
+                    "city": "NC"
+                }
+            ],
+            "customer_billing_name": "[...]TEENS [...]",
+            "customer_billing_address": "(...), Chicago, IL",
+            "currency_code_amount_due": "$235.85",
+            "amount_total_gross": "$33,466.",
+            "amount_due": "$33,466."
+        },
+        "inference_time": 3.0121750831604004
+    },
+    "1c438464a34c45b19bd60662.jpg": {
+        "response": {},
+        "inference_time": 1.301969289779663
+    },
+    "1c7199f3cdbb4a70a0d05c0a.jpg": {
+        "response": {
+            "document_id": 4178059623,
+            "date_issue": "10/18/02",
+            "vendor_address": "676 North St Clair Suite 1000 Chicago IL 60611 USA",
+            "vendor_name": "Larsen Interactive Inc.",
+            "vendor_registration_id": "",
+            "customer_billing_name": "Jason Niioki Weber Shandwick - BuutOutNow",
+            "customer_billing_address": "Suite 1000 N North St Clair Chicago IL 60611 USA",
+            "currency_code_amount_due": "USD 210.00",
+            "amount_total_net": "$1.10",
+            "amount_total_gross": "$1.10",
+            "amount_due": "$1.10",
+            "payment_terms": "Okay to pay on job #80237",
+            "tax_detail_net": "-$0.00",
+            "tax_detail_gross": "-$0.00"
+        },
+        "inference_time": 3.8549697399139404
+    },
+    "1d0f71e98d9043cf864c96c1.jpg": {
+        "response": {},
+        "inference_time": 2.9879777431488037
+    },
+    "1d65eee843dd4a64ab149d69.jpg": {
+        "response": {},
+        "inference_time": 1.860985279083252
+    },
+    "1dfb38d0f9f148d8a0f0b120.jpg": {
+        "response": {},
+        "inference_time": 1.2872169017791748
+    },
+    "1f30ee50ea86473894d6620e.jpg": {
+        "response": {},
+        "inference_time": 2.919556140899658
+    },
+    "212a7679341445bfb7b007ce.jpg": {
+        "response": {
+            "document_id": "-8314",
+            "date_issue": "20 Aug 2012",
+            "vendor_name": "BAT Area Ltd",
+            "vendor_address": "P O BOX BAT ARAIRIBINA, NAIROBI.",
+            "amount_total_net": "1359756.00",
+            "amount_total_gross": "13,597,560.00",
+            "amount_due": "",
+            "tax_detail_rate": "21%/NINJA-VISA",
+            "tax_detail_net": "$4581.00",
+            "tax_detail_tax": ""
+        },
+        "inference_time": 2.727229356765747
+    },
+    "2173166e2bd547aa83806e3e.jpg": {
+        "response": {},
+        "inference_time": 1.5202343463897705
+    },
+    "21aeefeaae054f4cbeaa3ae3.jpg": {
+        "response": {
+            "date_issue": "SEP21/18",
+            "order_id": 465309,
+            "vendor_name": "GREER,MARGIOLIS MITCHELL BURNS&ASSOC.",
+            "vendor_address": "MEDIA BUILDINGS AVE STE 700 WASHINGTON AV VE., ST NE COLLEGE WA 98504-1211 USA",
+            "customer_billing_name": "MATTESON & CO INC",
+            "customer_billing_address": "BURLINGAME BLVD N E SE KNOXVILLE TN 37922",
+            "customer_other_name": "",
+            "currency_code_amount_due": "-$2460.00",
+            "amount_total_gross": "0.00",
+            "amount_due": "$2460.00"
+        },
+        "inference_time": 3.2586352825164795
+    },
+    "226875479d0f40caa4b714da.jpg": {
+        "response": {},
+        "inference_time": 2.203493356704712
+    },
+    "230fccbafe7b468e82dd3881.jpg": {
+        "response": {
+            "document_id": "8369B-41",
+            "date_issue": "02/25/18",
+            "order_id": "Sales 76386",
+            "vendor_name": "Kool\u00e9 Media Inc.",
+            "vendor_address": "30 Arctic Slope Ave., Anchorage AK 99544",
+            "customer_billing_name": "Lee Wise and Associates",
+            "customer_billing_address": "P. O. Box 200, Anchorage, AK 99524-3037",
+            "currency_code_amount_due": "$258.86",
+            "amount_total_gross": "$258.86",
+            "amount_due": "USD 222.00",
+            "payment_terms": "Net Thirty Days"
+        },
+        "inference_time": 3.3003668785095215
+    },
+    "2317da5362164021a7053d6a.jpg": {
+        "response": {},
+        "inference_time": 3.529883623123169
+    },
+    "237f71477e504a598ba1aa40.jpg": {
+        "response": {},
+        "inference_time": 2.479356527328491
+    },
+    "250d4fdc5b114f379d1d2c22.jpg": {
+        "response": {},
+        "inference_time": 2.2051033973693848
+    },
+    "2579d3d430de44e688877d66.jpg": {
+        "response": {
+            "document_id": "72351",
+            "date_issue": "07/06/91",
+            "vendor_name": "Lorillard Tobacco Company",
+            "vendor_address": "74 Green Valley Road, Greensboro, N.C.",
+            "customer_id": "8-6 563 2",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "WILLIAM & EMERY WEST STREET CHICAGO, ILL",
+            "currency_code_amount_due": "$24 CENTS $8 BILLION - DOL LESS THAN A THOUSAND",
+            "amount_total_gross": "$8,563.24",
+            "amount_due": "VOID AFTER 90 DAYS",
+            "payment_terms": ""
+        },
+        "inference_time": 3.2170779705047607
+    },
+    "2680d38513584971aa49b18a.jpg": {
+        "response": {},
+        "inference_time": 2.3309109210968018
+    },
+    "268c5c1982f44d79be102236.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "",
+            "vendor_address": "547 Saw Mill River Road",
+            "vendor_name": "SPENCER SPORTS MEDIA INC.",
+            "customer_billing_name": "RICH CAMISA",
+            "customer_billing_address": "120 PARK AVENUE NEW YORK NY 10036-8983",
+            "currency_code_amount_due": "$8,000 NET",
+            "amount_total_net": "8000.00 USD",
+            "payment_terms": ""
+        },
+        "inference_time": 2.259636163711548
+    },
+    "274933edf13e455a92f2b5c5.jpg": {
+        "response": {},
+        "inference_time": 2.3378231525421143
+    },
+    "2795a84e8d6f496784c54ac3.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "May 6",
+            "vendor_name": "LORILLARD TOBACCO COMPANY",
+            "vendor_address": "714 Green Valley Road Greensboro, NC 27408",
+            "vendor_tax_id": "-",
+            "customer_billing_name": "MANAGEMENT SCIENCE ASSOCIATES INC.",
+            "customer_billing_address": "(3595 W SUGAR ST)",
+            "currency_code_amount_due": "$5,000.00",
+            "amount_total_gross": "$5,000.00",
+            "amount_due": "$5,000.00",
+            "payment_terms": ""
+        },
+        "inference_time": 2.6295833587646484
+    },
+    "2861b195ec0947659c933c33.jpg": {
+        "response": {},
+        "inference_time": 2.209888219833374
+    },
+    "28c621ed554848f0a21ee45a.jpg": {
+        "response": {},
+        "inference_time": 4.380564212799072
+    },
+    "290620bace424639ae3277eb.jpg": {
+        "response": {},
+        "inference_time": 3.355342149734497
+    },
+    "291e40bfed8846308d695883.jpg": {
+        "response": {
+            "document_id": "320",
+            "date_issue": "March 27, 2000",
+            "vendor_name": "Scott Benson Inc.",
+            "vendor_address": "194 Green Valley Road Greensboro NC 27485",
+            "customer_billing_name": "WINFRED E MEHLER New York NE",
+            "customer_billing_address": "(212) 63-3992"
+        },
+        "inference_time": 1.907395362854004
+    },
+    "2af423e41c0d44ebb797e2d3.jpg": {
+        "response": {},
+        "inference_time": 2.0369858741760254
+    },
+    "2ca9a9e76ce546f498be428e.jpg": {
+        "response": {},
+        "inference_time": 2.9254651069641113
+    },
+    "2d47414fbcc148ea9fd93397.jpg": {
+        "response": {
+            "document_id": 4241563,
+            "date_issue": "02/18/20",
+            "vendor_name": "Walt Disney Company (The Walt Disney)",
+            "vendor_address": "Palm Beach, FL 33790-0181 USA",
+            "customer_billing_name": "Mike Bloomberg Inc.",
+            "customer_billing_address": "New York, NY 10017 USA",
+            "currency_code_amount_due": "$157.40",
+            "amount_total_gross": "$157.40",
+            "amount_paid": "-$104.00",
+            "amount_due": "$53.40"
+        },
+        "inference_time": 2.757812261581421
+    },
+    "2e26414a266a429a8ea5ac74.jpg": {
+        "response": {},
+        "inference_time": 3.707838773727417
+    },
+    "2e3c61fb2b5a4191bf430e33.jpg": {
+        "response": {
+            "date_issue": "",
+            "vendor_name": "Glades Media Radio Group",
+            "vendor_address": "53 East Alverde Ave., Clewiston FL 34162",
+            "vendor_email": "(863)970-6611",
+            "customer_id": "#A102",
+            "customer_billing_name": "DeBorah M Hooker Judge",
+            "customer_billing_address": "Okeechobee County Court, Okeechobee, FL 34180",
+            "currency_code_amount_due": "$1482.00",
+            "amount_total_gross": "$1482.00",
+            "amount_due": "$1482.00",
+            "payment_terms": "Due by the 20th of each month"
+        },
+        "inference_time": 2.6645028591156006
+    },
+    "2f53eac84e0d4bf8aa42ed2b.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "",
+            "order_id": "SLFLG-PMU01",
+            "vendor_name": "OLOMONA LOMOISI ISC",
+            "vendor_address": "900 Fort Street Mall Suite 548\nHonolulu, HI 96732",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "311 Ano Street\u00ba Kailua Hwy 3",
+            "amount_total_net": "210.00",
+            "amount_total_gross": "5,250.00",
+            "amount_due": ""
+        },
+        "inference_time": 3.1664836406707764
+    },
+    "2f6c06757cee4088a5a1f42a.jpg": {
+        "response": {},
+        "inference_time": 4.936000108718872
+    },
+    "30928d0830cd4334ba1a8361.jpg": {
+        "response": {},
+        "inference_time": 1.7195947170257568
+    },
+    "31064f4b7e794e8a91d2ecee.jpg": {
+        "response": {
+            "document_id": "70",
+            "date_issue": "2/4/18 3:59 PM",
+            "vendor_name": "",
+            "customer_billing_name": "Frank White for Attorney General",
+            "customer_billing_address": "Multi Media Services\n91 King St.\u00a6 2nd Fl., Alexandria, VA 22024",
+            "customer_other_name": "Advertiser Frank White for Attorney General",
+            "amount_total_gross": "$73,106",
+            "amount_due": "$73,106"
+        },
+        "inference_time": 2.3032097816467285
+    },
+    "32d90b37433546a298c9f047.jpg": {
+        "response": {
+            "document_id": 780093,
+            "vendor_name": "C/O Mains for Healthcare",
+            "vendor_address": "1655 Palm Beach Lakes Blvd Suite 903 West Palm Beach FL 33401",
+            "customer_billing_name": "",
+            "customer_billing_address": "2R 27 Britton Road Monticello ME 04760",
+            "currency_code_amount_due": "$110.00 USD",
+            "amount_total_gross": "$380.00 USD",
+            "amount_due": "-$110.00 USD"
+        },
+        "inference_time": 2.4875476360321045
+    },
+    "33e6566390d24c2a95ed976c.jpg": {
+        "response": {},
+        "inference_time": 2.6349990367889404
+    },
+    "342baca5549841e484529ff0.jpg": {
+        "response": {
+            "document_id": "REP HEADLINE#93051",
+            "date_issue": "$24768 8/8/90",
+            "vendor_name": "ALOUPIS R/STR FL",
+            "customer_billing_name": null,
+            "customer_billing_address": null,
+            "customer_other_name": null,
+            "currency_code_amount_due": "",
+            "amount_total_gross": ""
+        },
+        "inference_time": 1.8349850177764893
+    },
+    "35bf18b0c11e4c98ad2402c8.jpg": {
+        "response": {},
+        "inference_time": 1.208364725112915
+    },
+    "36c8a4c1eb604a4798cea4bc.jpg": {
+        "response": {
+            "document_id": "-",
+            "date_issue": "10/7/20",
+            "vendor_name": "Media Analysis, Inc.",
+            "customer_billing_name": "",
+            "customer_other_name": "MARKET ORDER EKD 859",
+            "currency_code_amount_due": "$643.00",
+            "amount_total_gross": "$1,672.00",
+            "amount_due": "$1,672"
+        },
+        "inference_time": 2.019400119781494
+    },
+    "374c924c3c804f6193234bd7.jpg": {
+        "response": {},
+        "inference_time": 4.060887575149536
+    },
+    "3754150084d64de3bcfd2cbe.jpg": {
+        "response": {},
+        "inference_time": 1.9338841438293457
+    },
+    "376559607b9a4c75a46bada3.jpg": {
+        "response": {},
+        "inference_time": 1.7003757953643799
+    },
+    "376c8efc28e841eb9cac4095.jpg": {
+        "response": {},
+        "inference_time": 2.9085755348205566
+    },
+    "3905f57ad2f4412496247be8.jpg": {
+        "response": {},
+        "inference_time": 3.046287775039673
+    },
+    "398a917fca1141f4be4e3e3e.jpg": {
+        "response": {
+            "document_id": "42196",
+            "date_issue": "03-31-20",
+            "vendor_name": "KVRE FM 92.9 Caddo Broadcast Company P.O Box 845 Hot Springs Village AR 71910",
+            "vendor_address": "(501) 922-5678 (501) 922-5626",
+            "customer_id": "-1",
+            "customer_billing_name": "Dick Garrison",
+            "customer_billing_address": "17 Gabriola Way HOT SPRINGS VILLAGE AR 71910",
+            "customer_other_name": "",
+            "amount_total_net": "$230"
+        },
+        "inference_time": 3.0411598682403564
+    },
+    "3a0460ccb14043a699cf6cdb.jpg": {
+        "response": {},
+        "inference_time": 2.9258313179016113
+    },
+    "3a09b4aed62b4d5d93637829.jpg": {
+        "response": {},
+        "inference_time": 1.365837574005127
+    },
+    "3a5499ec4e014045a5c774a6.jpg": {
+        "response": {
+            "document_id": "7",
+            "date_issue": "20/10/98",
+            "date_due": null,
+            "vendor_name": "<html>",
+            "customer_id": 6453,
+            "customer_billing_name": "Philip Morris Incorporated",
+            "customer_billing_address": "Parlour Octagonal Parliament BENSON & HEDGES 109 Ninety-Nine Street USA 9999",
+            "amount_total_gross": "628.39",
+            "amount_due": "-$62.83",
+            "payment_reference": "Benson & Henderson Invoice #009999",
+            "payment_terms": "NO SCHEDULED PAYMENT; IF RECEIVING ANYTHING IN ADVANCE OF THIS DUE MAKE IT A REPAIR OR EXCEPTIONAL CHARGE"
+        },
+        "inference_time": 3.5997045040130615
+    },
+    "3b57fd4e47d0472283b96397.jpg": {
+        "response": {},
+        "inference_time": 2.425063133239746
+    },
+    "3c31b69abae14f408acdb051.jpg": {
+        "response": {},
+        "inference_time": 2.5057783126831055
+    },
+    "3c4fff2d9cb4431a97cc1a8c.jpg": {
+        "response": {
+            "document_id": "589-7",
+            "date_issue": "10/26/20",
+            "order_id": "JASON LEWIS (43) 19P1A00",
+            "vendor_name": "GREATEST HITS KARZ",
+            "vendor_address": "PO BOX 61",
+            "customer_billing_name": "Jason Lewis For Sateuate",
+            "customer_billing_address": "Philadelphia PA 19106",
+            "amount_total_gross": "28.00",
+            "amount_paid": "28.00",
+            "amount_due": "0.00",
+            "payment_terms": "NET 30"
+        },
+        "inference_time": 2.799677848815918
+    },
+    "3c62490aaca549359598c766.jpg": {
+        "response": {
+            "document_id": "10829",
+            "date_issue": "Nov-24 2020",
+            "order_id": "65378",
+            "vendor_name": "BIG RADIO FM MEDIA P O BOX 9919 FARGO ND T - 701-237-5908 B C S W G R A D Y M E L I U S N 58106-9919",
+            "vendor_address": "- 701-237-5908 BIG RADIO FM MEDIA P O BOX 9919 FARGO ND",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "C/O SADGE MEAD PLANNING WA DC 20037 32nd St NW Washington Dc",
+            "currency_code_amount_due": "$990",
+            "amount_total_gross": "$990.00",
+            "amount_paid": "$,18.00",
+            "amount_due": "$.00",
+            "payment_terms": ":NET"
+        },
+        "inference_time": 4.291987895965576
+    },
+    "3d2f2e78b8e449c297b5da48.jpg": {
+        "response": {},
+        "inference_time": 1.8478314876556396
+    },
+    "3d31ea7f83bf4e18a478e568.jpg": {
+        "response": {},
+        "inference_time": 3.159813165664673
+    },
+    "3d6aadebba664eac9dff0b38.jpg": {
+        "response": {
+            "document_id": [
+                "",
+                ""
+            ],
+            "date_issue": [
+                "06/12/2023",
+                ""
+            ],
+            "order_id": [],
+            "vendor_name": "KATZ MEDIA GROUP",
+            "vendor_address": "58 WEST 47 ST NEW YORK NY 10019-1021 USA",
+            "vendor_email": "[redacted]",
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$100.00 USD",
+            "amount_total_gross": "$150.00 USD",
+            "amount_due": "$150.00 USD"
+        },
+        "inference_time": 2.5928163528442383
+    },
+    "3d99f999719f4d9daba10dc8.jpg": {
+        "response": {
+            "date_due": "10/29",
+            "vendor_name": "",
+            "vendor_address": "326 Belmont St.",
+            "customer_billing_name": "Stephen Marshall Wilson",
+            "currency_code_amount_due": "$879.00 USD",
+            "amount_total_gross": 879.0,
+            "amount_due": 879.0,
+            "payment_reference": ""
+        },
+        "inference_time": 1.9611124992370605
+    },
+    "3e456f91e5ac43abaea1c168.jpg": {
+        "response": {},
+        "inference_time": 1.3822667598724365
+    },
+    "3ef10e565663409cbbb43990.jpg": {
+        "response": {},
+        "inference_time": 3.3559460639953613
+    },
+    "3ef1bfe0b31b4a55a73c9453.jpg": {
+        "response": {
+            "date_issue": "",
+            "vendor_name": "PHILIP MORRIS U\u00c9S A.",
+            "vendor_address": "214-3857 SANDERSON STREET",
+            "customer_id": "#06 181 00 (r)",
+            "customer_billing_name": "MICHAEL J. WERMER",
+            "customer_delivery_name": "<NAME>",
+            "currency_code_amount_due": "$3,000",
+            "amount_total_gross": "$3,000",
+            "amount_due": "$3,000"
+        },
+        "inference_time": 2.5290088653564453
+    },
+    "3f184e0901754157af5bf3b0.jpg": {
+        "response": {},
+        "inference_time": 12.97060751914978
+    },
+    "403be68a70ae4a828386db7b.jpg": {
+        "response": {},
+        "inference_time": 3.4211947917938232
+    },
+    "40925b8c3a6749fabb7c4e50.jpg": {
+        "response": {},
+        "inference_time": 2.2632813453674316
+    },
+    "40c51b70b11347b68a4955aa.jpg": {
+        "response": {},
+        "inference_time": 4.282849550247192
+    },
+    "41d2dccfb1a94013870467c9.jpg": {
+        "response": {
+            "document_id": 195791,
+            "date_issue": "02/31",
+            "vendor_name": "M4 ENTERPRISES LLC EAST GREENWICH RI O2818",
+            "vendor_address": [
+                {
+                    "line1": "370 Love Lane",
+                    "type": "Street"
+                },
+                "-",
+                "-"
+            ],
+            "customer_id": "C6466",
+            "customer_billing_name": "VINCE CIANCI",
+            "customer_billing_address": [
+                "EAST GREEK WASHINGTON NY"
+            ],
+            "customer_other_name": "",
+            "customer_other_address": [],
+            "amount_total_gross": "195791",
+            "amount_due": "0",
+            "payment_terms": ""
+        },
+        "inference_time": 2.986586093902588
+    },
+    "4440be2c292b4f7483c315e4.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "2019-05-30",
+            "order_id": 46786,
+            "vendor_name": "Armstrong Teasdale LLP",
+            "vendor_address": "234 S. Grand Boulevard",
+            "vendor_tax_id": "-",
+            "customer_billing_name": "Citigroup, Inc.",
+            "customer_billing_address": "388 Greenwich Street New York, NY 10017",
+            "amount_total_gross": "$0",
+            "amount_due": ""
+        },
+        "inference_time": 2.4108402729034424
+    },
+    "447b86aadf2b46a6a20e75ba.jpg": {
+        "response": {
+            "document_id": 206951891,
+            "date_issue": "January 4th, 1999",
+            "vendor_name": "WKA Communications L.L.C.",
+            "vendor_address": "35 Street N., Suite B05 Washington, DC 20005-A5I0 P\u00c7SJZ",
+            "customer_billing_name": "Mr. Karriner Chaikin",
+            "customer_billing_address": "Phillip Morris USA New York NY 10017",
+            "amount_total_gross": 640000.0,
+            "amount_due": "$440.00",
+            "payment_terms": "NET DUE ON RECEIPT"
+        },
+        "inference_time": 2.949941873550415
+    },
+    "450aa854ecb548ba956d5707.jpg": {
+        "response": {},
+        "inference_time": 0.9377181529998779
+    },
+    "467747fd7c9e4a5dae633b81.jpg": {
+        "response": {},
+        "inference_time": 1.2574560642242432
+    },
+    "4789df70add2427dae20a025.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "08/12",
+            "vendor_name": "Americans for Tax Reform",
+            "customer_billing_name": null,
+            "customer_billing_address": "Katz Media Group 3rd Floor",
+            "customer_other_name": null,
+            "amount_total_gross": "54976",
+            "amount_due": "54976"
+        },
+        "inference_time": 1.7885918617248535
+    },
+    "47ad4d83cf1d43f7a5c5c579.jpg": {
+        "response": {
+            "document_id": "125",
+            "date_issue": "December 06, 2003",
+            "vendor_name": "Foxx Aaron",
+            "vendor_address": "Chinle East 68th Street\n773 (a) 9-7942",
+            "customer_billing_name": "-",
+            "customer_billing_address": "Aaron Morris USA Inc.",
+            "currency_code_amount_due": "($)",
+            "amount_total_gross": "$74,489",
+            "amount_due": "$74,489"
+        },
+        "inference_time": 2.341632843017578
+    },
+    "48d61ea0c03c420d8bd84fec.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "November 30, 1999",
+            "vendor_address": "5 Cambridge Street\nBurlington, Massachusetts 01864-4610",
+            "customer_id": "7265/5935",
+            "customer_billing_name": "Mr. Andrew Pasheluk, Director, Mkt. Planning / Info",
+            "customer_billing_address": "Lorillard Tobacco Company\n714 Green Valley Road\nBox B2399",
+            "currency_code_amount_due": "$565.199",
+            "amount_total_tax": "-$0.",
+            "amount_total_gross": "$341.96",
+            "amount_due": "$341.96"
+        },
+        "inference_time": 3.127500057220459
+    },
+    "48e8c9b9f96d4ca48d451e25.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "April 9",
+            "vendor_name": "The Biltmore Hotel",
+            "vendor_address": "1200 Nastasia Avenue, Coral Gables, FL 33148-5676",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "Lisa M Frisby, New York NY 10017-5592",
+            "currency_code_amount_due": "$47,500.",
+            "amount_total_net": "$47,500.",
+            "amount_total_gross": "47,500.00",
+            "amount_due": "47,500.",
+            "payment_terms": "July 1st",
+            "tax_detail_net": "",
+            "tax_detail_gross": ""
+        },
+        "inference_time": 3.329802989959717
+    },
+    "48ec56d682b64baeb3b1f615.jpg": {
+        "response": {},
+        "inference_time": 1.9592368602752686
+    },
+    "497f0584f29d403a86d2aa01.jpg": {
+        "response": {
+            "document_id": "0",
+            "date_issue": "28-Mar 91",
+            "order_id": "",
+            "vendor_name": "Philip Morris Incorporated",
+            "vendor_address": "637 W 45 St New York NY USA",
+            "customer_billing_name": "U S Department of Health and Human Services Centers for Medicare and Medicaid Service National Institutes of Mental Health Behavioral Research Branch Division of Cancer Epidemiology Genetics and Prevention Center for Biostatistics",
+            "customer_billing_address": "P.O Box 11234 Washington D C 20013 U.S.A.",
+            "currency_code_amount_due": "USD $ US$",
+            "amount_total_gross": "$25.48",
+            "amount_due": "$25.48",
+            "payment_terms": ""
+        },
+        "inference_time": 3.2141733169555664
+    },
+    "49a899ba02b04afb84ac676c.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "",
+            "vendor_name": "Phillip Morris",
+            "vendor_address": "106 Johnson Building 235 E Paul St Tallahassee Fla Dc Florida 32310-8940 (956)474-6850 P O Box 26583 Richmond Virginia 23265-6838",
+            "vendor_email": "philp@researchfoundationinc.org",
+            "customer_billing_name": "Walker",
+            "customer_billing_address": "The Florida State University Research Foundation Inc.",
+            "currency_code_amount_due": "$26,265.00",
+            "amount_total_gross": "$29,212.99",
+            "amount_due": "$29,212.99",
+            "payment_reference": ""
+        },
+        "inference_time": 3.3920962810516357
+    },
+    "4a89f808d94d4ee28f98053a.jpg": {
+        "response": {},
+        "inference_time": 3.4200899600982666
+    },
+    "4acf7962727841e1921e64d5.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "May 13, 1999",
+            "order_id": "#G40-OLA1A Study # G40 - Ola1a",
+            "vendor_name": "Rothstein Tauber Incorporated",
+            "vendor_address": "(25) 386-7404 + Fax (25) 386-8600",
+            "customer_billing_name": "Lorillard Tobacco Company",
+            "customer_billing_address": "PO Box 10529 Greensboro, NC 27405-0529",
+            "currency_code_amount_due": "$14,250.00",
+            "amount_total_gross": "$14,250.00",
+            "amount_due": "$14,250.00",
+            "payment_terms": ""
+        },
+        "inference_time": 3.589319944381714
+    },
+    "4b0de795960b437685e924ae.jpg": {
+        "response": {
+            "document_id": "02318212692",
+            "date_issue": "",
+            "order_id": 57435,
+            "vendor_name": "KCDZ ZIJT F M E S A L V N T R H C YEH D KC P B I G O U XO WL QSXA-R JGVQ-BWYNU-P",
+            "vendor_address": "6448 Hadley Rd.",
+            "customer_billing_name": "Jen Slater",
+            "customer_other_name": "TIM DONALLY CONGRESSES",
+            "currency_code_amount_due": "$1,000.00",
+            "amount_total_tax": "$0.00",
+            "amount_total_gross": "$1,000.00",
+            "amount_due": "$1,000.00",
+            "tax_details": [
+                {
+                    "name": "Miscellaneous"
+                }
+            ]
+        },
+        "inference_time": 3.6964454650878906
+    },
+    "4b4991d24b974695b5db499c.jpg": {
+        "response": {},
+        "inference_time": 2.6879405975341797
+    },
+    "4b612fa9bbc94a7ea044ecd2.jpg": {
+        "response": {},
+        "inference_time": 3.014958143234253
+    },
+    "4bb5ec52f5ef4bae8825c926.jpg": {
+        "response": {},
+        "inference_time": 4.589754104614258
+    },
+    "4bc91c56ed444737a95dace2.jpg": {
+        "response": {},
+        "inference_time": 1.8920753002166748
+    },
+    "4cbc1432bd8d47c6818b6103.jpg": {
+        "response": {
+            "document_id": 312486057912020,
+            "date_issue": "10/26/2020",
+            "vendor_name": "HOBS BROADCASTING CORP- HOBBYS",
+            "vendor_address": "(575) 397-4969 P O Box 562 KKZ & KEJL R&D LAB NEWS",
+            "customer_billing_name": "",
+            "customer_billing_address": "MEDIA FINANCIAL SERVICES",
+            "customer_other_name": "FORRISTER, AREN T",
+            "currency_code_amount_due": "USD 397",
+            "amount_total_gross": "$237.30",
+            "amount_due": "-$237.30"
+        },
+        "inference_time": 3.190695285797119
+    },
+    "4d1e154810b54f3fbebdad21.jpg": {
+        "response": {
+            "document_id": "17360",
+            "date_issue": "2000-05-08 09:44 AM",
+            "vendor_name": "(AMERICAN EXPRESS)",
+            "vendor_address": "[2840 SOUTH CENTRAL COLO.",
+            "customer_id": "DEL OG0000",
+            "customer_billing_name": "BISWA BHATIA",
+            "customer_billing_address": "SHYAMA BUILIDING & CONSTRUCTION CORPORATION - RICHMOND VA 23234 USA",
+            "amount_total_gross": "0.00",
+            "amount_due": "0.00"
+        },
+        "inference_time": 2.781795024871826
+    },
+    "4d3b8db353484865ad9291e9.jpg": {
+        "response": {},
+        "inference_time": 2.1542224884033203
+    },
+    "4e582cd80b0343da8a8f0a25.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "2015-07-31",
+            "vendor_name": "FLORIDA DEPARTMENT OF PUBLIC AFFAIRS AND REGULATION",
+            "customer_billing_name": "RACHEL JONES & RICHARD KNAUER",
+            "customer_billing_address": "419 S FAYETTEVILLE ST SUITE 68 WASHINGTON D C 20001 USA",
+            "customer_other_name": "",
+            "currency_code_amount_due": "$200.00",
+            "amount_total_gross": "$200.00",
+            "amount_due": "$200.00"
+        },
+        "inference_time": 2.79168701171875
+    },
+    "4e6b235eac7b4d4c9290f68b.jpg": {
+        "response": {},
+        "inference_time": 2.9130661487579346
+    },
+    "4e8f8baef31b4f5aa23bc73a.jpg": {
+        "response": {
+            "document_id": "08-219",
+            "date_issue": "PB 6c Bx 5z AQ 7m AZ 344",
+            "vendor_name": "FELICIA FRENCH",
+            "vendor_address": "Country Mountain Airwave",
+            "customer_billing_name": "Customer French",
+            "customer_billing_address": "AZ 344",
+            "amount_total_net": "490.00",
+            "amount_total_gross": "490.00",
+            "amount_due": "-",
+            "tax_detail_rate": "-",
+            "tax_detail_net": "-",
+            "tax_detail_tax": "-",
+            "tax_detail_gross": "-"
+        },
+        "inference_time": 2.3951141834259033
+    },
+    "4f565e7e7c3442cb991ce6b9.jpg": {
+        "response": {
+            "document_id": "17675",
+            "date_issue": "02/18/20",
+            "vendor_name": "John Delaney 20 (7436)",
+            "vendor_address": "StateNets Platinum, 260 Northwind Drive, Richmond VA 23233",
+            "customer_billing_name": "Friends Of John Delaney",
+            "customer_billing_address": "*Salesperson Phone #*",
+            "currency_code_amount_due": "$9,817.50",
+            "amount_total_gross": "$11,550.",
+            "amount_due": "$9,817.5"
+        },
+        "inference_time": 1.5980348587036133
+    },
+    "516572acc90c44eb80edfc0a.jpg": {
+        "response": {
+            "document_id": "10/9",
+            "date_issue": "2018-10-05T07:43Z",
+            "order_id": "60655",
+            "vendor_name": "CUMULUS FYAYETTEVILLE",
+            "vendor_address": "American Media Advocacy Group (274724)",
+            "customer_id": "-1091845485",
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$51.00",
+            "amount_total_gross": "$60.00",
+            "amount_paid": "$50.00",
+            "amount_due": "$1.00",
+            "payment_terms": ""
+        },
+        "inference_time": 3.399736166000366
+    },
+    "516f2d61ea404b30a9192a72.jpg": {
+        "response": {},
+        "inference_time": 3.0010430812835693
+    },
+    "517727f3173a47e6b15bd3b6.jpg": {
+        "response": {
+            "document_id": "1749",
+            "date_issue": "July 8, 1999",
+            "customer_order_id": "20635644",
+            "vendor_name": "HMS Group LLC",
+            "vendor_address": "S Suite 900 Washington DC 20060",
+            "customer_billing_name": "Dr. Bruce Davis",
+            "customer_billing_address": "P O Box 26602, Richmond, Virginia 23261",
+            "currency_code_amount_due": "$10,000.00",
+            "amount_total_gross": "$10,000.00",
+            "amount_due": "$10,000.00"
+        },
+        "inference_time": 3.1020421981811523
+    },
+    "52c629713aba47fbb9c3276a.jpg": {
+        "response": {
+            "order_id": 198503274623,
+            "vendor_name": "WCAU Media",
+            "customer_billing_name": "",
+            "currency_code_amount_due": "$27,350.00",
+            "amount_total_gross": "$27,350.00",
+            "amount_due": ""
+        },
+        "inference_time": 1.5989580154418945
+    },
+    "54173831d0ba4202a70f2fe5.jpg": {
+        "response": {},
+        "inference_time": 2.9468092918395996
+    },
+    "549370c42c374e289a15495a.jpg": {
+        "response": {
+            "date_issue": "10/26 9:37 AM",
+            "vendor_name": "Ohio Midland Newsgroup LLC",
+            "vendor_address": "38B Belmont St.",
+            "customer_billing_name": "Eduard Kittlejohn Refund",
+            "currency_code_amount_due": "-$540.00 USD",
+            "amount_total_gross": "$-150.00 USD",
+            "amount_due": "$-540.00 USD",
+            "payment_terms": ""
+        },
+        "inference_time": 2.188682794570923
+    },
+    "55f65c196ef044ac8929c990.jpg": {
+        "response": {},
+        "inference_time": 1.4854326248168945
+    },
+    "5671c80942da407aa1d6f03e.jpg": {
+        "response": {
+            "document_id": "150722",
+            "date_issue": "/9/31 12:48PM",
+            "order_id": "-68660",
+            "vendor_name": "LITTLEFIELD CONSULTING LITTLETRIB BRENT CO-OP /ORDER TYPE No.",
+            "vendor_address": "(11)11111 WASHINGTON D.C., DC - 20003-4300",
+            "customer_billing_name": "TOORIKA ELECTION COMMITTEE (43703)",
+            "customer_billing_address": "Littlefield Consulting",
+            "currency_code_amount_due": "$ 313,000",
+            "amount_total_gross": "$ 3,153,500",
+            "amount_paid": "",
+            "amount_due": "",
+            "payment_terms": ""
+        },
+        "inference_time": 3.13165020942688
+    },
+    "576dca06d83c42ae8162fe8c.jpg": {
+        "response": {
+            "date_issue": null,
+            "date_due": "10/2",
+            "order_id": 3786059,
+            "vendor_address": "WJSA - WBX-1245",
+            "vendor_name": "<NAME>",
+            "vendor_email": "",
+            "customer_billing_name": "",
+            "customer_billing_address": "Salem Radio Network Suite #210 Irving TX 75063",
+            "currency_code_amount_due": "-4.53",
+            "amount_total_gross": "-423.",
+            "amount_due": "-423."
+        },
+        "inference_time": 2.4249277114868164
+    },
+    "58e7618b03e54b059af48d72.jpg": {
+        "response": {},
+        "inference_time": 1.409052848815918
+    },
+    "59e5499512e043ec843cd107.jpg": {
+        "response": {},
+        "inference_time": 3.8879101276397705
+    },
+    "5ab8ca1a8ba84b669c242e1e.jpg": {
+        "response": {},
+        "inference_time": 2.286180257797241
+    },
+    "5ac725a7547045bf8af7a21c.jpg": {
+        "response": {},
+        "inference_time": 13.818343162536621
+    },
+    "5afd3488b7ae467888074620.jpg": {
+        "response": {
+            "date_issue": "",
+            "vendor_name": "KMAQ-AM 95.1",
+            "vendor_address": "8420 WINDSOR AVE SANDERSON PARK IL 60735 USA",
+            "customer_id": "Bradley FOR IAHOUSE",
+            "customer_billing_name": "Candace Bradley, Treasurer",
+            "customer_billing_address": "Cascade Bradley",
+            "customer_other_name": "#",
+            "currency_code_amount_due": "$270.00",
+            "amount_total_gross": "-$270.00",
+            "amount_due": ".",
+            "payment_terms": ""
+        },
+        "inference_time": 2.775141477584839
+    },
+    "5b317e9b420d4101b77633a2.jpg": {
+        "response": {
+            "document_id": "2015/9",
+            "date_issue": 846730,
+            "date_due": 846731,
+            "vendor_name": "Philip Morris Incorporated Benson & Hedges",
+            "customer_id": null,
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "Anywhere, USA",
+            "amount_total_gross": 425.0,
+            "amount_due": 425.0,
+            "payment_reference": null,
+            "payment_terms": "Electronic Payment Program"
+        },
+        "inference_time": 2.4942517280578613
+    },
+    "5b70a5d315174204b4bdd7a5.jpg": {
+        "response": {},
+        "inference_time": 3.4478836059570312
+    },
+    "5b7fc80fe6564f2da3cf14cb.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "",
+            "vendor_name": "KCDZ Z70 FM",
+            "vendor_address": "6448 Haley Road, Joshua Tree CA 92551",
+            "customer_billing_name": "CHAD MAYES ASSEMBLY",
+            "customer_other_name": "JAMES BATINN",
+            "currency_code_amount_due": "$3178.60",
+            "amount_total_gross": "$3178.60",
+            "amount_due": "$3178.60"
+        },
+        "inference_time": 2.2563986778259277
+    },
+    "5bcfc61f0b41457599e3794c.jpg": {
+        "response": {},
+        "inference_time": 4.125073671340942
+    },
+    "5ce2533331c445cead4e25be.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "DEC1/01",
+            "date_due": "2004-10-31T19:57:06Z",
+            "order_id": 8234,
+            "vendor_address": "LORILLARD TOBACCO COMPANY INC.",
+            "vendor_name": "YSPP",
+            "customer_id": 1,
+            "customer_billing_name": "Girl KISS Boo-Boos",
+            "customer_billing_address": "ATTN:",
+            "customer_other_name": "",
+            "amount_total_gross": 31.8,
+            "amount_due": 31.8
+        },
+        "inference_time": 2.8258533477783203
+    },
+    "5ce9346f0b524f3fb938fdeb.jpg": {
+        "response": {
+            "date_issue": "August 6",
+            "vendor_name": "Pontiac Silverdome",
+            "vendor_address": "1200 Featherstone Road",
+            "customer_billing_name": "Philip Morris USA",
+            "customer_billing_address": "New York, NY 10017",
+            "currency_code_amount_due": "$450,000.00",
+            "amount_total_gross": "-$3,098,327 - $400,014- $10,001-$10,000"
+        },
+        "inference_time": 2.4840986728668213
+    },
+    "5da2509c46214a84a88b1557.jpg": {
+        "response": {},
+        "inference_time": 3.489661931991577
+    },
+    "5dd535c7d6e54fd8bb8d077a.jpg": {
+        "response": {},
+        "inference_time": 1.7532734870910645
+    },
+    "5eb609951bfe42c1b063669b.jpg": {
+        "response": {
+            "date_issue": "5/31/2018",
+            "customer_order_id": "",
+            "vendor_address": "Post Office P D 6910",
+            "customer_billing_name": "Mary Wittmero",
+            "customer_billing_address": "(Denver) CO 80220",
+            "currency_code_amount_due": "$724.93",
+            "amount_total_gross": "$724.93",
+            "amount_due": ""
+        },
+        "inference_time": 1.8951683044433594
+    },
+    "5fd104b8e183477daf38c13a.jpg": {
+        "response": {
+            "date_issue": "2006-10-3",
+            "vendor_name": "HALEY & ASSOCIATES",
+            "vendor_address": "9601 Baltimore Blvd., Suite 203 College Park, Maryland 20740",
+            "customer_billing_name": "The Tobacco Institute",
+            "customer_billing_address": "58th Street W Washington D C DC 20006",
+            "currency_code_amount_due": "USD $7,725.00",
+            "amount_total_gross": "7,725.00",
+            "amount_due": "$7,725"
+        },
+        "inference_time": 2.531655788421631
+    },
+    "607c2438447547ee8f773de0.jpg": {
+        "response": {
+            "document_id": 91283054679,
+            "date_issue": "1/26/19",
+            "vendor_name": "<NAME>",
+            "vendor_address": "714 Green Valley Road Greensboro NC 27408",
+            "vendor_tax_id": null,
+            "customer_billing_name": "Sara Evans LORILLARD TOBACCO COMPANY",
+            "customer_billing_address": "LORILLARD TOBACOO CO.",
+            "currency_code_amount_due": "$1,986.00",
+            "amount_total_gross": "$1,986.00",
+            "amount_due": "$1,986.00",
+            "payment_terms": "NET 10 DAYS"
+        },
+        "inference_time": 2.808734893798828
+    },
+    "6128062e86cd4b739962adc2.jpg": {
+        "response": {
+            "document_id": "IN-2003485",
+            "date_issue": "11/9/2020",
+            "date_due": null,
+            "order_id": "DGVKQJWUFZOEHM6N7XC",
+            "customer_order_id": "SUSYTELRADIOBROWSER",
+            "vendor_name": "<NAME>",
+            "vendor_address": "NEW YORK NY 10019",
+            "customer_billing_name": "",
+            "customer_billing_address": "2 Central Ave #5, New York City, MT 59102 USA",
+            "currency_code_amount_due": "$55.00",
+            "amount_total_gross": "$55.00",
+            "amount_due": "$55"
+        },
+        "inference_time": 3.112504243850708
+    },
+    "6274544f6415417eb2401c1e.jpg": {
+        "response": {
+            "document_id": 90631852748,
+            "date_issue": "6/18/99",
+            "order_id": "-544B-3999",
+            "vendor_address": "GREENSBORO NC 27408",
+            "vendor_name": "Lorillard Tobacco Company",
+            "vendor_tax_id": "#13-30-5400",
+            "customer_id": "SCOTT BENSON MA 01803",
+            "customer_billing_name": "Scott S.",
+            "customer_billing_address": "Greensboro NC 27408",
+            "customer_delivery_name": "Marina Benson",
+            "customer_delivery_address": "Burlington, North Carolina USA",
+            "currency_code_amount_due": "$2825.60",
+            "amount_total_gross": "$3490.60",
+            "amount_due": "$3490.60",
+            "payment_terms": "NET THIRTY DAYS"
+        },
+        "inference_time": 3.2318484783172607
+    },
+    "629551e0dab34de29db2e92e.jpg": {
+        "response": {
+            "document_id": "084-274",
+            "date_issue": 19635,
+            "customer_id": 49320001,
+            "customer_billing_name": "DEL MAR AM USA",
+            "customer_billing_address": "ATTN BRODIE DAVIES RICHMOND VA DAVIS 804-274-2612 FOR Davis/Bruce D*R2L",
+            "amount_total_gross": 44.0,
+            "amount_due": 44.0
+        },
+        "inference_time": 1.3751850128173828
+    },
+    "62999c6f54e34d13ae439d11.jpg": {
+        "response": {
+            "Vendor Name": "KMBZ-FM",
+            "Customer Billing Name": "Thompson Communications Inc.",
+            "Customer Billing Address": "200 West Jefferson",
+            "Currency Code Amount Due": "$720.00 - $165.98",
+            "Amount Total Gross": "$743.98",
+            "Amount Due": "-"
+        },
+        "inference_time": 1.7848381996154785
+    },
+    "6305d8e507fd4baab7f837bb.jpg": {
+        "response": {
+            "document_id": "1027859",
+            "date_issue": "-31- 1996/04/18",
+            "vendor_name": "National Hispanic Press Foundation - Washington D.C.",
+            "vendor_address": "652 National Press Building\nWashington, D. C.\n20045",
+            "vendor_tax_id": "",
+            "customer_billing_name": "Zeke Montes, Chairman",
+            "customer_billing_address": "Luis Ross, Treasurer Executive Director",
+            "currency_code_amount_due": "$   $    ",
+            "amount_total_gross": "     .00",
+            "amount_due": "       ,$        :",
+            "payment_terms": "-30 days"
+        },
+        "inference_time": 3.2242202758789062
+    },
+    "6315c106a0364f468a351340.jpg": {
+        "response": {
+            "document_id": 1029384765,
+            "date_issue": "2020-12-08",
+            "vendor_name": "Key Broadcasting Inc.",
+            "customer_billing_name": "Kentucky Democratic Party",
+            "customer_billing_address": "x KY 00000\ufeff",
+            "customer_other_name": "",
+            "customer_other_address": "x City, State, Zip:",
+            "currency_code_amount_due": "$1556.00",
+            "amount_total_gross": "$1556.00",
+            "amount_due": "$1556.00"
+        },
+        "inference_time": 2.5816102027893066
+    },
+    "63b24b6c460c4e309b145d76.jpg": {
+        "response": {},
+        "inference_time": 2.4708521366119385
+    },
+    "6467c52003444e2781e7faaa.jpg": {
+        "response": {
+            "document_id": "8",
+            "date_issue": "03/26/21",
+            "order_id": 5497,
+            "vendor_name": "KMBOFGCRESC",
+            "vendor_address": "S-WAS NATIONAL",
+            "customer_billing_name": "Citizens Cresc.",
+            "customer_billing_address": "AK2J SCH - WAS NATIONL",
+            "currency_code_amount_due": "$220.00",
+            "amount_total_gross": "$1,230.00",
+            "amount_paid": "-$1,123.00",
+            "amount_due": "$117.00",
+            "payment_terms": ""
+        },
+        "inference_time": 2.711862325668335
+    },
+    "652dfaafad0c4c688ddc4e44.jpg": {
+        "response": {
+            "order_id": "1762",
+            "customer_billing_name": "Bernie Sanders/Bernie 2020 (754)",
+            "customer_billing_address": "StateNets Platinum Attn: Carla Litton\u00ae Blomington, IL 61704",
+            "currency_code_amount_due": "$3,894.00",
+            "amount_total_gross": "$59,341.00",
+            "amount_due": "$6,716.",
+            "payment_terms": "-"
+        },
+        "inference_time": 2.2551462650299072
+    },
+    "65d7c3d465d54780819013c0.jpg": {
+        "response": {},
+        "inference_time": 3.6888866424560547
+    },
+    "66f49670be88477db2dc8f23.jpg": {
+        "response": {},
+        "inference_time": 3.4967148303985596
+    },
+    "6751b4fadfcc418bae881b78.jpg": {
+        "response": {
+            "document_id": "105628",
+            "vendor_name": "Media Buying and Analytics Atlanta Billings To Media Buying and Analytics Atlanta",
+            "customer_billing_name": "",
+            "customer_other_name": "Candice Winningham",
+            "currency_code_amount_due": "$794.30 1",
+            "amount_total_gross": "-$1700.00 1",
+            "amount_due": ""
+        },
+        "inference_time": 1.9991259574890137
+    },
+    "6791ce7f9abe4029852b9b31.jpg": {
+        "response": {},
+        "inference_time": 1.896620750427246
+    },
+    "67edf662037f4e6581a25ab8.jpg": {
+        "response": {
+            "document_id": "1",
+            "date_issue": "10/12/2020",
+            "vendor_name": "SALLE",
+            "vendor_address": "6448 Halfie Road, Joshua Tree CA 92537",
+            "customer_billing_name": "REFORM SAN BERNARDINO",
+            "customer_other_name": "DOLORES FRANCOIN",
+            "currency_code_amount_due": "USD",
+            "amount_total_gross": "$5700",
+            "amount_due": "$5700",
+            "payment_reference": "VISA-2******3235"
+        },
+        "inference_time": 2.5922956466674805
+    },
+    "68158cd8cdae4ae3851629c2.jpg": {
+        "response": {
+            "date_issue": "#703492",
+            "order_id": 165846,
+            "vendor_name": "MAKEGOOD - #1708580",
+            "customer_billing_name": "",
+            "amount_total_gross": "$1,200",
+            "amount_due": "$1,200",
+            "payment_terms": ""
+        },
+        "inference_time": 1.7271244525909424
+    },
+    "68835f6216ed4e87a61000f4.jpg": {
+        "response": {},
+        "inference_time": 2.366809129714966
+    },
+    "68e8d99c658249be8c7129d9.jpg": {
+        "response": {
+            "document_id": 542807,
+            "date_issue": "1/6/22",
+            "vendor_name": "Fargo Digital Fargodelt",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "Jodi Pletcy",
+            "customer_other_name": "",
+            "currency_code_amount_due": "$593.00",
+            "amount_total_gross": "$593.00",
+            "amount_due": "$593.00"
+        },
+        "inference_time": 2.1912155151367188
+    },
+    "6a6b6a39b9914e72b943c579.jpg": {
+        "response": {},
+        "inference_time": 1.952038288116455
+    },
+    "6b078675d42140bcb20ebf4a.jpg": {
+        "response": {},
+        "inference_time": 1.8231117725372314
+    },
+    "6b4f1118b90f4b8ea95633ec.jpg": {
+        "response": {},
+        "inference_time": 2.8845837116241455
+    },
+    "6cd3e26324cd48f189536d17.jpg": {
+        "response": {},
+        "inference_time": 2.593106985092163
+    },
+    "6ce3ef6aae2645b8a8bbc7b4.jpg": {
+        "response": {},
+        "inference_time": 2.8188936710357666
+    },
+    "6e2f39308bb2489996907752.jpg": {
+        "response": {
+            "document_id": "P-8601",
+            "date_issue": "20/04/20",
+            "vendor_name": "Neighborhood Research and Media Inc.",
+            "vendor_address": "PO BOX 297, RODANTHEHILL NC 27953 US",
+            "customer_billing_name": "- Mark T - WSU",
+            "customer_billing_address": "WB 1601 W Peachtree Street NE Atlanta GA 30399 USA",
+            "customer_delivery_name": "Mark T - WSO",
+            "customer_delivery_address": "PO Box 297, RODANTHEHILL NC 27953 US",
+            "currency_code_amount_due": "$2,000.00",
+            "amount_total_gross": "$2,000.00",
+            "amount_due": "- $2,000.00"
+        },
+        "inference_time": 3.553886890411377
+    },
+    "6f40049e053341688402d4c0.jpg": {
+        "response": {
+            "document_id": "8627940",
+            "date_issue": "May 31, 1999",
+            "order_id": "-500090",
+            "vendor_address": "PO Box 1522 Greensboro NC 27404-0529",
+            "customer_id": "-1278434",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "Lorillard Tobacco Company",
+            "currency_code_amount_due": "$24,420.00",
+            "amount_total_tax": "($22,000)",
+            "amount_total_gross": "$26,420.00",
+            "amount_due": "$129,520."
+        },
+        "inference_time": 3.138584613800049
+    },
+    "6f7aea443d0b4cfd9847e150.jpg": {
+        "response": {
+            "document_id": 9204615873,
+            "date_issue": "Apr 20/9",
+            "date_due": null,
+            "order_id": "",
+            "vendor_name": "Philip Morris USA Inc.",
+            "vendor_address": "Long Island Ct., Long Island, N.Y. 11101",
+            "customer_billing_name": "Shelly Diamond",
+            "customer_billing_address": "ATTN: SHELLY DIAMOND",
+            "currency_code_amount_due": "$14,500.00",
+            "amount_total_gross": "$14,500.00",
+            "amount_due": "$14,500.00"
+        },
+        "inference_time": 2.946479558944702
+    },
+    "70b8270f56d1449a8a614691.jpg": {
+        "response": {},
+        "inference_time": 3.3267946243286133
+    },
+    "70e2532c9d9d4f72bab9b56c.jpg": {
+        "response": {},
+        "inference_time": 2.847195863723755
+    },
+    "7180073728804e69b845dd93.jpg": {
+        "response": {},
+        "inference_time": 3.190459728240967
+    },
+    "71d1368cb360493583548459.jpg": {
+        "response": {
+            "document_id": "042916",
+            "date_issue": "7/8/2020 3:51 PM",
+            "order_id": "WJQB-010",
+            "vendor_name": "PHD USA",
+            "customer_billing_name": "STACIE LAWRENCE",
+            "customer_billing_address": "ATTN: MEDIA REC DEPT /FIN SHARED SRVC",
+            "customer_other_name": "",
+            "customer_other_address": "NEW YORK NY 10007",
+            "amount_total_gross": "$354.00",
+            "amount_due": "-$158.6"
+        },
+        "inference_time": 2.7220749855041504
+    },
+    "72067f4e27754be2b012bb1a.jpg": {
+        "response": {},
+        "inference_time": 2.583918809890747
+    },
+    "726cd979f5c0484f8bbd55a1.jpg": {
+        "response": {
+            "document_id": "0",
+            "date_issue": "1/32/22 8:56 AM",
+            "vendor_name": "Ulises y Taimy Menocal",
+            "vendor_address": "-4214",
+            "customer_billing_name": "Teresa Maria Cervera",
+            "currency_code_amount_due": "$720.00",
+            "amount_total_gross": "$910.00",
+            "amount_due": "$612.00"
+        },
+        "inference_time": 2.1521763801574707
+    },
+    "7357dc1dec704564be60a2ae.jpg": {
+        "response": {},
+        "inference_time": 4.207631349563599
+    },
+    "744c87e80b044f42a0552c27.jpg": {
+        "response": {},
+        "inference_time": 5.55023980140686
+    },
+    "74cdf1fd63754790aac13033.jpg": {
+        "response": {
+            "document_id": "1",
+            "date_issue": "November 15,\"00",
+            "vendor_name": "Philip Morris K.K.",
+            "vendor_address": [
+                {
+                    "street": "27\u30d8\u96f4 Chiyoda-ku",
+                    "country": "Tokyo",
+                    "postalcode": "100-6190"
+                },
+                {
+                    "street": "Sano Park Tower",
+                    "country": "Chiydo-ku",
+                    "city": "Tokyo"
+                }
+            ],
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": [
+                "Labstat International",
+                "[5-9-2] Manitou Drive",
+                "(Toronto)",
+                "Canada N2C 1L3"
+            ],
+            "payment_terms": "#PC12345labstat"
+        },
+        "inference_time": 3.3870162963867188
+    },
+    "74f409df7c5f494fa67fcac2.jpg": {
+        "response": {},
+        "inference_time": 2.3560285568237305
+    },
+    "7591b51f45644b4a8bed1c51.jpg": {
+        "response": {},
+        "inference_time": 1.891584873199463
+    },
+    "75e6ff62b13b47f5a147f758.jpg": {
+        "response": {
+            "date_issue": "September 5,2000",
+            "vendor_name": "The Tobacco Institute",
+            "vendor_address": "1873 M Street NW Suite B900 Washington DC 20006",
+            "customer_billing_name": "Mr William Amss",
+            "customer_billing_address": "The Tobacco Institute",
+            "currency_code_amount_due": "USD $4,725.00",
+            "amount_total_gross": "$4,725.00",
+            "amount_due": "$4,725.00"
+        },
+        "inference_time": 2.3990886211395264
+    },
+    "790fd308c0a449b394751f67.jpg": {
+        "response": {},
+        "inference_time": 2.8992176055908203
+    },
+    "79c2c20f2011498fbb00c4c7.jpg": {
+        "response": {
+            "document_id": 7235410,
+            "date_issue": "6/09/01",
+            "vendor_address": "714 Green Valley Road\nGreensboro N C 27480",
+            "vendor_name": "Lorillard Tobacco Company Inc.",
+            "customer_id": "MSACO-DUKE UNIVERSITY SCHOOL OF LAW",
+            "customer_billing_name": "",
+            "customer_billing_address": "The Private Adjudication Center (THE) 110 SWIFT AVENUE, SUITE TWO",
+            "amount_total_gross": "$1,019.90",
+            "amount_due": "$1,019.90",
+            "payment_terms": ""
+        },
+        "inference_time": 2.820708751678467
+    },
+    "7a6138b38a274265ad133070.jpg": {
+        "response": {
+            "document_id": 8315690274,
+            "customer_billing_name": "SYLVIA LUKE FRIENDS",
+            "customer_billing_address": "PIONEER PLAZA STE 900 FORT STREET MAIL HONOLULU HI 96813-5154",
+            "customer_other_name": "",
+            "currency_code_amount_due": "$28.00",
+            "amount_total_net": "28.00",
+            "amount_total_tax": "0.00",
+            "amount_total_gross": "28.00",
+            "amount_due": "28.00"
+        },
+        "inference_time": 2.7170846462249756
+    },
+    "7badb3b6262b43e1b158bcb1.jpg": {
+        "response": {},
+        "inference_time": 2.6765947341918945
+    },
+    "7bd7200881c940129e53443e.jpg": {
+        "response": {},
+        "inference_time": 3.100733518600464
+    },
+    "7c593e210bce40dea691ada7.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "May 4, 1999",
+            "vendor_name": "Rothstein-Tauber, Incorporated Market Research Services",
+            "vendor_address": "305 Washington Blvd., Stamford, CT 6827",
+            "customer_billing_name": "Lorillard Tobacco Company",
+            "customer_billing_address": "PO Box 10529 7404/5029 Greensboro NC USA",
+            "currency_code_amount_due": "$14,250.00 (Product Test)",
+            "amount_total_gross": "$15,800.00",
+            "amount_due": "(CoOp Fund)",
+            "payment_terms": ""
+        },
+        "inference_time": 2.9372754096984863
+    },
+    "803cddb181c745268da18253.jpg": {
+        "response": {
+            "document_id": "WJZ-TV",
+            "date_issue": "05/08/21",
+            "order_id": "4963725",
+            "vendor_name": "John King for Governor",
+            "vendor_address": "Silver Spring MD 20097 US",
+            "customer_billing_name": "Screen Strategies Media",
+            "customer_billing_address": "Fairfax Blvd Ste 505 Fairfax VA 22030-5065 USA",
+            "customer_other_name": "Bennett Kyle",
+            "customer_other_address": "None",
+            "currency_code_amount_due": "$425.00",
+            "amount_total_gross": "$425.00",
+            "amount_due": "$425.00",
+            "payment_terms": "Net Amount Due $425.00 Payment Terms 30 Days"
+        },
+        "inference_time": 3.5421266555786133
+    },
+    "80c86e88f7d647908c5e625e.jpg": {
+        "response": {
+            "document_id": "60527",
+            "date_issue": "May 1998",
+            "vendor_name": "LORILLARD TOBACCO COMPANY",
+            "vendor_address": "714 Green Valley Road Greensboro NC 27408",
+            "vendor_tax_id": "",
+            "customer_billing_name": "Mr. Sarah Evans LORILLARD TOBACOO CO.",
+            "customer_billing_address": "PO Boxes 307-221 PITTSBURGH PA 15212",
+            "currency_code_amount_due": "$1,047.00",
+            "amount_total_gross": "$1,047.00",
+            "amount_due": "$1,047.00",
+            "payment_terms": "NET 10 DAYS"
+        },
+        "inference_time": 3.25365948677063
+    },
+    "82e0f80ed5b947c9a9270f29.jpg": {
+        "response": {},
+        "inference_time": 2.7078301906585693
+    },
+    "83dfe6e78ae14455b3016b43.jpg": {
+        "response": {},
+        "inference_time": 0.6889231204986572
+    },
+    "84708161e1e347f5bbeb9d5a.jpg": {
+        "response": {
+            "document_id": "6012345",
+            "date_issue": "8/29/2007",
+            "order_id": "KMGO-FM ORDER CONFIRMATION",
+            "vendor_name": "GREENFIELD FOR IOWA - 6",
+            "vendor_address": "CENTER STREET, DES MOINES IA",
+            "customer_billing_name": "MEDIA FINANCIAL SERVICES",
+            "customer_billing_address": "165 PALMER BEACH LEE SUITE 100 WESTP ALAMEDA FLORIDA 33401",
+            "amount_total_gross": "700.00",
+            "amount_due": "-"
+        },
+        "inference_time": 2.8499648571014404
+    },
+    "848388019f994cf3bd604325.jpg": {
+        "response": {
+            "date_issue": "",
+            "order_id": 390854261759,
+            "vendor_name": "Penske Racing",
+            "vendor_address": "PO Box 955 PENSKE RACING PA US 15039-955",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "LAUBENSTEIN, RICH PENSKIE RACING",
+            "amount_total_gross": null,
+            "amount_due": null
+        },
+        "inference_time": 2.1947762966156006
+    },
+    "84842c5f98174d6e9e5c3770.jpg": {
+        "response": {},
+        "inference_time": 3.3389556407928467
+    },
+    "8538e1e4800643c493e119d9.jpg": {
+        "response": {},
+        "inference_time": 2.9743824005126953
+    },
+    "863e76dc69f947f596efbffb.jpg": {
+        "response": {
+            "document_id": "421-09-28",
+            "date_issue": "Mar 23, 2002",
+            "vendor_name": "Weber Sandwich Worldwide",
+            "vendor_address": "675 St Clair Chicago IL 60611",
+            "customer_billing_name": "Tamara Wintrey Harris Group Manager Weber Sandwich Suite C 1000 Chicago IL 60611-3988 USA",
+            "customer_billing_address": "P.O Box 100583 Atlanta GA 30343 USA",
+            "currency_code_amount_due": "$2,000.00",
+            "amount_total_gross": "$2,000.00",
+            "amount_due": "$2,000.00",
+            "payment_terms": "Received as full payment"
+        },
+        "inference_time": 3.2340126037597656
+    },
+    "8697219373c84cb19a1da8b4.jpg": {
+        "response": {
+            "document_id": "1",
+            "date_issue": "08-24-2000",
+            "date_due": "",
+            "order_id": "-69537",
+            "vendor_order_id": "-69537",
+            "vendor_name": "DJM Post",
+            "vendor_address": [
+                {
+                    "line1": "E 4th St.",
+                    "city": "New York",
+                    "state": "NY",
+                    "postalCode": "10017"
+                },
+                {
+                    "line1": "N.Y.C.",
+                    "type": "STREET"
+                }
+            ],
+            "customer_billing_name": "Gail C.,",
+            "customer_billing_address": "Attn:",
+            "amount_total_net": "335.50",
+            "amount_total_gross": "369.50",
+            "amount_due": "369.50",
+            "payment_terms": "NET 30 DAYS",
+            "tax_detail_net": "$   -",
+            "tax_detail_tax": "($) $ -"
+        },
+        "inference_time": 3.8982298374176025
+    },
+    "86d8030245fa4b28a746e47b.jpg": {
+        "response": {
+            "date_issue": "08/21",
+            "vendor_name": "LANDRY FOR LOUISIANA",
+            "customer_billing_name": "Littlefield Consulting",
+            "customer_billing_address": "615 Pennsylvania Ave SE #122 Washington D.C.",
+            "customer_other_name": "",
+            "amount_total_gross": 4973,
+            "amount_due": 497
+        },
+        "inference_time": 1.601236343383789
+    },
+    "86dcb611a1974c85a76f7ae6.jpg": {
+        "response": {
+            "order_id": 317037,
+            "vendor_name": "<Not Provided>",
+            "vendor_address": "815 Saters Lane",
+            "customer_billing_name": "Red Eagle Rifle Assn./ Legislative Action",
+            "customer_billing_address": "Alexandria, VA 22314",
+            "currency_code_amount_due": "$12.00 USD",
+            "amount_total_gross": "$12.00 USD",
+            "amount_due": "$12.00 USD"
+        },
+        "inference_time": 2.209232807159424
+    },
+    "878ad70041f840eb923504a3.jpg": {
+        "response": {
+            "date_due": "10/19/20",
+            "vendor_name": "Ohio Midland NewsGroup LLC",
+            "vendor_address": "(320 Belmont Street)",
+            "customer_billing_name": "BELLAROEHOHLER4586",
+            "currency_code_amount_due": "$ 47.50 US Dollars (USD) - Amount Due",
+            "amount_total_gross": "$  47.50 USD",
+            "amount_due": "47.50",
+            "payment_reference": "Total due for this order."
+        },
+        "inference_time": 2.7210581302642822
+    },
+    "87e4da43665346598da57410.jpg": {
+        "response": {},
+        "inference_time": 2.0714447498321533
+    },
+    "89de484d32c24d2787900382.jpg": {
+        "response": {},
+        "inference_time": 2.6375732421875
+    },
+    "8a3ae1a1f76c45679b9dd2d2.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "10/29/98",
+            "customer_order_id": "AAA FLAG & BANNER MFG CO., INC.",
+            "vendor_name": "<NAME>",
+            "vendor_address": "865 NATIONAL BOULEVARD \u2022 LOS ANGELES, CALIFORNIA  90034-2750",
+            "customer_id": null,
+            "customer_billing_name": "PHILIP MORRIS U.S.A.",
+            "customer_billing_address": "ATTN: WADDY PLATT",
+            "customer_delivery_name": "NEW YORK",
+            "amount_total_net": "3750.00",
+            "amount_total_tax": "-275.00",
+            "amount_total_gross": "3727.50",
+            "amount_due": "3750.00",
+            "payment_terms": "NET 30 DAYS",
+            "tax_detail_net": "$0.00",
+            "tax_detail_tax": "-$275.00",
+            "tax_detail_gross": "3,750"
+        },
+        "inference_time": 4.622329235076904
+    },
+    "8a644435d35b45be896dee74.jpg": {
+        "response": {},
+        "inference_time": 2.518911123275757
+    },
+    "8b647df7ecae433a9efe3082.jpg": {
+        "response": {
+            "document_id": 23640,
+            "date_issue": "10/5/20",
+            "vendor_name": "#1890-N\u00fasd",
+            "vendor_address": "-37.9258\u00b0S   -122.4842\u00b0W",
+            "customer_id": 100000100001,
+            "customer_billing_name": "Crystal Diamond for NM",
+            "customer_other_name": "",
+            "currency_code_amount_due": "USD$172.75",
+            "amount_total_net": "$172.75",
+            "amount_total_gross": "$172.75",
+            "amount_due": "$172.75"
+        },
+        "inference_time": 2.4655699729919434
+    },
+    "8be41060e63a40f0a08e3883.jpg": {
+        "response": {},
+        "inference_time": 2.5693700313568115
+    },
+    "8c105e1b14d74f93bd0b2da3.jpg": {
+        "response": {},
+        "inference_time": 4.021201133728027
+    },
+    "8c395c6d46d8416d83905997.jpg": {
+        "response": {
+            "document_id": "1200 Anastasia Avenue",
+            "date_issue": "April 9, 1999",
+            "vendor_name": "Philip Morris Inc.",
+            "vendor_address": "New York NY 5847-352",
+            "customer_billing_name": "Lisa M Frisella",
+            "customer_billing_address": "120 Park Av., New York, NY 10076-0000",
+            "currency_code_amount_due": "$",
+            "amount_total_net": "$23,750.00",
+            "amount_total_gross": "$23,750.00",
+            "amount_due": "$23,750.00",
+            "payment_terms": "Net 30 Days",
+            "tax_details": {
+                "GST Amount Due": "-$33.35"
+            }
+        },
+        "inference_time": 3.3351786136627197
+    },
+    "8dfbd4851d0f422eaec6ec67.jpg": {
+        "response": {
+            "document_id": "102459",
+            "date_issue": "6/3/2018"
+        },
+        "inference_time": 0.8163840770721436
+    },
+    "8e111a3f5e2845a58952d37a.jpg": {
+        "response": {},
+        "inference_time": 5.837895393371582
+    },
+    "8e348008b2844041a322f074.jpg": {
+        "response": {
+            "order_id": "106",
+            "vendor_name": "WCAU Media Buying and Analytics Inc.",
+            "customer_billing_name": "<NAME>",
+            "currency_code_amount_due": "$ 7284",
+            "amount_total_gross": "$ 9534",
+            "amount_due": ""
+        },
+        "inference_time": 1.6132097244262695
+    },
+    "8e4f4d3637b64f22ae8d5388.jpg": {
+        "response": {
+            "document_id": "WOC12746707",
+            "date_issue": [
+                "Oct 2/7 - Oct 3/5"
+            ],
+            "customer_order_id": [
+                98389
+            ],
+            "vendor_name": [
+                "Harris Sikes Media LLC"
+            ],
+            "customer_billing_name": [
+                "Daniel Mecca"
+            ],
+            "amount_total_tax": [
+                30.0
+            ],
+            "amount_total_gross": [
+                "$8,820.00 (Cash)"
+            ],
+            "tax_details": [
+                []
+            ]
+        },
+        "inference_time": 2.310814619064331
+    },
+    "90420109c4434c8db42f3e92.jpg": {
+        "response": {
+            "vendor_name": "",
+            "customer_billing_name": "WCDK",
+            "currency_code_amount_due": 0,
+            "amount_total_gross": 150,
+            "amount_due": 37.69230769230769
+        },
+        "inference_time": 1.434478521347046
+    },
+    "90843ded52ed4f6a907265d3.jpg": {
+        "response": {
+            "document_id": "WCOA-AM",
+            "date_issue": "07/298164 5:",
+            "vendor_name": "CRIS DOSEV FOR CONGRESS - POLITICAL / Agency Candidate Use - 42100",
+            "customer_billing_name": "-",
+            "customer_billing_address": "-",
+            "customer_other_name": "-",
+            "amount_total_gross": "386.75",
+            "amount_due": "386.75"
+        },
+        "inference_time": 2.2013187408447266
+    },
+    "90951b37e01048cb9da31d50.jpg": {
+        "response": {
+            "document_id": "IN-2003397",
+            "date_issue": "1/12-2020",
+            "date_due": "8/5/2026",
+            "order_id": 434433,
+            "customer_order_id": "",
+            "vendor_name": "<MONTANO CONSERVATION VOTERS>",
+            "vendor_address": "ADVERTISER STATION KMTA INFO - FM DESERT MOUNTAINE ROCKSTON BROADCASTING NEW YORK NY 10019",
+            "customer_billing_name": "Katz Media Group",
+            "customer_billing_address": "Central Ave #5, Desert Mountain Broadcasting Stations MT 59102",
+            "customer_other_name": ""
+        },
+        "inference_time": 2.994333028793335
+    },
+    "90a16e0c5c9f473c9e008c6e.jpg": {
+        "response": {},
+        "inference_time": 2.525646924972534
+    },
+    "9112d76d044343d289c4007e.jpg": {
+        "response": {
+            "document_id": 8645102973164,
+            "date_issue": "8/9/99",
+            "vendor_name": "<MALICIOUSLY REMOVED VENDOR NAME>",
+            "vendor_address": "-1-",
+            "vendor_tax_id": "-1-",
+            "customer_billing_name": "JOHN KURKIN JOHNSON BANKERS INC.",
+            "customer_billing_address": "-3-",
+            "currency_code_amount_due": "$2,826.00 -1-",
+            "amount_total_gross": "$6,086.00",
+            "amount_due": "$6,086.00",
+            "payment_terms": "NET TERMS"
+        },
+        "inference_time": 2.9815986156463623
+    },
+    "9489e7318de347b5a83476aa.jpg": {
+        "response": {},
+        "inference_time": 2.8305180072784424
+    },
+    "9693abdc43af43448234d20b.jpg": {
+        "response": {},
+        "inference_time": 1.9834699630737305
+    },
+    "97b68a44b2de4ad9adb7ac65.jpg": {
+        "response": {},
+        "inference_time": 1.563162088394165
+    },
+    "98cfd9b1adae4f269db59c8e.jpg": {
+        "response": {
+            "document_id": "5428",
+            "date_issue": "10/16/20",
+            "order_id": null,
+            "vendor_name": "Cindy Hyde-Smith (Salesperson)",
+            "vendor_address": "(3950 W. XXV Blvd., Brandon MS 39047)",
+            "customer_id": "",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "PO Box 2833, Gulfport, MS 39501",
+            "customer_other_name": "",
+            "currency_code_amount_due": "$200.00",
+            "amount_total_gross": "$535.00",
+            "amount_due": "$335.00",
+            "payment_terms": ""
+        },
+        "inference_time": 3.2201576232910156
+    },
+    "99676f953875469f84735f65.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "07/28/19",
+            "vendor_name": "Tim Temple for Insurance Commissioner",
+            "customer_billing_name": "Katz Media Group",
+            "customer_billing_address": "125 West 56th Street 3rd Floor New York, NY 100",
+            "customer_other_name": "-",
+            "amount_total_gross": "$42000",
+            "amount_due": "1"
+        },
+        "inference_time": 2.0125012397766113
+    },
+    "9967cb92cf224934aabd91e2.jpg": {
+        "response": {},
+        "inference_time": 3.1839780807495117
+    },
+    "9a03395c039f46988d88472a.jpg": {
+        "response": {
+            "date_issue": "10/13/20 12:59PM",
+            "order_id": "",
+            "vendor_name": "Ohio Midland Newsgroup LLC",
+            "vendor_address": "64 BELLOM STREET, OHIO CITY, OH 43837-5111",
+            "customer_billing_name": "Edward Hittlejohn",
+            "currency_code_amount_due": "$150.00 USD",
+            "amount_total_gross": "$150.00 USD",
+            "amount_due": "$150.00 USD"
+        },
+        "inference_time": 2.5536489486694336
+    },
+    "9ab3d13dba034bbba6dd1a79.jpg": {
+        "response": {
+            "document_id": "31640",
+            "date_issue": "8/5/97 2:25 PM",
+            "date_due": null,
+            "vendor_name": "Philip Morris USA Inc.",
+            "vendor_address": "400 Commerce Drive",
+            "vendor_tax_id": null,
+            "customer_billing_name": "Dr. Bruce D. Davies",
+            "customer_billing_address": "4th Floor",
+            "amount_total_gross": [
+                "$ 10,384.00"
+            ],
+            "amount_due": "- $ 19,764.00"
+        },
+        "inference_time": 2.4870615005493164
+    },
+    "9b433393f5d44b4c9aaff969.jpg": {
+        "response": {},
+        "inference_time": 5.191267967224121
+    },
+    "9b57a5e41ec6477db2f88a60.jpg": {
+        "response": {},
+        "inference_time": 1.7417101860046387
+    },
+    "9bb25921bf3d47a59e6eb84b.jpg": {
+        "response": {
+            "document_id": "12934-1",
+            "date_issue": "7/21/2020",
+            "vendor_name": "THE G MEDIA GROUP INC.",
+            "vendor_address": [
+                {
+                    "line1": "LA PODEROSA 670 AM",
+                    "line2": "330 S WASHINGTON ST N SUITE 580",
+                    "city": "MIAMI FL 33135"
+                },
+                "-"
+            ],
+            "customer_billing_name": "REP DANIEL PERES CAMPAIGN",
+            "customer_billing_address": "[TEXAS] - (7) 504-483-3394",
+            "currency_code_amount_due": "$144.00",
+            "amount_total_gross": "$144.00",
+            "amount_due": "$144.00"
+        },
+        "inference_time": 3.3536765575408936
+    },
+    "9c877f3b8e994bdfaf120ca6.jpg": {
+        "response": {
+            "date_issue": "Oct 21, 2020",
+            "order_id": "74200054",
+            "vendor_address": "68 N. Bell Rd Suite 390 Irving, TX 75063 USA",
+            "vendor_name": "Salem Radio Network",
+            "vendor_email": "[mailto@wsjaradio.com]",
+            "customer_billing_name": "Donald J Trump for President Inc.",
+            "customer_billing_address": "Suite 210 Arlington Road",
+            "currency_code_amount_due": "$369.00",
+            "amount_total_gross": "369.00",
+            "amount_due": "-$369.00"
+        },
+        "inference_time": 2.695711374282837
+    },
+    "9c89f2651d10430eba923a45.jpg": {
+        "response": {
+            "document_id": "PM13-98",
+            "date_issue": "MAR 04 2006",
+            "vendor_address": "54 Saw Mill River Rd ARDSYLE NY 10507",
+            "vendor_name": "SPENCER SPORTS MEDIA INC.",
+            "customer_billing_name": "RICH CAMISA PHILIP MORRIS U.S A. NEW YORK, NY 10017",
+            "customer_billing_address": "(120) PARK AVENUE NEWARK, NJ 07105",
+            "currency_code_amount_due": "$700 NETD",
+            "amount_total_net": "-$700 NETD",
+            "payment_terms": "NET DATE"
+        },
+        "inference_time": 3.045015573501587
+    },
+    "9c8c4a6d82044e51a4da3012.jpg": {
+        "response": {},
+        "inference_time": 1.5957729816436768
+    },
+    "9cb274ced32e406cbf0294aa.jpg": {
+        "response": {
+            "date_issue": "04/17",
+            "vendor_name": "Bill Johnson Congressional Dist.",
+            "customer_billing_name": "Unwired Media Networks (a)",
+            "customer_billing_address": "(a) P.O Box 1569 Powerville Ohio -43805-2506",
+            "customer_other_name": "",
+            "amount_total_gross": "2500.00",
+            "amount_due": "-"
+        },
+        "inference_time": 1.9874851703643799
+    },
+    "9cffd75e1cd84d8188aff20c.jpg": {
+        "response": {
+            "date_issue": "Thu, Mar 31, 2022 at 4:56 PM",
+            "date_due": "Thu, Mar 31, 2022 at 3:59 AM",
+            "order_id": "R591738",
+            "vendor_name": "Idaho Eau",
+            "vendor_address": "46 Commerce Way Idaho Falls ID 83401 USA",
+            "currency_code_amount_due": "$1,407.6 USD",
+            "amount_total_gross": "$1,407.6 USD",
+            "amount_due": "$1,407.6 USD"
+        },
+        "inference_time": 1.64381742477417
+    },
+    "9dbb0628bd534f95a07b4776.jpg": {
+        "response": {},
+        "inference_time": 2.4424662590026855
+    },
+    "9e2b80eff45f4f2199ed93f3.jpg": {
+        "response": {},
+        "inference_time": 3.0465056896209717
+    },
+    "9e62e88925324a259eabfe8c.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "2017-09-30",
+            "vendor_order_id": 5486458759,
+            "vendor_name": "<NAME>",
+            "vendor_address": [
+                "-18th St Nw.",
+                "NW Corner"
+            ],
+            "customer_billing_name": "",
+            "customer_billing_address": [],
+            "currency_code_amount_due": "$1,302.00",
+            "amount_total_gross": "$1,302.00",
+            "amount_due": "$1,302.00"
+        },
+        "inference_time": 2.9555015563964844
+    },
+    "9edb934feae14f17aebaedc4.jpg": {
+        "response": {
+            "date_issue": "Jan 20, 1998",
+            "vendor_name": "Donahue & Associates",
+            "vendor_address": "(650) 734-4500, 650 North Fairfax St Suite 475 Alexandria VA 22341 USA",
+            "customer_billing_name": "",
+            "currency_code_amount_due": "$12,500.00",
+            "amount_total_gross": "$12,500.00",
+            "amount_due": ""
+        },
+        "inference_time": 2.021522283554077
+    },
+    "9f2796a36f854dd698bf942a.jpg": {
+        "response": {},
+        "inference_time": 1.8442518711090088
+    },
+    "9f49f9b038df46a280ae8f38.jpg": {
+        "response": {},
+        "inference_time": 3.6712646484375
+    },
+    "a0152d66c0f54eff8aa5bce6.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "-",
+            "vendor_name": "SALAZAR FOR CONGRESS EST#* COMMENTS:",
+            "customer_billing_name": "<<REP #>> SOLDERMAN<<EMAIL ADDRESS>> 0245718963 <<PHONE NUMBER>> <-",
+            "customer_billing_address": "HIGH STATE ROAD - HILLSDALE CANADA B C A5V 1K2",
+            "customer_other_name": "JOHN KRAUSCH",
+            "currency_code_amount_due": "$",
+            "amount_total_gross": "$7,000 / XT.",
+            "amount_due": ""
+        },
+        "inference_time": 2.740355968475342
+    },
+    "a09f2341b0434c9fa2cd7e35.jpg": {
+        "response": {
+            "document_id": 1037948256,
+            "date_issue": "May 2/22",
+            "order_id": 42585,
+            "vendor_name": "FOX26 KMVU-TV",
+            "vendor_address": "820 Cramer Lake Ave Ste 105 Medford , OR 97504 (541) 772 - 2600",
+            "customer_billing_name": null,
+            "customer_billing_address": [
+                "AKPD Message & Media Attention:",
+                "(450) Superstition Rd #705 Chicago IL 60654"
+            ],
+            "currency_code_amount_due": "$400.00",
+            "amount_total_gross": "400.00",
+            "amount_due": "-$400.00",
+            "payment_terms": "30 Days Upon Receipt"
+        },
+        "inference_time": 3.5678532123565674
+    },
+    "a2309a7e736b4be8b2dc6108.jpg": {
+        "response": {
+            "document_id": 374178206,
+            "date_issue": "Feb 28, 2020",
+            "order_id": "FB-25919",
+            "vendor_name": "<MICHAEL BLOOMBERG FOR PRESIDENT>",
+            "vendor_address": "Katz Media Group",
+            "customer_billing_name": "Michael Bloomberg For President",
+            "customer_billing_address": "New York, NY 10019",
+            "customer_other_name": "",
+            "amount_total_gross": "$2,415.00",
+            "amount_due": "$2,415.00"
+        },
+        "inference_time": 2.7983596324920654
+    },
+    "a2956db5b060416181d1757b.jpg": {
+        "response": {
+            "document_id": 10300616,
+            "date_issue": "5/8",
+            "vendor_name": "WTP-TV Harrisburg PA",
+            "vendor_address": "NW (Nw) HARRISBURG, P A",
+            "customer_billing_name": "(CPM) CANAL PARTY",
+            "customer_billing_address": ""
+        },
+        "inference_time": 1.655386209487915
+    },
+    "a3936554677248e291dde526.jpg": {
+        "response": {},
+        "inference_time": 4.024406433105469
+    },
+    "a3ab0695612a420da43bd432.jpg": {
+        "response": {},
+        "inference_time": 2.347226142883301
+    },
+    "a3f51835ee5a479cb87f85fe.jpg": {
+        "response": {},
+        "inference_time": 3.65533185005188
+    },
+    "a426fa31a4124962b0cd3b98.jpg": {
+        "response": {},
+        "inference_time": 3.201174736022949
+    },
+    "a4bbde6b47ec4e8b8d9887f0.jpg": {
+        "response": {},
+        "inference_time": 3.005681037902832
+    },
+    "a534406ea14944f8bf1a67d4.jpg": {
+        "response": {
+            "document_id": 901625384750,
+            "date_issue": "January 15",
+            "vendor_name": "LORILLARD EXCEL RETAIL INFORMATION SYSTEM",
+            "vendor_address": "Ongoing Fixed Expenses",
+            "vendor_tax_id": "",
+            "customer_billing_name": "Mr. Andrew Pashuko",
+            "customer_billing_address": "Lorillard Tobacco Company",
+            "currency_code_amount_due": "$294,748.00",
+            "amount_total_gross": "$294,748.00",
+            "amount_due": "-$294,748.00",
+            "payment_terms": "NET 10 DAYS"
+        },
+        "inference_time": 2.976689577102661
+    },
+    "a69adae11ad848188d797da4.jpg": {
+        "response": {},
+        "inference_time": 2.465291738510132
+    },
+    "a6b2c1758d2c47ec97aab6f0.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "04/06/98",
+            "order_id": "-1234567890",
+            "vendor_name": "PHILIP MORRIS ASHLEY",
+            "vendor_address": "P O BOX 6000 San Francisco CA 94101-6000",
+            "vendor_tax_id": "-1234567890",
+            "customer_billing_name": "JIM CLARK PHILIPMORRISASHLEY",
+            "customer_billing_address": "PO Box 2653 SAN FRANCISCO CA 94136",
+            "currency_code_amount_due": "$2,000.",
+            "amount_total_gross": "$2,000.",
+            "amount_due": "($1,200.)"
+        },
+        "inference_time": 3.448997735977173
+    },
+    "a7ef01c6c0584fff95da06f5.jpg": {
+        "response": {},
+        "inference_time": 1.6331596374511719
+    },
+    "a82b97925f0f4fe1b9f69dfc.jpg": {
+        "response": {},
+        "inference_time": 3.474451780319214
+    },
+    "a968643ed652442ca56bdf08.jpg": {
+        "response": {
+            "document_id": "125 West 63rd St",
+            "date_issue": "07/31/2018",
+            "vendor_name": "Florida Grown Pc",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "34th Floor New York, NY 10098-2400",
+            "customer_other_name": "",
+            "amount_total_gross": 260.0,
+            "amount_due": ""
+        },
+        "inference_time": 2.1945619583129883
+    },
+    "a9abefa370384f3a89f7e419.jpg": {
+        "response": {
+            "vendor_name": "",
+            "vendor_address": "5201 C Muster St., Rockville, MD 20837",
+            "customer_id": "PQ6494",
+            "customer_billing_name": ""
+        },
+        "inference_time": 1.2152650356292725
+    },
+    "a9b1857a262540a68a3e56d8.jpg": {
+        "response": {},
+        "inference_time": 2.4446802139282227
+    },
+    "aa0864814cd04ca5b5c52ef6.jpg": {
+        "response": {},
+        "inference_time": 1.8796768188476562
+    },
+    "aa41cb6460d54132a78b048b.jpg": {
+        "response": {
+            "document_id": "-629453",
+            "date_issue": "08/17/2020 02:00 PM",
+            "order_id": "04200905007",
+            "vendor_name": "SPOT RADIO SERVICES",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "WBLM - LEXINGTON ROAD ATLANTA GA 30326",
+            "customer_other_name": "",
+            "customer_other_address": "",
+            "amount_total_gross": "1810.00",
+            "amount_due": "$1810"
+        },
+        "inference_time": 2.690480947494507
+    },
+    "ab0e4f6d2c0347f4a4988141.jpg": {
+        "response": {},
+        "inference_time": 2.986804723739624
+    },
+    "ab22081d49784e2bb15460d5.jpg": {
+        "response": {
+            "document_id": "#3046 9781",
+            "date_issue": "March 1, 1999",
+            "date_due": "April 1, 1999",
+            "vendor_name": "",
+            "vendor_address": "547 Saw Mill River Road Suite C Ardsley New York 10502",
+            "customer_billing_name": "<RICHARD MORRIES U S A>",
+            "customer_billing_address": "NEW YORK NY 10017",
+            "currency_code_amount_due": "$6,500.00 NET",
+            "amount_total_net": "$6,500"
+        },
+        "inference_time": 2.690110445022583
+    },
+    "acbb2174f67340eea8d1a038.jpg": {
+        "response": {},
+        "inference_time": 2.9957075119018555
+    },
+    "ad68b55f3fc841a4aa3cbb94.jpg": {
+        "response": {},
+        "inference_time": 3.600323438644409
+    },
+    "ae43b26011fa4662b7745848.jpg": {
+        "response": {},
+        "inference_time": 0.960341215133667
+    },
+    "ae503e7994c84ffd97ce2b54.jpg": {
+        "response": {},
+        "inference_time": 1.9227566719055176
+    },
+    "aebb748aebad4fbb90a3994a.jpg": {
+        "response": {},
+        "inference_time": 3.26750111579895
+    },
+    "aec3edadf52f450bac0b2392.jpg": {
+        "response": {},
+        "inference_time": 2.176389217376709
+    },
+    "af3b3e11a6d546e2996a593e.jpg": {
+        "response": {
+            "document_id": "2132",
+            "date_issue": "9/6/2018 5:47 PM",
+            "customer_billing_name": "Steven for Montgomery",
+            "customer_other_name": "",
+            "customer_other_address": "Estimate",
+            "currency_code_amount_due": "$42.35",
+            "amount_total_net": "42.35",
+            "amount_total_gross": "42.35",
+            "amount_due": "$42.35",
+            "tax_detail_net": "($4.10)",
+            "tax_detail_gross": "($4.10)"
+        },
+        "inference_time": 3.113168478012085
+    },
+    "aff3361378da4b779ef14237.jpg": {
+        "response": {},
+        "inference_time": 3.8647000789642334
+    },
+    "b0557da98934425180c4f16a.jpg": {
+        "response": {},
+        "inference_time": 2.026771068572998
+    },
+    "b09a759932df423aae9f12d5.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "",
+            "date_due": "",
+            "order_id": 167549203820,
+            "vendor_address": "NEW YORK, NY",
+            "vendor_name": "BOSE CORPORATION INC.",
+            "customer_id": -1,
+            "customer_billing_name": "-",
+            "customer_billing_address": "-",
+            "customer_other_name": "-",
+            "amount_total_gross": "$2158.00",
+            "amount_due": "$2158.00"
+        },
+        "inference_time": 2.370105504989624
+    },
+    "b1537003c7bc4869878467da.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "SEP 17",
+            "order_id": "",
+            "vendor_name": "Philip Morris Incorporated",
+            "vendor_address": "4209 Commerce Rd, Richmond VA 23265 R",
+            "customer_billing_name": "POON Y C - BICHA",
+            "customer_billing_address": "-",
+            "currency_code_amount_due": "USD $598.00",
+            "amount_total_gross": "$598.00",
+            "amount_due": "$598.00",
+            "payment_terms": "O/S"
+        },
+        "inference_time": 2.5838394165039062
+    },
+    "b182c8998c7e447b845aba94.jpg": {
+        "response": {
+            "date_issue": "July 25, 2000",
+            "vendor_name": "Wells & Company",
+            "vendor_address": "13105 Woodbrook Lane Reston, Virginia JCSNJ05",
+            "customer_billing_name": "Puerto Rico Tobacco Fee Arbitration Billing Professional Services Rendered",
+            "customer_other_name": "",
+            "currency_code_amount_due": "$47,200.00",
+            "amount_total_gross": "$689,200.00",
+            "amount_due": ""
+        },
+        "inference_time": 2.2127935886383057
+    },
+    "b1b7b35d8dd040f98577a33e.jpg": {
+        "response": {
+            "vendor": "WXMEAM",
+            "address": "704 Pleasant Street Houlton, ME 04730",
+            "customerBillingName": "Darrell Williams WBCQ-FM KIXX FM",
+            "billToAddress": "815 SATERAS LANE ALEXANDRIA, VA 22314",
+            "amountDue": "$200.00 USD",
+            "creditcardAmountTotalGross": "$696.00 US$"
+        },
+        "inference_time": 2.0268242359161377
+    },
+    "b23c344e6a9f4bdba1653540.jpg": {
+        "response": {
+            "document_id": "495",
+            "date_issue": "May 3, 1998",
+            "vendor_name": "Scott Benson",
+            "vendor_address": "714 Green Valley Rd.",
+            "customer_billing_name": "Winfred E. Meahl",
+            "customer_billing_address": "26 East 36th Street New York, N.Y. 10016"
+        },
+        "inference_time": 1.8903779983520508
+    },
+    "b29f95a745bb4141af6a3142.jpg": {
+        "response": {},
+        "inference_time": 2.831292152404785
+    },
+    "b44dec7ae6aa49f09291e9e5.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "07/14/20",
+            "vendor_name": "Tim Temple for Insurance Commissioner",
+            "customer_billing_name": "Katz Media Group",
+            "customer_billing_address": "125 West 58 Street 3rd Floor",
+            "customer_other_name": "Bill To Katz Media Group",
+            "amount_total_gross": "-966.00",
+            "amount_due": ""
+        },
+        "inference_time": 2.0267109870910645
+    },
+    "b4eb1516fd61447c86cd2156.jpg": {
+        "response": {},
+        "inference_time": 1.6176440715789795
+    },
+    "b5ae528b8b134ec58cffd977.jpg": {
+        "response": {
+            "date_issue": "10/25",
+            "vendor_name": "Bill To Unwired Media",
+            "customer_billing_name": "",
+            "customer_billing_address": "P O Box 1683",
+            "customer_other_name": "",
+            "amount_total_gross": "4970.00",
+            "amount_due": "-"
+        },
+        "inference_time": 1.6983222961425781
+    },
+    "b7173fcb9d1344a083d376a1.jpg": {
+        "response": {
+            "date_issue": "1/20",
+            "vendor_name": "Cedar Rapids",
+            "vendor_address": "KWWL-TV 5319 E. 6th St., Davenport, IA - 52847 USA",
+            "vendor_email": "dmorehead@kwlwil.com",
+            "customer_id": "",
+            "customer_billing_name": "",
+            "currency_code_amount_due": "$150.00",
+            "amount_total_gross": "150.00",
+            "amount_due": "150.00"
+        },
+        "inference_time": 2.456838369369507
+    },
+    "b7e5afa0001b48f9b6556e57.jpg": {
+        "response": {
+            "document_id": "2015-09",
+            "date_issue": 2017063480,
+            "order_id": 154,
+            "customer_order_id": 153,
+            "vendor_name": "KENS",
+            "vendor_address": "5400 Fredericksburg Rd.",
+            "customer_id": 2016251198,
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$172.00",
+            "amount_total_gross": "$172.00",
+            "amount_due": "$172.00"
+        },
+        "inference_time": 2.7891011238098145
+    },
+    "b8538c4706e8428f8d7a0077.jpg": {
+        "response": {
+            "document_id": "89751",
+            "date_issue": "06/24/2003",
+            "order_id": "S-A143",
+            "vendor_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+            "vendor_address": "University of California, Los Angeles 1000 South Woodruff Road Los Angeles CA USA 90095-3511",
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$396.00",
+            "amount_total_gross": "$28,785.00",
+            "amount_due": "-$28,785.00",
+            "payment_reference": ""
+        },
+        "inference_time": 3.039355993270874
+    },
+    "b8bced44b4474b259e0444d5.jpg": {
+        "response": {},
+        "inference_time": 2.5128395557403564
+    },
+    "b93679cacd084afd886bc268.jpg": {
+        "response": {
+            "document_id": "3512",
+            "date_issue": "February 18 , 2000",
+            "vendor_name": "Scott Benson Lorillard Inc.",
+            "vendor_address": "746 Green Valley Road Greensboro NC 27498",
+            "customer_billing_name": "OAK SALES #1-548 - 1499",
+            "customer_billing_address": "LORILLARD, INC.",
+            "currency_code_amount_due": "$175.00"
+        },
+        "inference_time": 2.0142059326171875
+    },
+    "baf237c69ad04aa2ae0eee78.jpg": {
+        "response": {},
+        "inference_time": 4.474604845046997
+    },
+    "bbd6e70912004112b83dbe39.jpg": {
+        "response": {},
+        "inference_time": 2.0304322242736816
+    },
+    "bc7472a78c084edc895c0eb5.jpg": {
+        "response": {
+            "document_id": 12100248,
+            "date_issue": "Jun/30/2022",
+            "date_due": null,
+            "order_id": "",
+            "vendor_name": "WBMA-TV Parkway Suite 569",
+            "vendor_address": "Waterfront Strategies 300 K Street NW Suite 100 Washington D C 20007-3606",
+            "customer_billing_name": "Customer Billing Name",
+            "customer_billing_address": "Customer Billing Address",
+            "currency_code_amount_due": "$16,702.50",
+            "amount_total_net": "$16,702.50",
+            "amount_total_gross": "$16,702.50",
+            "amount_due": "$16,702.50"
+        },
+        "inference_time": 3.347057342529297
+    },
+    "bd5d50ac935d45d9acbc5b83.jpg": {
+        "response": {},
+        "inference_time": 4.445622444152832
+    },
+    "be184d607d0b4ab487e17b67.jpg": {
+        "response": {
+            "document_id": 2071489563,
+            "vendor_name": "",
+            "currency_code_amount_due": "$",
+            "amount_total_gross": "-$100.00",
+            "amount_due": ""
+        },
+        "inference_time": 1.2934207916259766
+    },
+    "c187e9f438b042eeb335b913.jpg": {
+        "response": {},
+        "inference_time": 3.096022129058838
+    },
+    "c1fef5ae45844c46a997d352.jpg": {
+        "response": {},
+        "inference_time": 3.6496741771698
+    },
+    "c29a978bae3a4d3991b27dc1.jpg": {
+        "response": {
+            "document_id": "1370728",
+            "date_issue": "09-06-20 5439",
+            "order_id": "1370728",
+            "vendor_name": "<NAME>",
+            "vendor_address": "Sturgeon Bay WI 54235",
+            "customer_billing_name": "Jan Arber Anderson/Tree",
+            "amount_total_gross": "1024.00",
+            "amount_due": "1024.00"
+        },
+        "inference_time": 2.000175714492798
+    },
+    "c2f3ae1cfd964e75918405d1.jpg": {
+        "response": {},
+        "inference_time": 1.677870512008667
+    },
+    "c34046cc071d4b9b9230aaab.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "Jul 14",
+            "vendor_name": "STAR NEWS DIGITAL MEDIA INC.",
+            "vendor_address": "",
+            "vendor_email": "<EMAIL>",
+            "customer_billing_name": "Michael Patrick Leahy, CEO & Editor-in-Chief",
+            "currency_code_amount_due": "$700 per week for 2 weeks, July 15 to July 31 = $1,400/week (6 spots x $10 each)",
+            "amount_total_gross": "Total Gross - Total Due",
+            "amount_due": "-$90"
+        },
+        "inference_time": 2.5146031379699707
+    },
+    "c35d89ebd5fa4acfbfad9fe3.jpg": {
+        "response": {},
+        "inference_time": 1.545379638671875
+    },
+    "c3be9dbed7e8449590d45145.jpg": {
+        "response": {},
+        "inference_time": 1.8186721801757812
+    },
+    "c3cd6444e4174e7189486b31.jpg": {
+        "response": {},
+        "inference_time": 2.774888277053833
+    },
+    "c443b6a027fc410bab327165.jpg": {
+        "response": {},
+        "inference_time": 2.1127989292144775
+    },
+    "c482abca7d7a41138a14f3f7.jpg": {
+        "response": {
+            "document_id": "P3015",
+            "date_issue": "Aug 28 99",
+            "vendor_name": "Philip Morris U.S.A.",
+            "vendor_address": "Rm B-4B, P.O Box 6787, 210 E. Washington St., New York NY 10003 USA",
+            "customer_id": "",
+            "customer_billing_name": ""
+        },
+        "inference_time": 2.0008480548858643
+    },
+    "c48cbd878b0e43d0987c5696.jpg": {
+        "response": {},
+        "inference_time": 3.3067092895507812
+    },
+    "c4996050b70a4ec2b06dc140.jpg": {
+        "response": {},
+        "inference_time": 0.6916553974151611
+    },
+    "c4eda6661347423aa74ae6b7.jpg": {
+        "response": {},
+        "inference_time": 1.5967202186584473
+    },
+    "c54cc80bdd694cfd9af72cb0.jpg": {
+        "response": {
+            "document_id": "80259",
+            "date_issue": "1-30-74",
+            "vendor_name": "ALENT ART NERDS",
+            "vendor_address": "TALENT PARTNERS NEW YORK NY 10011",
+            "customer_id": "",
+            "customer_billing_name": "<MANDY PERRIN>",
+            "customer_billing_address": "P R KILMARK DR STL LA IL",
+            "customer_other_name": "",
+            "amount_total_tax": "64.88",
+            "amount_total_gross": "1110.00",
+            "amount_due": "$   .00",
+            "payment_terms": "- - - -",
+            "tax_detail_tax": {
+                "Tax Type": "Sales Tax",
+                "Amount Due": "$   0.00"
+            },
+            "tax_details_gross": [
+                [
+                    "Tax Amount Gross"
+                ],
+                []
+            ]
+        },
+        "inference_time": 3.4984261989593506
+    },
+    "c5c9068e6fd14310915f6146.jpg": {
+        "response": {
+            "document_id": "IN-20034",
+            "date_issue": "1/29/20",
+            "date_due": "-",
+            "order_id": 68579,
+            "customer_order_id": "",
+            "vendor_name": "Steve Bullock for Senate",
+            "vendor_address": "Metro Station KING AM",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "Central Ave., #5, Atlanta GA 30339",
+            "currency_code_amount_due": "$214.20",
+            "amount_total_gross": "$214.20",
+            "amount_due": ""
+        },
+        "inference_time": 2.8270301818847656
+    },
+    "c616442427bf4f69a2443b3e.jpg": {
+        "response": {},
+        "inference_time": 3.352029323577881
+    },
+    "c6a5e37c5fd345869c8e6235.jpg": {
+        "response": {
+            "date_issue": "2021-03-09",
+            "date_due": "",
+            "customer_billing_name": "<html>William McEntee</html>",
+            "currency_code_amount_due": "$465.78",
+            "amount_total_tax": "-$13.91",
+            "amount_total_gross": "$453.87",
+            "amount_paid": "USD 465.93",
+            "amount_due": "$455.94",
+            "payment_reference": "KYKD - 30000",
+            "tax_details[]": [
+                {
+                    "refunded": false,
+                    "description": "[Description]",
+                    "fee": [
+                        {
+                            "label": "GST/HST",
+                            "value": "$22.14"
+                        }
+                    ]
+                }
+            ],
+            "payments[]": [
+                {
+                    "creditcardnumber": "(Not Available)",
+                    "cvvnum": "***************",
+                    "expirymonth": "*",
+                    "price": "$453.87",
+                    "quantity": ""
+                },
+                {
+                    "invoiceid": "kykd",
+                    "status": "Completed"
+                }
+            ],
+            "transactions[]": [
+                {
+                    "transactiontype": "Payment Method",
+                    "methoddescr": "Credit Card Payment",
+                    "purchaseqty": "1",
+                    "subtotalprice": "$465.93",
+                    "etcargountry": "USA"
+                }
+            ]
+        },
+        "inference_time": 5.222136974334717
+    },
+    "c6e7ba2f99024050ba71e121.jpg": {
+        "response": {},
+        "inference_time": 1.5158288478851318
+    },
+    "c8b0a09631d0467bbc192857.jpg": {
+        "response": {
+            "document_id": 9023156,
+            "order_id": null,
+            "customer_order_id": 8474257,
+            "vendor_address": "90 West Bond St., Lincoln NE 68119",
+            "vendor_name": "<MALFORMED>",
+            "vendor_tax_id": "-#/##-",
+            "customer_id": -204757,
+            "customer_billing_name": "LORILLARD TOBACCO COMPANY MARIA EPSILON ES BURLINGTON ST GREENSBORO NC 27430",
+            "customer_billing_address": "50 CAMBRIDGE RD MA 01803",
+            "customer_delivery_name": "ANDY PASHEKUL",
+            "customer_delivery_address": "",
+            "currency_code_amount_due": "$1821.60",
+            "amount_total_gross": "1821.60",
+            "amount_due": "$25.00",
+            "payment_terms": "#/#"
+        },
+        "inference_time": 3.6751575469970703
+    },
+    "c9242efe40114b1297aa3502.jpg": {
+        "response": {
+            "document_id": "01/23",
+            "date_issue": "06/98 14:57",
+            "date_due": "06/98 14:58",
+            "vendor_name": "LARRY CONVERSE LAKE LABORATORY INC.",
+            "customer_id": "PHILIP MORRIS INTERNATIONAL CORP.",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "PLATTSBURGH NY 12969-1294 USA",
+            "amount_total_gross": "0",
+            "amount_due": "-$10900.00",
+            "payment_terms": "V+# VCHI"
+        },
+        "inference_time": 2.738101005554199
+    },
+    "c939c1f66fb24089b09d11e4.jpg": {
+        "response": {},
+        "inference_time": 1.4013137817382812
+    },
+    "ca2cfea69f744809bdcd0ce8.jpg": {
+        "response": {
+            "document_id": "780091",
+            "vendor_name": "MED MAINFINANCIAL SERVICES",
+            "vendor_address": "165 Palm Beach Lakes Blvd Suite 303 West Palm Beach FL 33401.",
+            "customer_billing_name": "C/O Mainfinance for Healthcare",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "$280.00 USD",
+            "amount_total_gross": "$280.00 USD",
+            "amount_due": "-$130.00"
+        },
+        "inference_time": 2.3263542652130127
+    },
+    "cb69946ee415463dbb943826.jpg": {
+        "response": {
+            "date_issue": "2016-03-04",
+            "vendor_address": "950 Baltimore Blvd., Suite 208\nCollege Park, Maryland 20740",
+            "customer_billing_name": "",
+            "customer_billing_address": "",
+            "currency_code_amount_due": "USD$46.00",
+            "amount_total_gross": "6,900.00",
+            "amount_due": "-"
+        },
+        "inference_time": 1.9624202251434326
+    },
+    "cba91ce9767f46e09bd02b98.jpg": {
+        "response": {
+            "document_id": "10",
+            "order_id": 56348792,
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "1111 N WINCHESTER AVENUE",
+            "currency_code_amount_due": "-$11,596.00",
+            "amount_total_net": "$-11,596.00",
+            "amount_total_tax": "($35.00)",
+            "amount_total_gross": "$-11,593.00",
+            "amount_due": "[($35.00), $-11,596.00]",
+            "tax_detail_net": "($, -)$-11,596.00",
+            "tax_detail_tax": "($1.00)",
+            "tax_detail_gross": "($-$)35.00"
+        },
+        "inference_time": 3.283745288848877
+    },
+    "cbbbbe755d3d43aaa8589810.jpg": {
+        "response": {},
+        "inference_time": 3.830458641052246
+    },
+    "cbe2e17332df4447b21ec400.jpg": {
+        "response": {
+            "document_id": "10452369",
+            "date_issue": "08/07/2002 01:21 AM",
+            "order_id": "-1000000010",
+            "vendor_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+            "vendor_address": "University of California, Los Angeles, CA 90095-2324 USA",
+            "customer_billing_name": "Dr. Bruce B. Davies",
+            "customer_billing_address": "Phillip Morris USA",
+            "currency_code_amount_due": "$174,455.44",
+            "amount_total_gross": "$174,455.44",
+            "amount_due": "$174,455.44",
+            "payment_reference": "RECEIPT"
+        },
+        "inference_time": 3.4183309078216553
+    },
+    "cc8adecb02fc4cf39e5838e4.jpg": {
+        "response": {
+            "document_id": null,
+            "date_issue": "",
+            "vendor_name": "Opportunity Media Advertising",
+            "vendor_address": "P.O Box 14214 MIAMI FL 3314",
+            "customer_billing_name": "Scott Janowitz",
+            "customer_billing_address": "Advertiser:",
+            "currency_code_amount_due": "$0.00",
+            "amount_total_gross": "$850.00",
+            "amount_due": "$850.00"
+        },
+        "inference_time": 2.2486469745635986
+    },
+    "cdaedd8f32fb4acfa65d8f33.jpg": {
+        "response": {},
+        "inference_time": 2.984283447265625
+    },
+    "cdcedda78fdf4c57bc73c308.jpg": {
+        "response": {},
+        "inference_time": 4.603674411773682
+    },
+    "cde472bd633c495daee6da76.jpg": {
+        "response": {},
+        "inference_time": 3.0353164672851562
+    },
+    "ced968108b864d21ae712ce5.jpg": {
+        "response": {},
+        "inference_time": 1.335951805114746
+    },
+    "cefe6c58d92f4e4aaf9010f6.jpg": {
+        "response": {},
+        "inference_time": 1.827225923538208
+    },
+    "cfdcbd3982614a1593620806.jpg": {
+        "response": {},
+        "inference_time": 12.28936219215393
+    },
+    "e041fc6fdce44770b60381a2.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "19/03/2001",
+            "customer_order_id": 5876468,
+            "vendor_name": "STANFORD UNIVERSITY OFFICE OF RESEARCH ADMINISTRATION",
+            "vendor_address": "Tax ID Number-9415636",
+            "vendor_tax_id": null,
+            "vendor_email": null,
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "WILSON DRIVE SITE RD.",
+            "currency_code_amount_due": "$1,493.27",
+            "amount_total_gross": "$1,493.27",
+            "amount_due": "$1,493.27",
+            "payment_terms": "Quarterly billing period with payment due on or before March 3rd of each year and account number 0414541 for this invoice.",
+            "account_num": "0414541",
+            "bank_num": ""
+        },
+        "inference_time": 4.59856390953064
+    },
+    "e06b4ee125314255b06e2324.jpg": {
+        "response": {
+            "document_id": "1",
+            "date_issue": "07/28/2022 9:56 AM ET",
+            "vendor_name": "MEDIA FINANCIAL SERVICES AGENCY - MEDIA FINCALLIES INVESTMENT ADVISING",
+            "customer_billing_name": "KAM-AMELON AK",
+            "customer_billing_address": "345 WASHINGTON STREET, NEW YORK, NY 10003",
+            "customer_other_name": "",
+            "customer_other_address": "",
+            "currency_code_amount_due": "$1136.50",
+            "amount_total_gross": "$1136.50",
+            "amount_due": "$1136.50"
+        },
+        "inference_time": 3.4850101470947266
+    },
+    "e07933b77efa464abf2c26d8.jpg": {
+        "response": {
+            "document_id": 901685743215,
+            "date_issue": "3/20/99",
+            "order_id": null,
+            "customer_order_id": 901685743215,
+            "vendor_address": [
+                "-402\ufeffA-Bond St., Lincoln, NE 68521"
+            ],
+            "vendor_name": "Metromail Inc.",
+            "vendor_tax_id": "",
+            "customer_id": "JENNIE LAVITO",
+            "customer_billing_name": "Andy Pasheluk",
+            "customer_billing_address": [
+                "LORILLARD TOBACCO COMPANY",
+                "GREENSBORO NC 27408"
+            ],
+            "customer_delivery_name": "Jennie Lavito",
+            "customer_delivery_address": "Epsilon Cambridge ST BURLINGTON MA 01803",
+            "amount_total_gross": 75836.0,
+            "amount_due": 75836.0,
+            "payment_terms": ""
+        },
+        "inference_time": 4.072767019271851
+    },
+    "e0843fbe0abc446ca1214856.jpg": {
+        "response": {
+            "date_issue": "2019-03-14",
+            "order_id": 7586,
+            "vendor_name": "Rich Broadcasting",
+            "vendor_address": "1406 Commerce Way Idaho Falls ID 83401",
+            "currency_code_amount_due": "$510.00 USD",
+            "amount_total_gross": "$510.00 USD",
+            "amount_due": "$510.00 USD"
+        },
+        "inference_time": 1.9201924800872803
+    },
+    "e16ede54820f4bd28975dd02.jpg": {
+        "response": {},
+        "inference_time": 4.073075294494629
+    },
+    "e2be09a5fa09446887751a67.jpg": {
+        "response": {
+            "document_id": 716598203415951552,
+            "date_issue": "09/18/00",
+            "order_id": "",
+            "vendor_name": "White et al.",
+            "vendor_address": "New York, NY 10004-3d Floor",
+            "customer_id": "0005",
+            "customer_billing_name": "Alpert R. Alpert and Associates",
+            "customer_billing_address": "New York, NY 10004",
+            "currency_code_amount_due": [
+                {
+                    "label": "$4.40",
+                    "value": "4.4"
+                },
+                {
+                    "label": "$2.80",
+                    "value": ".444"
+                },
+                {
+                    "label": "$4.40",
+                    "value": "4.4"
+                }
+            ],
+            "amount_total_gross": [
+                "$3.00"
+            ],
+            "amount_due": "[$386.35]",
+            "payment_terms": "-"
+        },
+        "inference_time": 3.670492649078369
+    },
+    "e2c1abdb8b094fbd8ec18184.jpg": {
+        "response": {
+            "date_issue": "May/07/20",
+            "date_due": "",
+            "order_id": 8614953,
+            "vendor_name": "Katz Media Group",
+            "vendor_address": "125 West 55th Street, New York, NY 10019-5366 United States of America.",
+            "customer_billing_name": "Waterfront Strategies",
+            "customer_billing_address": "3050 K St NW Suite 100 Washington, DC 20007-3606 USA."
+        },
+        "inference_time": 2.330134391784668
+    },
+    "e3e24df18ad04381ba166dd4.jpg": {
+        "response": {},
+        "inference_time": 3.710461378097534
+    },
+    "e458360b6ebe4cb1b47a6255.jpg": {
+        "response": {},
+        "inference_time": 1.7337615489959717
+    },
+    "e4ab73b30b614ea396e7e31b.jpg": {
+        "response": {
+            "document_id": "719693",
+            "date_issue": "/05/24/01/",
+            "vendor_address": "GREENSBORO N.C.",
+            "vendor_name": "Lorillard Tobacco Company LTD",
+            "customer_id": "",
+            "customer_billing_name": "<NAME>",
+            "customer_billing_address": "POWELL HARRY E., GOLDSTEIN FRAZER & MURPHY DR 100 PENNSYLVANIA AVE WASHINGTON DC 20004",
+            "currency_code_amount_due": "$",
+            "amount_total_gross": "275.548 $",
+            "amount_due": "275.548 $",
+            "payment_terms": ""
+        },
+        "inference_time": 3.050954580307007
+    },
+    "e514ace79ddd4d3fa0033062.jpg": {
+        "response": {
+            "document_id": "720284",
+            "date_issue": "6/1/01",
+            "vendor_address": "WOODSIDE BLVD.",
+            "vendor_name": "LORILLARD TOBACCO COMPANY LTD",
+            "customer_id": "",
+            "customer_billing_name": "",
+            "customer_billing_address": "P. O. BOX 539 WINCHESTER KY 40201-0596 USA",
+            "currency_code_amount_due": "$4.03   $0.04",
+            "amount_total_gross": "$4.07",
+            "amount_due": "$4.07",
+            "payment_terms": ""
+        },
+        "inference_time": 2.862544536590576
+    },
+    "e670715ebe61455bb2222cf2.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "20/10/20",
+            "order_id": "38674954",
+            "vendor_name": "Paulette",
+            "customer_billing_name": "Kristina Anding",
+            "amount_total_gross": "$102.00",
+            "amount_due": ""
+        },
+        "inference_time": 1.7206063270568848
+    },
+    "e71a84f270604a6ebac75264.jpg": {
+        "response": {},
+        "inference_time": 1.9289722442626953
+    },
+    "e765a01bde8b4bc38c0ace79.jpg": {
+        "response": {},
+        "inference_time": 3.116185426712036
+    },
+    "e820fd57c5bd4ca6a012f4c4.jpg": {
+        "response": {},
+        "inference_time": 3.3896372318267822
+    },
+    "e85de5f667cb4b69a9a1eb2b.jpg": {
+        "response": {
+            "document_id": "",
+            "date_issue": "8/23",
+            "order_id": "-19057647-",
+            "vendor_order_id": "CPS 22863",
+            "vendor_name": "The CPS Group",
+            "vendor_address": "New York NY 10001",
+            "customer_id": "LORILLARD TOBACCO CO., INC.",
+            "customer_billing_name": "Anne Schoell",
+            "currency_code_amount_due": "$0.00",
+            "amount_total_net": "0.00",
+            "amount_total_gross": "0.00",
+            "amount_due": "0"
+        },
+        "inference_time": 2.894920587539673
+    },
+    "e8b4f8a797504fc294adede4.jpg": {
+        "response": {
+            "data": [
+                {
+                    "date_issue": "03/5",
+                    "vendor_name": "CLINIC LAB CAT.",
+                    "amount_total_gross": 127469,
+                    "amount_due": -8
+                },
+                {
+                    "date_issue": "03/5",
+                    "vendor_name": "SUBCHRONIC COMPARATIVE INHALATION STUDY OF CIGARETTES 1431",
+                    "amount_total_gross": -8
+                }
+            ]
+        },
+        "inference_time": 1.782778024673462
+    },
+    "e9804d6802b24dffb33a5ba4.jpg": {
+        "response": {},
+        "inference_time": 3.065809965133667
+    },
+    "ea468a65d82b41fc98195424.jpg": {
+        "response": {},
+        "inference_time": 1.702439308166504
+    },
+    "eae6fd2fb55d42959c2f06aa.jpg": {
+        "response": {},
+        "inference_time": 1.797107458114624
+    },
+    "ebd388194f0840b9b1fea510.jpg": {
+        "response": {},
+        "inference_time": 3.262542963027954
+    },
+    "eca4b39bb8d8413dbb5fb726.jpg": {
+        "response": {},
+        "inference_time": 3.5066845417022705
+    },
+    "ecb8f0ff7ca84748b58ce95b.jpg": {
+        "response": {},
+        "inference_time": 2.3393259048461914
+    },
+    "ed8d261332c94497ac615309.jpg": {
+        "response": {
+            "document_id": "INVOICE",
+            "date_issue": "JAN 1  2002",
+            "vendor_name": "THE FLORIDA STATE UNIVERSITY RESEARCH FOUNDATION INC.",
+            "vendor_address": "86 Johnson Building Tallahassee,FL 32710 (549) 644-8650",
+            "customer_billing_name": "Philip Morris AID AND ADDRESS:",
+            "customer_billing_address": "HUMANISTIC THROUGHOUT INDUSTRY DIFFERENCES",
+            "currency_code_amount_due": "$25,468.99",
+            "amount_total_gross": "$25,468.99",
+            "amount_paid": "(O/K pay $)",
+            "amount_due": "[] $25,468.99",
+            "payment_reference": "Invoice No.: BOB 2002"
+        },
+        "inference_time": 3.5699329376220703
+    },
+    "edb8301ab0e54a088b1b02b5.jpg": {
+        "response": {},
+        "inference_time": 5.8799521923065186
+    },
+    "efe3fb1cbf144c55beef94d1.jpg": {
+        "response": {
+            "document_id": 9170582634698834958658051855914,
+            "date_issue": "9/17/21",
+            "vendor_name": "Skyview Networks",
+            "vendor_address": "Aragon North Airport Drive Suite #370 Scottsdale Arizona 85280-1010 (480) 503-8700 Main Office Inc.",
+            "customer_billing_name": "<NAME> for Governor - SSN Campaign:",
+            "currency_code_amount_due": "$25.00",
+            "amount_total_gross": "-$25.00",
+            "amount_due": "-$25.00"
+        },
+        "inference_time": 2.998805046081543
+    }
+}
