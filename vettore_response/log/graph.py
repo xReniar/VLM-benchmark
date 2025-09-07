@@ -32,6 +32,7 @@ def draw(dataset: str):
             steps.append(step_info["step"])
             if "loss" in step_info:
                 train_loss.append(step_info["loss"])
+                steps_list.append(step_info["step"])
             if "eval_loss" in step_info:
                 eval_loss.append(step_info["eval_loss"])
 
