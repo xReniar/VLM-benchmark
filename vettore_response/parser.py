@@ -27,7 +27,7 @@ def parse(dataset: str, vlm: str):
             json.dump(parsed, f, indent=4)
 
     if vlm == "smol":
-        json_name = "smolvlm2-normal-r8.json"
+        json_name = "smolvlm2-500m.json"
         preds = json.load(open(f"{folder_name}/raw/{json_name}"))
         for key in preds.keys():
             obj = preds[key]
@@ -45,9 +45,29 @@ def parse(dataset: str, vlm: str):
 
         with open(f"{folder_name}/parsed/{json_name}", "w") as f:
             json.dump(parsed, f, indent=4)
+        
+    if vlm == "gemma3":
+        json_name = "gemma3-normal.json"
+        preds = json.load(open(f"{folder_name}/raw/{json_name}"))
+        for key in preds.keys():
+            obj = preds[key]
+            try:
+                #response = json.loads(obj["response"].split("Assistant: ")[1])
+                #print(response)
+                response = json.loads(re.search(r"```json\n\s*(.*?)\s*\n```", obj["response"].split("model\n")[1], re.DOTALL).group(1).strip())
+            except:
+                response = {}
+            
+            parsed[key] = dict(
+                response = response,
+                inference_time = obj["t"]
+            )
+
+        with open(f"{folder_name}/parsed/{json_name}", "w") as f:
+            json.dump(parsed, f, indent=4)
 
 
 parse(
     dataset="docile",
-    vlm="smol"
+    vlm="gemma3"
 )
