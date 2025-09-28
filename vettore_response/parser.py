@@ -8,7 +8,7 @@ def parse(dataset: str, vlm: str):
 
     parsed = {}
     if vlm == "qwen":
-        json_name = "qwen2.5-vl-fused-sroie.json"
+        json_name = "qwen2.5-vl-merge-docile-8.json"
         preds = json.load(open(f"{folder_name}/raw/{json_name}"))
         for key in preds.keys():
             obj = preds[key]
@@ -27,7 +27,7 @@ def parse(dataset: str, vlm: str):
             json.dump(parsed, f, indent=4)
 
     if vlm == "smol":
-        json_name = "smolvlm2-fused-sroie.json"
+        json_name = "smolvlm2-merge-sroie-24.json"
         preds = json.load(open(f"{folder_name}/raw/{json_name}"))
         for key in preds.keys():
             obj = preds[key]
@@ -47,14 +47,16 @@ def parse(dataset: str, vlm: str):
             json.dump(parsed, f, indent=4)
         
     if vlm == "gemma3":
-        json_name = "gemma3-fused-docile.json"
+        json_name = "gemma3-merge-sroie-24.json"
         preds = json.load(open(f"{folder_name}/raw/{json_name}"))
         for key in preds.keys():
             obj = preds[key]
             try:
                 #response = json.loads(obj["response"].split("Assistant: ")[1])
                 #print(response)
-                response = json.loads(obj["response"].split("model")[1].strip("\n```json\n").strip("```"))
+                response = json.loads(obj["response"].split("model")[1].strip("```json\n").strip("```"))
+                #print(obj["response"].strip("```json\n").strip("\n```"))
+                #response = json.loads(obj["response"].strip("```json\n").strip("\n```"))
                 #response = json.loads(re.search(r"```json\s*(.*?)\s*```", obj["response"].split("model")[1], re.DOTALL).group(1).strip())
             except:
                 response = {}
@@ -69,6 +71,6 @@ def parse(dataset: str, vlm: str):
 
 
 parse(
-    dataset="docile",
-    vlm="gemma3"
+    dataset="sroie",
+    vlm="smol"
 )
