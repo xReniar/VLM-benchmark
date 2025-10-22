@@ -13,7 +13,11 @@ def metric(dataset: str):
         for key in file_dict.keys():
             obj = file_dict[key]
 
-            mean_time += obj["inference_time"]
+            inference_time = obj["inference_time"]
+            if inference_time < 0:
+                inference_time = 1
+
+            mean_time += inference_time
 
         print(file, mean_time / len(file_dict.keys()))
 
